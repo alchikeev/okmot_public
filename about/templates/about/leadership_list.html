@@ -1,16 +1,17 @@
 {% extends 'base.html' %}
+{% load i18n %} {# Загружаем теги интернационализации #}
 
-{% block title %}Руководство и сотрудники{% endblock %}
+{% block title %}{% trans "Руководство и сотрудники" %}{% endblock %}
 
 {% block content %}
     <nav aria-label="breadcrumb" class="my-3">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">Главная</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Руководство и сотрудники</li>
+            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">{% trans "Главная" %}</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{% trans "Руководство и сотрудники" %}</li>
         </ol>
     </nav>
 
-    <h1 class="my-4">Руководство айыл окмоту</h1>
+    <h1 class="my-4">{% trans "Руководство айыл окмоту" %}</h1>
     {% if leaders %}
         <div class="row">
         {% for person in leaders %}
@@ -22,19 +23,19 @@
                     <div class="card-body">
                         <h5 class="card-title"><a href="{% url 'about:person_detail' pk=person.pk %}">{{ person.full_name }}</a></h5>
                         <p class="card-text text-muted">{{ person.position }}</p>
-                        {% if person.phone %}<p class="card-text"><i class="bi bi-phone"></i> {{ person.phone }}</p>{% endif %} {# bi-phone - это иконка, если мы добавим Bootstrap Icons #}
-                        {% if person.email %}<p class="card-text"><i class="bi bi-envelope"></i> {{ person.email }}</p>{% endif %} {# bi-envelope - иконка #}
-                        <a href="{% url 'about:person_detail' pk=person.pk %}" class="btn btn-outline-primary btn-sm mt-3">Подробнее</a>
+                        {% if person.phone %}<p class="card-text"><i class="bi bi-phone"></i> {% trans "Телефон" %}: {{ person.phone }}</p>{% endif %} {# bi-phone - это иконка, если мы добавим Bootstrap Icons #}
+                        {% if person.email %}<p class="card-text"><i class="bi bi-envelope"></i> {% trans "Email" %}: {{ person.email }}</p>{% endif %} {# bi-envelope - иконка #}
+                        <a href="{% url 'about:person_detail' pk=person.pk %}" class="btn btn-outline-primary btn-sm mt-3">{% trans "Подробнее" %}</a>
                     </div>
                 </div>
             </div>
         {% endfor %}
         </div>
     {% else %}
-        <p class="lead">Информация о руководстве пока недоступна.</p>
+        <p class="lead">{% trans "Информация о руководстве пока недоступна." %}</p>
     {% endif %}
 
-    <h2 class="my-4">Сотрудники</h2>
+    <h2 class="my-4">{% trans "Сотрудники" %}</h2>
     {% if other_staff %}
         <div class="row">
         {% for person in other_staff %}
@@ -44,15 +45,15 @@
                         <img src="{{ person.photo.url }}" class="card-img-top mx-auto mt-3 rounded-circle" alt="{{ person.full_name }}" style="width: 120px; height: 120px; object-fit: cover;">
                     {% endif %}
                     <div class="card-body">
-                        <h5 class="card-title"><a href="{% url 'about:person_detail' pk=person.pk %}">{{ person.title }}</a></h5>
+                        <h5 class="card-title"><a href="{% url 'about:person_detail' pk=person.pk %}">{{ person.full_name }}</a></h5> {# Здесь было person.title, изменил на person.full_name, т.к. это более вероятно #}
                         <p class="card-text text-muted">{{ person.position }}</p>
-                        {% if person.phone %}<p class="card-text">{{ person.phone }}</p>{% endif %}
+                        {% if person.phone %}<p class="card-text">{% trans "Телефон" %}: {{ person.phone }}</p>{% endif %}
                     </div>
                 </div>
             </div>
         {% endfor %}
         </div>
     {% else %}
-        <p class="lead">Информация о сотрудниках пока недоступна.</p>
+        <p class="lead">{% trans "Информация о сотрудниках пока недоступна." %}</p>
     {% endif %}
 {% endblock %}

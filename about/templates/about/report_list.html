@@ -1,32 +1,33 @@
 {% extends 'base.html' %}
+{% load i18n %} {# Load the internationalization tags #}
 
-{% block title %}Отчеты айыл окмоту{% endblock %}
+{% block title %}{% trans "Отчеты айыл окмоту" %}{% endblock %}
 
 {% block content %}
     <nav aria-label="breadcrumb" class="my-3">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">Главная</a></li>
-            <li class="breadcrumb-item"><a href="{% url 'about:leadership_list' %}">Об айыл окмоту</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Отчеты</li>
+            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">{% trans "Главная" %}</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'about:leadership_list' %}">{% trans "Об айыл окмоту" %}</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{% trans "Отчеты" %}</li>
         </ol>
     </nav>
 
-    <h1 class="my-4">Отчеты айыл окмоту</h1>
+    <h1 class="my-4">{% trans "Отчеты айыл окмоту" %}</h1>
     {% if reports %}
         <div class="list-group">
             {% for report in reports %}
                 <a href="{% url 'about:report_detail' slug=report.slug %}" class="list-group-item list-group-item-action flex-column align-items-start">
                     <div class="d-flex w-100 justify-content-between">
                         <h5 class="mb-1">{{ report.title }}</h5>
-                        {% if report.report_year %}<small class="text-muted">{{ report.report_year }} год</small>{% endif %}
+                        {% if report.report_year %}<small class="text-muted">{% blocktrans %}{{ report.report_year }} год{% endblocktrans %}</small>{% endif %}
                     </div>
-                    <p class="mb-1 text-muted small">Опубликовано: {{ report.published_date|date:"d M Y" }}</p>
+                    <p class="mb-1 text-muted small">{% trans "Опубликовано" %}: {{ report.published_date|date:"d M Y" }}</p>
                     {% if report.description %}<p class="mb-1">{{ report.description|truncatechars:100 }}</p>{% endif %}
-                    <small><a href="{{ report.file.url }}" download>Скачать файл</a></small>
+                    <small><a href="{{ report.file.url }}" download>{% trans "Скачать файл" %}</a></small>
                 </a>
             {% endfor %}
         </div>
     {% else %}
-        <p class="lead">Отчетов пока нет.</p>
+        <p class="lead">{% trans "Отчетов пока нет." %}</p>
     {% endif %}
 {% endblock %}

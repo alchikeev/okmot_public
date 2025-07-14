@@ -1,17 +1,18 @@
 {% extends 'base.html' %}
+{% load i18n %} {# Загружаем теги интернационализации #}
 
-{% block title %}Отделы айыл окмоту{% endblock %}
+{% block title %}{% trans "Отделы айыл окмоту" %}{% endblock %}
 
 {% block content %}
     <nav aria-label="breadcrumb" class="my-3">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">Главная</a></li>
-            <li class="breadcrumb-item"><a href="{% url 'about:leadership_list' %}">Об айыл окмоту</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Отделы</li>
+            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">{% trans "Главная" %}</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'about:leadership_list' %}">{% trans "Об айыл окмоту" %}</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{% trans "Отделы" %}</li>
         </ol>
     </nav>
 
-    <h1 class="my-4">Отделы айыл окмоту</h1>
+    <h1 class="my-4">{% trans "Отделы айыл окмоту" %}</h1>
     {% if departments %}
         <div class="list-group">
             {% for department in departments %}
@@ -19,18 +20,18 @@
                     <div class="d-flex w-100 justify-content-between">
                         <h5 class="mb-1">{{ department.name }}</h5>
                         {% if department.head %}
-                            <small class="text-muted">Руководитель: {{ department.head.full_name }}</small>
+                            <small class="text-muted">{% trans "Руководитель" %}: {{ department.head.full_name }}</small>
                         {% endif %}
                     </div>
                     {% if department.description %}
                         <p class="mb-1">{{ department.description|truncatechars:200 }}</p>
                     {% endif %}
-                    {% if department.phone %}<small class="text-muted">Телефон: {{ department.phone }}</small>{% endif %}
-                    {% if department.email %}<small class="text-muted ms-3">Email: {{ department.email }}</small>{% endif %}
+                    {% if department.phone %}<small class="text-muted">{% trans "Телефон" %}: {{ department.phone }}</small>{% endif %}
+                    {% if department.email %}<small class="text-muted ms-3">{% trans "Email" %}: {{ department.email }}</small>{% endif %}
                 </a>
             {% endfor %}
         </div>
     {% else %}
-        <p class="lead">Информация об отделах пока недоступна.</p>
+        <p class="lead">{% trans "Информация об отделах пока недоступна." %}</p>
     {% endif %}
 {% endblock %}

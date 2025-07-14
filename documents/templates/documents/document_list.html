@@ -1,9 +1,10 @@
 {% extends 'base.html' %}
+{% load i18n %} {# Load the internationalization tags #}
 
-{% block title %}Документы айыл окмоту{% endblock %}
+{% block title %}{% trans "Документы айыл окмоту" %}{% endblock %}
 
 {% block content %}
-    <h1 class="my-4">Официальные документы</h1>
+    <h1 class="my-4">{% trans "Официальные документы" %}</h1>
 
     {% if documents %}
         <div class="row">
@@ -12,17 +13,17 @@
                 <div class="card h-100 shadow-sm">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title"><a href="{% url 'documents:detail' slug=doc.slug %}">{{ doc.title }}</a></h5>
-                        <p class="card-text text-muted small">Опубликовано: {{ doc.published_date|date:"d M Y H:i" }}</p>
+                        <p class="card-text text-muted small">{% trans "Опубликовано" %}: {{ doc.published_date|date:"d M Y H:i" }}</p>
                         {% if doc.description %}
                             <p class="card-text flex-grow-1">{{ doc.description|truncatechars:150 }}</p>
                         {% endif %}
-                        <a href="{{ doc.file.url }}" class="btn btn-primary mt-auto" download>Скачать документ</a>
+                        <a href="{{ doc.file.url }}" class="btn btn-primary mt-auto" download>{% trans "Скачать документ" %}</a>
                     </div>
                 </div>
             </div>
         {% endfor %}
         </div>
     {% else %}
-        <p class="lead">Документов пока нет.</p>
+        <p class="lead">{% trans "Документов пока нет." %}</p>
     {% endif %}
 {% endblock %}

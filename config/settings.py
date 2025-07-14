@@ -1,8 +1,32 @@
-
+import os
 from pathlib import Path
+from django.utils.translation import gettext_lazy as _
 
+# Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+# --- Международные настройки (Internationalization) ---
+# Устанавливаем язык по умолчанию на русский.
+# Этот язык будет использоваться, если пользователь явно не выбрал другой или его браузер не предоставил предпочтений.
+LANGUAGE_CODE = 'ru'
+
+# Определяем список всех поддерживаемых языков на вашем сайте.
+# Django будет искать переводы для этих языков.
+LANGUAGES = [
+    ('ru', _('Русский')),
+    ('kg', _('Кыргызча')),
+]
+
+# Указываем Django, где искать файлы переводов (.po, .mo).
+# Мы добавляем папку 'locale' в корневую директорию проекта.
+LOCALE_PATHS = [
+    os.path.join(BASE_DIR, 'locale'),
+]
+
+# Включаем систему интернационализации Django.
+USE_I18N = True
+
+# --- Общие настройки Django ---
 SECRET_KEY = 'django-insecure-4@6hiu0bxd&!&^j=kz5m=ixct1v%zkij#z0moo!e75*0thi9(*'
 
 DEBUG = True
@@ -24,12 +48,18 @@ INSTALLED_APPS = [
     'council',
     'investors',
     'community',
+    'gallery',
+    'info',
+    'search',
 ]
 
+# Важное изменение: LocaleMiddleware должен быть после SessionMiddleware и CommonMiddleware,
+# но до CsrfViewMiddleware. Это обеспечивает правильное определение языка перед обработкой запроса.
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
-    'django.middleware.common.CommonMiddleware',
+    'django.middleware.common.CommonMiddleware', # CommonMiddleware должен быть перед LocaleMiddleware
+    'django.middleware.locale.LocaleMiddleware', # LocaleMiddleware здесь
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
@@ -56,14 +86,12 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'config.wsgi.application'
 
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
 
 AUTH_PASSWORD_VALIDATORS = [
     {
@@ -80,27 +108,14 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
-# Internationalization
-# https://docs.djangoproject.com/en/5.2/topics/i18n/
-
-LANGUAGE_CODE = 'en-us'
-
-TIME_ZONE = 'UTC'
-
-USE_I18N = True
-
+TIME_ZONE = 'Asia/Bishkek' # Установил часовой пояс для Кыргызстана
 USE_TZ = True
 
 
 # Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/5.2/howto/static-files/
-
 STATIC_URL = 'static/'
 
 # Default primary key field type
-# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
-
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Настройки для медиа-файлов (изображений, документов)

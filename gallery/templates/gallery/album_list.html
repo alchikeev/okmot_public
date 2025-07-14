@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% load i18n %} {# Load the internationalization tags #}
+
+{% block title %}{% trans "Фотогалерея" %}{% endblock %}
+
+{% block content %}
+    <nav aria-label="breadcrumb" class="my-3">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">{% trans "Главная" %}</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{% trans "Фотогалерея" %}</li>
+        </ol>
+    </nav>
+
+    <h1 class="my-4">{% trans "Фотогалерея" %}</h1>
+    <p class="lead">{% trans "Здесь собраны фотоотчеты о событиях и мероприятиях в нашем муниципалитете." %}</p>
+
+    {% if albums %}
+        <div class="row">
+        {% for album in albums %}
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    {% if album.photos.first %}
+                        <img src="{{ album.photos.first.image.url }}" class="card-img-top" alt="{{ album.title }}" style="height: 200px; object-fit: cover;">
+                    {% endif %}
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title"><a href="{% url 'gallery:album_detail' slug=album.slug %}">{{ album.title }}</a></h5>
+                        <p class="card-text text-muted small">{% trans "Опубликовано" %}: {{ album.published_date|date:"d M Y" }}</p>
+                        <p class="card-text flex-grow-1">{{ album.description|default:context_string_for_no_description|truncatechars:150 }}</p>
+                        <a href="{% url 'gallery:album_detail' slug=album.slug %}" class="btn btn-primary mt-auto">{% trans "Смотреть альбом" %}</a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+    {% else %}
+        <p class="lead">{% trans "Фотоальбомов пока нет." %}</p>
+    {% endif %}
+{% endblock %}

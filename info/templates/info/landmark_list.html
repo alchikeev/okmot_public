@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% load i18n %} {# Load the internationalization tags #}
+
+{% block title %}{% trans "Достопримечательности" %}{% endblock %}
+
+{% block content %}
+    <nav aria-label="breadcrumb" class="my-3">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">{% trans "Главная" %}</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{% trans "Достопримечательности" %}</li>
+        </ol>
+    </nav>
+
+    <h1 class="my-4">{% trans "Достопримечательности" %}</h1>
+    <p class="lead">{% trans "Ознакомьтесь с интересными местами нашего муниципалитета." %}</p>
+
+    {% if landmarks %}
+        <div class="row">
+        {% for landmark in landmarks %}
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    {% if landmark.image %}
+                        <img src="{{ landmark.image.url }}" class="card-img-top" alt="{{ landmark.name }}" style="height: 200px; object-fit: cover;">
+                    {% endif %}
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">{{ landmark.name }}</h5>
+                        {% if landmark.location %}
+                            <p class="card-text text-muted small">{{ landmark.location }}</p>
+                        {% endif %}
+                        <p class="card-text flex-grow-1">{{ landmark.description|truncatechars:100 }}</p>
+                        <a href="{% url 'info:landmark_detail' slug=landmark.slug %}" class="btn btn-primary mt-auto">{% trans "Подробнее" %}</a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+    {% else %}
+        <p class="lead">{% trans "Достопримечательностей пока нет." %}</p>
+    {% endif %}
+{% endblock %}

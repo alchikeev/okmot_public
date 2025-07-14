@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load i18n %} {# Load the internationalization tags #}
+
+{% block title %}{{ landmark.name }} - {% trans "Достопримечательности" %}{% endblock %}
+
+{% block content %}
+    <nav aria-label="breadcrumb" class="my-3">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">{% trans "Главная" %}</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'info:landmark_list' %}">{% trans "Достопримечательности" %}</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{{ landmark.name }}</li>
+        </ol>
+    </nav>
+
+    <h1 class="my-4">{{ landmark.name }}</h1>
+
+    {% if landmark.image %}
+        <div class="text-center my-4">
+            <img src="{{ landmark.image.url }}" class="img-fluid rounded shadow-sm" alt="{{ landmark.name }}" style="max-height: 450px; object-fit: cover;">
+        </div>
+    {% endif %}
+
+    <div class="lead my-4">
+        {{ landmark.description|linebreaksbr }}
+    </div>
+
+    {% if landmark.location %}
+        <p class="mt-4 text-muted"><strong>{% trans "Расположение" %}:</strong> {{ landmark.location }}</p>
+    {% endif %}
+
+    <div class="mt-4">
+        <a href="{% url 'info:landmark_list' %}" class="btn btn-outline-primary me-2">{% trans "К списку достопримечательностей" %}</a>
+        <a href="{% url 'main:home' %}" class="btn btn-outline-secondary">{% trans "На главную" %}</a>
+    </div>
+{% endblock %}

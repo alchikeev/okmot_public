@@ -1,18 +1,19 @@
 {% extends 'base.html' %}
+{% load i18n %} {# Load the internationalization tags #}
 
-{% block title %}{{ document.title }} - Документы{% endblock %}
+{% block title %}{{ document.title }} - {% trans "Документы" %}{% endblock %}
 
 {% block content %}
     <nav aria-label="breadcrumb" class="my-3">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">Главная</a></li>
-            <li class="breadcrumb-item"><a href="{% url 'documents:list' %}">Документы</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">{% trans "Главная" %}</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'documents:list' %}">{% trans "Документы" %}</a></li>
             <li class="breadcrumb-item active" aria-current="page">{{ document.title|truncatechars:50 }}</li>
         </ol>
     </nav>
 
     <h1 class="my-4">{{ document.title }}</h1>
-    <p class="text-muted small">Опубликовано: {{ document.published_date|date:"d M Y H:i" }}</p>
+    <p class="text-muted small">{% trans "Опубликовано" %}: {{ document.published_date|date:"d M Y H:i" }}</p>
 
     {% if document.description %}
         <div class="document-detail-content lead">
@@ -21,8 +22,8 @@
     {% endif %}
 
     <div class="mt-4">
-        <a href="{{ document.file.url }}" class="btn btn-success btn-lg me-2" download>Скачать документ</a>
-        <a href="{% url 'documents:list' %}" class="btn btn-outline-primary me-2">К списку документов</a>
-        <a href="{% url 'main:home' %}" class="btn btn-outline-secondary">На главную</a>
+        <a href="{{ document.file.url }}" class="btn btn-success btn-lg me-2" download>{% trans "Скачать документ" %}</a>
+        <a href="{% url 'documents:list' %}" class="btn btn-outline-primary me-2">{% trans "К списку документов" %}</a>
+        <a href="{% url 'main:home' %}" class="btn btn-outline-secondary">{% trans "На главную" %}</a>
     </div>
 {% endblock %}

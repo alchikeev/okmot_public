@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% load i18n %} {# Load the internationalization tags #}
+
+{% block title %}{{ album.title }} - {% trans "Фотогалерея" %}{% endblock %}
+
+{% block content %}
+    <nav aria-label="breadcrumb" class="my-3">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">{% trans "Главная" %}</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'gallery:album_list' %}">{% trans "Фотогалерея" %}</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{{ album.title }}</li>
+        </ol>
+    </nav>
+
+    <h1 class="my-4">{{ album.title }}</h1>
+    <p class="lead">{{ album.description }}</p>
+
+    {% if photos %}
+        <div class="row">
+        {% for photo in photos %}
+            <div class="col-6 col-md-4 col-lg-3 mb-4">
+                <a href="{{ photo.image.url }}" target="_blank">
+                    <img src="{{ photo.image.url }}" class="img-fluid rounded shadow-sm" alt="{{ photo.caption|default:context_string_for_photo_alt }}" style="height: 200px; width: 100%; object-fit: cover;">
+                </a>
+                {% if photo.caption %}<small class="d-block text-muted mt-1">{{ photo.caption }}</small>{% endif %}
+            </div>
+        {% endfor %}
+        </div>
+    {% else %}
+        <p class="lead">{% trans "В этом альбоме пока нет фотографий." %}</p>
+    {% endif %}
+
+    <div class="mt-4">
+        <a href="{% url 'gallery:album_list' %}" class="btn btn-outline-primary me-2">{% trans "К списку альбомов" %}</a>
+        <a href="{% url 'main:home' %}" class="btn btn-outline-secondary">{% trans "На главную" %}</a>
+    </div>
+{% endblock %}

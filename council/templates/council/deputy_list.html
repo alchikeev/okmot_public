@@ -1,17 +1,18 @@
 {% extends 'base.html' %}
+{% load i18n %} {# Load the internationalization tags #}
 
-{% block title %}Депутаты Местного Кенеша{% endblock %}
+{% block title %}{% trans "Депутаты Местного Кенеша" %}{% endblock %}
 
 {% block content %}
     <nav aria-label="breadcrumb" class="my-3">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">Главная</a></li>
-            <li class="breadcrumb-item"><a href="{% url 'council:deputy_list' %}">Местный Кенеш</a></li> {# Ссылка на раздел Кенеш #}
-            <li class="breadcrumb-item active" aria-current="page">Депутаты</li>
+            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">{% trans "Главная" %}</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'council:deputy_list' %}">{% trans "Местный Кенеш" %}</a></li> {# Ссылка на раздел Кенеш #}
+            <li class="breadcrumb-item active" aria-current="page">{% trans "Депутаты" %}</li>
         </ol>
     </nav>
 
-    <h1 class="my-4">Депутаты Местного Кенеша</h1>
+    <h1 class="my-4">{% trans "Депутаты Местного Кенеша" %}</h1>
     {% if deputies %}
         <div class="row">
         {% for deputy in deputies %}
@@ -20,19 +21,19 @@
                     {% if deputy.photo %}
                         <img src="{{ deputy.photo.url }}" class="card-img-top mx-auto mt-3 rounded-circle" alt="{{ deputy.full_name }}" style="width: 150px; height: 150px; object-fit: cover;">
                     {% else %}
-                        <img src="https://via.placeholder.com/150x150?text=Нет+фото" class="card-img-top mx-auto mt-3 rounded-circle" alt="Нет фото" style="width: 150px; height: 150px; object-fit: cover;">
+                        <img src="https://via.placeholder.com/150x150?text={% trans "Нет фото" %}" class="card-img-top mx-auto mt-3 rounded-circle" alt="{% trans "Нет фото" %}" style="width: 150px; height: 150px; object-fit: cover;">
                     {% endif %}
                     <div class="card-body">
                         <h5 class="card-title"><a href="{% url 'council:deputy_detail' pk=deputy.pk %}">{{ deputy.full_name }}</a></h5>
                         <p class="card-text text-muted">{{ deputy.position_in_council }}</p>
-                        {% if deputy.constituency %}<p class="card-text small">Округ: {{ deputy.constituency }}</p>{% endif %}
-                        {% if deputy.contact_phone %}<p class="card-text"><small class="text-muted">Тел: {{ deputy.contact_phone }}</small></p>{% endif %}
+                        {% if deputy.constituency %}<p class="card-text small">{% trans "Округ" %}: {{ deputy.constituency }}</p>{% endif %}
+                        {% if deputy.contact_phone %}<p class="card-text"><small class="text-muted">{% trans "Тел" %}: {{ deputy.contact_phone }}</small></p>{% endif %}
                     </div>
                 </div>
             </div>
         {% endfor %}
         </div>
     {% else %}
-        <p class="lead">Информация о депутатах пока недоступна.</p>
+        <p class="lead">{% trans "Информация о депутатах пока недоступна." %}</p>
     {% endif %}
 {% endblock %}

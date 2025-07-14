@@ -1,13 +1,14 @@
 {% extends 'base.html' %}
+{% load i18n %} {# Загружаем теги интернационализации #}
 
-{% block title %}{{ department.name }} - Об айыл окмоту{% endblock %}
+{% block title %}{{ department.name }} - {% trans "Об айыл окмоту" %}{% endblock %}
 
 {% block content %}
     <nav aria-label="breadcrumb" class="my-3">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">Главная</a></li>
-            <li class="breadcrumb-item"><a href="{% url 'about:leadership_list' %}">Об айыл окмоту</a></li>
-            <li class="breadcrumb-item"><a href="{% url 'about:department_list' %}">Отделы</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">{% trans "Главная" %}</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'about:leadership_list' %}">{% trans "Об айыл окмоту" %}</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'about:department_list' %}">{% trans "Отделы" %}</a></li>
             <li class="breadcrumb-item active" aria-current="page">{{ department.name }}</li>
         </ol>
     </nav>
@@ -15,19 +16,19 @@
     <h1 class="my-4">{{ department.name }}</h1>
     <ul class="list-group list-group-flush mb-4">
         {% if department.head %}
-            <li class="list-group-item"><strong>Руководитель:</strong> <a href="{% url 'about:person_detail' pk=department.head.pk %}">{{ department.head.full_name }}</a> ({{ department.head.position }})</li>
+            <li class="list-group-item"><strong>{% trans "Руководитель" %}:</strong> <a href="{% url 'about:person_detail' pk=department.head.pk %}">{{ department.head.full_name }}</a> ({{ department.head.position }})</li>
         {% endif %}
-        {% if department.phone %}<li class="list-group-item"><strong>Телефон:</strong> {{ department.phone }}</li>{% endif %}
-        {% if department.email %}<li class="list-group-item"><strong>Email:</strong> {{ department.email }}</li>{% endif %}
+        {% if department.phone %}<li class="list-group-item"><strong>{% trans "Телефон" %}:</strong> {{ department.phone }}</li>{% endif %}
+        {% if department.email %}<li class="list-group-item"><strong>{% trans "Email" %}:</strong> {{ department.email }}</li>{% endif %}
     </ul>
 
     {% if department.description %}
-        <h2>Описание деятельности</h2>
+        <h2>{% trans "Описание деятельности" %}</h2>
         <p class="lead">{{ department.description|linebreaksbr }}</p>
     {% endif %}
 
     <div class="mt-4">
-        <a href="{% url 'about:department_list' %}" class="btn btn-outline-primary me-2">К списку отделов</a>
-        <a href="{% url 'main:home' %}" class="btn btn-outline-secondary">На главную</a>
+        <a href="{% url 'about:department_list' %}" class="btn btn-outline-primary me-2">{% trans "К списку отделов" %}</a>
+        <a href="{% url 'main:home' %}" class="btn btn-outline-secondary">{% trans "На главную" %}</a>
     </div>
 {% endblock %}

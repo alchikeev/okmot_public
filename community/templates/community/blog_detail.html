@@ -1,20 +1,21 @@
 {% extends 'base.html' %}
+{% load i18n %} {# Load the internationalization tags #}
 
-{% block title %}{{ post.title }} - Блоги{% endblock %}
+{% block title %}{{ post.title }} - {% trans "Блоги" %}{% endblock %}
 
 {% block content %}
     <nav aria-label="breadcrumb" class="my-3">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">Главная</a></li>
-            <li class="breadcrumb-item"><a href="{% url 'community:blog_list' %}">Блоги жителей</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">{% trans "Главная" %}</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'community:blog_list' %}">{% trans "Блоги жителей" %}</a></li>
             <li class="breadcrumb-item active" aria-current="page">{{ post.title|truncatechars:50 }}</li>
         </ol>
     </nav>
 
     <h1 class="my-4">{{ post.title }}</h1>
     <p class="text-muted small">
-        Автор: {% if post.author_name %}{{ post.author_name }}{% else %}Аноним{% endif %} <br>
-        Опубликовано: {{ post.published_at|date:"d M Y H:i" }}
+        {% trans "Автор" %}: {% if post.author_name %}{{ post.author_name }}{% else %}{% trans "Аноним" %}{% endif %} <br>
+        {% trans "Опубликовано" %}: {{ post.published_at|date:"d M Y H:i" }}
     </p>
 
     {% if post.image %}
@@ -28,7 +29,7 @@
     </div>
 
     <div class="mt-4">
-        <a href="{% url 'community:blog_list' %}" class="btn btn-outline-primary me-2">К списку публикаций</a>
-        <a href="{% url 'main:home' %}" class="btn btn-outline-secondary">На главную</a>
+        <a href="{% url 'community:blog_list' %}" class="btn btn-outline-primary me-2">{% trans "К списку публикаций" %}</a>
+        <a href="{% url 'main:home' %}" class="btn btn-outline-secondary">{% trans "На главную" %}</a>
     </div>
 {% endblock %}

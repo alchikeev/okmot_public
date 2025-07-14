@@ -1,18 +1,19 @@
 {% extends 'base.html' %}
+{% load i18n %} {# Load the internationalization tags #}
 
-{% block title %}{{ news_item.title }} - Новости{% endblock %}
+{% block title %}{{ news_item.title }} - {% trans "Новости" %}{% endblock %}
 
 {% block content %}
     <nav aria-label="breadcrumb" class="my-3"> {# Хлебные крошки #}
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">Главная</a></li>
-            <li class="breadcrumb-item"><a href="{% url 'news:list' %}">Новости</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">{% trans "Главная" %}</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'news:list' %}">{% trans "Новости" %}</a></li>
             <li class="breadcrumb-item active" aria-current="page">{{ news_item.title|truncatechars:50 }}</li>
         </ol>
     </nav>
 
     <h1 class="my-4">{{ news_item.title }}</h1>
-    <p class="text-muted small">Опубликовано: {{ news_item.published_date|date:"d M Y H:i" }}</p>
+    <p class="text-muted small">{% trans "Опубликовано" %}: {{ news_item.published_date|date:"d M Y H:i" }}</p>
 
     {% if news_item.image %}
         <div class="news-detail-image text-center my-4">
@@ -25,7 +26,7 @@
     </div>
 
     <div class="mt-4">
-        <a href="{% url 'news:list' %}" class="btn btn-outline-primary me-2">К списку новостей</a>
-        <a href="{% url 'main:home' %}" class="btn btn-outline-secondary">На главную</a>
+        <a href="{% url 'news:list' %}" class="btn btn-outline-primary me-2">{% trans "К списку новостей" %}</a>
+        <a href="{% url 'main:home' %}" class="btn btn-outline-secondary">{% trans "На главную" %}</a>
     </div>
 {% endblock %}

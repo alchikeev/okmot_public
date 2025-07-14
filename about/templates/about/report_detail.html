@@ -1,28 +1,29 @@
 {% extends 'base.html' %}
+{% load i18n %} {# Load the internationalization tags #}
 
-{% block title %}{{ report.title }} - Отчеты{% endblock %}
+{% block title %}{{ report.title }} - {% trans "Отчеты" %}{% endblock %}
 
 {% block content %}
     <nav aria-label="breadcrumb" class="my-3">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">Главная</a></li>
-            <li class="breadcrumb-item"><a href="{% url 'about:leadership_list' %}">Об айыл окмоту</a></li>
-            <li class="breadcrumb-item"><a href="{% url 'about:report_list' %}">Отчеты</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">{% trans "Главная" %}</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'about:leadership_list' %}">{% trans "Об айыл окмоту" %}</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'about:report_list' %}">{% trans "Отчеты" %}</a></li>
             <li class="breadcrumb-item active" aria-current="page">{{ report.title|truncatechars:50 }}</li>
         </ol>
     </nav>
 
     <h1 class="my-4">{{ report.title }}</h1>
-    {% if report.report_year %}<p class="text-muted"><strong>Год отчета:</strong> {{ report.report_year }}</p>{% endif %}
-    <p class="text-muted small">Опубликовано: {{ report.published_date|date:"d M Y H:i" }}</p>
+    {% if report.report_year %}<p class="text-muted"><strong>{% trans "Год отчета" %}:</strong> {{ report.report_year }}</p>{% endif %}
+    <p class="text-muted small">{% trans "Опубликовано" %}: {{ report.published_date|date:"d M Y H:i" }}</p>
     {% if report.description %}
-        <h2 class="mt-4">Описание</h2>
+        <h2 class="mt-4">{% trans "Описание" %}</h2>
         <p class="lead">{{ report.description|linebreaksbr }}</p>
     {% endif %}
-    <p><a href="{{ report.file.url }}" class="btn btn-success btn-lg mt-3" download>Скачать полный отчет</a></p>
+    <p><a href="{{ report.file.url }}" class="btn btn-success btn-lg mt-3" download>{% trans "Скачать полный отчет" %}</a></p>
 
     <div class="mt-4">
-        <a href="{% url 'about:report_list' %}" class="btn btn-outline-primary me-2">К списку отчетов</a>
-        <a href="{% url 'main:home' %}" class="btn btn-outline-secondary">На главную</a>
+        <a href="{% url 'about:report_list' %}" class="btn btn-outline-primary me-2">{% trans "К списку отчетов" %}</a>
+        <a href="{% url 'main:home' %}" class="btn btn-outline-secondary">{% trans "На главную" %}</a>
     </div>
 {% endblock %}

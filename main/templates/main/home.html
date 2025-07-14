@@ -1,6 +1,7 @@
 {% extends 'base.html' %} {# Указываем, что этот шаблон наследуется от base.html #}
+{% load i18n %} {# Загружаем теги интернационализации #}
 
-{% block title %}Главная страница - Айыл Окмоту{% endblock %} {# Переопределяем заголовок #}
+{% block title %}{% trans "Главная страница" %} - {% trans "Айыл Окмоту" %}{% endblock %} {# Переопределяем заголовок #}
 
 {% block content %} {# Весь контент этой страницы идет внутрь блока content #}
 
@@ -10,22 +11,22 @@
             <img src="{{ head_of_okmot.photo.url }}" alt="{{ head_of_okmot.full_name }}">
         {% endif %}
         <div class="head-info">
-            <h2>Глава айыл окмоту</h2>
+            <h2>{% trans "Глава айыл окмоту" %}</h2>
             <h3><a href="{% url 'about:person_detail' pk=head_of_okmot.pk %}">{{ head_of_okmot.full_name }}</a></h3>
-            <p><strong>Должность:</strong> {{ head_of_okmot.position }}</p>
-            {% if head_of_okmot.phone %}<p>Телефон: {{ head_of_okmot.phone }}</p>{% endif %}
-            {% if head_of_okmot.email %}<p>Email: {{ head_of_okmot.email }}</p>{% endif %}
-            <p><a href="{% url 'about:leadership_list' %}">Все руководство</a></p>
+            <p><strong>{% trans "Должность" %}:</strong> {{ head_of_okmot.position }}</p>
+            {% if head_of_okmot.phone %}<p>{% trans "Телефон" %}: {{ head_of_okmot.phone }}</p>{% endif %}
+            {% if head_of_okmot.email %}<p>{% trans "Email" %}: {{ head_of_okmot.email }}</p>{% endif %}
+            <p><a href="{% url 'about:leadership_list' %}">{% trans "Все руководство" %}</a></p>
         </div>
     </div>
     {% endif %}
 
-    <h1 class="my-4">Добро пожаловать на сайт айыл окмоту!</h1> {# Добавлены Bootstrap классы для отступов #}
-    <p>Это базовая главная страница.</p>
+    <h1 class="my-4">{% trans "Добро пожаловать на сайт айыл окмоту!" %}</h1> {# Добавлены Bootstrap классы для отступов #}
+    <p>{% trans "Это базовая главная страница." %}</p>
 
     <div class="main-content"> {# Оставляем этот блок для оформления контента главной страницы #}
 
-        <h2 class="mb-3">Последние новости</h2>
+        <h2 class="mb-3">{% trans "Последние новости" %}</h2>
         {% if latest_news %}
             <div class="row"> {# Используем сетку Bootstrap для колонок #}
             {% for news in latest_news %}
@@ -36,20 +37,20 @@
                         {% endif %}
                         <div class="card-body">
                             <h5 class="card-title"><a href="{% url 'news:detail' slug=news.slug %}">{{ news.title }}</a></h5>
-                            <p class="card-text text-muted small">Опубликовано: {{ news.published_date|date:"d M Y H:i" }}</p>
+                            <p class="card-text text-muted small">{% trans "Опубликовано" %}: {{ news.published_date|date:"d M Y H:i" }}</p>
                             <p class="card-text">{{ news.content|truncatechars:100 }}</p>
-                            <a href="{% url 'news:detail' slug=news.slug %}" class="btn btn-primary btn-sm">Читать далее</a>
+                            <a href="{% url 'news:detail' slug=news.slug %}" class="btn btn-primary btn-sm">{% trans "Читать далее" %}</a>
                         </div>
                     </div>
                 </div>
             {% endfor %}
             </div>
-            <p><a href="{% url 'news:list' %}" class="btn btn-outline-primary mt-3">Показать все новости</a></p> {# Добавлен класс btn-outline-primary #}
+            <p><a href="{% url 'news:list' %}" class="btn btn-outline-primary mt-3">{% trans "Показать все новости" %}</a></p> {# Добавлен класс btn-outline-primary #}
         {% else %}
-            <p>Новостей пока нет.</p>
+            <p>{% trans "Новостей пока нет." %}</p>
         {% endif %}
 
-        <h2 class="mt-5 mb-3">Последние документы</h2> {# Использование Bootstrap классов для отступов #}
+        <h2 class="mt-5 mb-3">{% trans "Последние документы" %}</h2> {# Использование Bootstrap классов для отступов #}
         {% if latest_documents %}
             <div class="row">
             {% for doc in latest_documents %}
@@ -57,35 +58,35 @@
                     <div class="card h-100">
                         <div class="card-body">
                             <h5 class="card-title"><a href="{% url 'documents:detail' slug=doc.slug %}">{{ doc.title }}</a></h5>
-                            <p class="card-text text-muted small">Опубликовано: {{ doc.published_date|date:"d M Y H:i" }}</p>
+                            <p class="card-text text-muted small">{% trans "Опубликовано" %}: {{ doc.published_date|date:"d M Y H:i" }}</p>
                             {% if doc.description %}
                                 <p class="card-text">{{ doc.description|truncatechars:100 }}</p>
                             {% endif %}
-                            <a href="{{ doc.file.url }}" class="btn btn-primary btn-sm" download>Скачать</a>
+                            <a href="{{ doc.file.url }}" class="btn btn-primary btn-sm" download>{% trans "Скачать" %}</a>
                         </div>
                     </div>
                 </div>
             {% endfor %}
             </div>
-            <p><a href="{% url 'documents:list' %}" class="btn btn-outline-primary mt-3">Показать все документы</a></p>
+            <p><a href="{% url 'documents:list' %}" class="btn btn-outline-primary mt-3">{% trans "Показать все документы" %}</a></p>
         {% else %}
-            <p>Документов пока нет.</p>
+            <p>{% trans "Документов пока нет." %}</p>
         {% endif %}
 
         <div class="appeal-section mt-5">
-            <h2>Электронное обращение граждан</h2>
-            <p>Есть вопрос или предложение? Отправьте нам электронное обращение.</p>
-            <a href="{% url 'appeals:submit' %}" class="btn btn-success btn-lg">Отправить обращение</a>
+            <h2>{% trans "Электронное обращение граждан" %}</h2>
+            <p>{% trans "Есть вопрос или предложение? Отправьте нам электронное обращение." %}</p>
+            <a href="{% url 'appeals:submit' %}" class="btn btn-success btn-lg">{% trans "Отправить обращение" %}</a>
         </div>
 
         <div class="section-nav mt-5">
-            <h2>Разделы "Об айыл окмоту"</h2>
+            <h2>{% trans "Разделы \"Об айыл окмоту\"" %}</h2>
             <ul>
-                <li><a href="{% url 'about:page_list' %}">Информационные страницы</a></li>
-                <li><a href="{% url 'about:leadership_list' %}">Руководство и сотрудники</a></li>
-                <li><a href="{% url 'about:department_list' %}">Отделы</a></li>
-                <li><a href="{% url 'about:report_list' %}">Отчеты</a></li>
-                <li><a href="{% url 'about:budget_list' %}">Бюджеты для граждан</a></li>
+                <li><a href="{% url 'about:page_list' %}">{% trans "Информационные страницы" %}</a></li>
+                <li><a href="{% url 'about:leadership_list' %}">{% trans "Руководство и сотрудники" %}</a></li>
+                <li><a href="{% url 'about:department_list' %}">{% trans "Отделы" %}</a></li>
+                <li><a href="{% url 'about:report_list' %}">{% trans "Отчеты" %}</a></li>
+                <li><a href="{% url 'about:budget_list' %}">{% trans "Бюджеты для граждан" %}</a></li>
             </ul>
         </div>
 

@@ -1,12 +1,14 @@
 {% extends 'base.html' %}
-{% load form_utils %} 
-{% block title %}{{ title }} - Сообщество{% endblock %}
+{% load form_utils %}
+{% load i18n %} {# Load the internationalization tags #}
+
+{% block title %}{{ title }} - {% trans "Сообщество" %}{% endblock %}
 
 {% block content %}
     <nav aria-label="breadcrumb" class="my-3">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">Главная</a></li>
-            <li class="breadcrumb-item"><a href="{% url 'community:advertisement_list' %}">Сообщество</a></li> {# Можно использовать ссылку на список объявлений как общий вход #}
+            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">{% trans "Главная" %}</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'community:advertisement_list' %}">{% trans "Сообщество" %}</a></li> {# Можно использовать ссылку на список объявлений как общий вход #}
             <li class="breadcrumb-item active" aria-current="page">{{ title }}</li>
         </ol>
     </nav>
@@ -34,6 +36,6 @@
             </div>
         {% endfor %}
 
-        <button type="submit" class="btn btn-success btn-lg mt-3">Отправить</button>
+        <button type="submit" class="btn btn-success btn-lg mt-3">{% trans "Отправить" %}</button>
     </form>
 {% endblock %}

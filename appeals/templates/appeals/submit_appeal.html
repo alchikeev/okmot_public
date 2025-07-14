@@ -1,17 +1,18 @@
 {% extends 'base.html' %}
+{% load i18n %} {# Load the internationalization tags #}
 
-{% block title %}Электронное обращение{% endblock %}
+{% block title %}{% trans "Электронное обращение" %}{% endblock %}
 
 {% block content %}
     <nav aria-label="breadcrumb" class="my-3">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">Главная</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Электронное обращение</li>
+            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">{% trans "Главная" %}</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{% trans "Электронное обращение" %}</li>
         </ol>
     </nav>
 
-    <h1 class="my-4">Электронное обращение граждан</h1>
-    <p class="lead">Пожалуйста, заполните форму для отправки обращения в айыл окмоту.</p>
+    <h1 class="my-4">{% trans "Электронное обращение граждан" %}</h1>
+    <p class="lead">{% trans "Пожалуйста, заполните форму для отправки обращения в айыл окмоту." %}</p>
 
     {# Сообщения Django будут отображаться из base.html #}
 
@@ -33,7 +34,7 @@
             </div>
         {% endfor %}
 
-        <button type="submit" class="btn btn-success btn-lg mt-3">Отправить обращение</button>
+        <button type="submit" class="btn btn-success btn-lg mt-3">{% trans "Отправить обращение" %}</button>
     </form>
 
 {% endblock %}

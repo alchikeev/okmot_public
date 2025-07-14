@@ -1,0 +1,107 @@
+{% extends 'base.html' %}
+{% load i18n %} {# Load the internationalization tags #}
+
+{% block title %}{% trans "Результаты поиска" %}{% endblock %}
+
+{% block content %}
+    <nav aria-label="breadcrumb" class="my-3">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">{% trans "Главная" %}</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{% trans "Поиск" %}</li>
+        </ol>
+    </nav>
+
+    <h1 class="my-4">{% trans "Результаты поиска" %}</h1>
+
+    <p class="lead">{% blocktrans %}По запросу "{{ query }}" найдено:{% endblocktrans %}</p>
+
+    {% if query %}
+        {# Блок для новостей #}
+        {% if results.news %}
+        <h2 class="mt-4">{% blocktrans %}Новости ({{ results.news.count }}){% endblocktrans %}</h2>
+        <div class="list-group mb-4">
+            {% for item in results.news %}
+                <a href="{% url 'news:detail' slug=item.slug %}" class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">{{ item.title }}</h5>
+                        <small class="text-muted">{{ item.published_date|date:"d M Y" }}</small>
+                    </div>
+                    <p class="mb-1 text-muted">{{ item.content|truncatechars:150 }}</p>
+                </a>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        {# Блок для документов #}
+        {% if results.documents %}
+        <h2 class="mt-4">{% blocktrans %}Документы ({{ results.documents.count }}){% endblocktrans %}</h2>
+        <div class="list-group mb-4">
+            {% for item in results.documents %}
+                <a href="{% url 'documents:detail' slug=item.slug %}" class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">{{ item.title }}</h5>
+                        <small class="text-muted">{{ item.published_date|date:"d M Y" }}</small>
+                    </div>
+                    <p class="mb-1 text-muted">{{ item.description|truncatechars:150 }}</p>
+                </a>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        {# Блок для блогов жителей #}
+        {% if results.blogs %}
+        <h2 class="mt-4">{% blocktrans %}Блоги жителей ({{ results.blogs.count }}){% endblocktrans %}</h2>
+        <div class="list-group mb-4">
+            {% for item in results.blogs %}
+                <a href="{% url 'community:blog_detail' slug=item.slug %}" class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">{{ item.title }}</h5>
+                        <small class="text-muted">{% trans "Автор" %}: {{ item.author_name|default:'Аноним' }}</small>
+                    </div>
+                    <p class="mb-1 text-muted">{{ item.content|truncatechars:150 }}</p>
+                </a>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        {# Блок для информационных страниц #}
+        {% if results.pages %}
+        <h2 class="mt-4">{% blocktrans %}Информационные страницы ({{ results.pages.count }}){% endblocktrans %}</h2>
+        <div class="list-group mb-4">
+            {% for item in results.pages %}
+                <a href="{% url 'about:page_detail' slug=item.slug %}" class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">{{ item.title }}</h5>
+                    </div>
+                    <p class="mb-1 text-muted">{{ item.content|truncatechars:150 }}</p>
+                </a>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        {# Блок для достопримечательностей #}
+        {% if results.landmarks %}
+        <h2 class="mt-4">{% blocktrans %}Достопримечательности ({{ results.landmarks.count }}){% endblocktrans %}</h2>
+        <div class="list-group mb-4">
+            {% for item in results.landmarks %}
+                <a href="{% url 'info:landmark_detail' slug=item.slug %}" class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">{{ item.name }}</h5>
+                        <small class="text-muted">{% trans "Не указано" %}</small>
+                    </div>
+                    <p class="mb-1 text-muted">{{ item.description|truncatechars:150 }}</p>
+                </a>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        {% comment %} Если ничего не найдено по всем моделям {% endcomment %}
+        {% if not results.news and not results.documents and not results.blogs and not results.pages and not results.landmarks %}
+            <p>{% trans "К сожалению, по вашему запросу ничего не найдено." %}</p>
+        {% endif %}
+
+    {% else %}
+        <p>{% trans "Введите поисковый запрос в поле выше." %}</p>
+    {% endif %}
+
+{% endblock %}

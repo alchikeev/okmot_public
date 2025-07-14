@@ -1,17 +1,18 @@
 {% extends 'base.html' %}
+{% load i18n %} {# Load the internationalization tags #}
 
-{% block title %}Решения Местного Кенеша{% endblock %}
+{% block title %}{% trans "Решения Местного Кенеша" %}{% endblock %}
 
 {% block content %}
     <nav aria-label="breadcrumb" class="my-3">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">Главная</a></li>
-            <li class="breadcrumb-item"><a href="{% url 'council:deputy_list' %}">Местный Кенеш</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Решения Кенеша</li>
+            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">{% trans "Главная" %}</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'council:deputy_list' %}">{% trans "Местный Кенеш" %}</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{% trans "Решения Кенеша" %}</li>
         </ol>
     </nav>
 
-    <h1 class="my-4">Решения Местного Кенеша</h1>
+    <h1 class="my-4">{% trans "Решения Местного Кенеша" %}</h1>
     {% if decisions %}
         <div class="list-group">
             {% for decision in decisions %}
@@ -20,15 +21,15 @@
                         <h5 class="mb-1">{{ decision.title }}</h5>
                         <small class="text-muted">{{ decision.get_decision_type_display }}</small> {# Отображает название типа (Постановление, Распоряжение) #}
                     </div>
-                    <p class="mb-1 text-muted small">№{{ decision.decision_number }} от {{ decision.decision_date|date:"d M Y" }}</p>
+                    <p class="mb-1 text-muted small">{% blocktrans %}№{{ decision.decision_number }} от {{ decision.decision_date|date:"d M Y" }}{% endblocktrans %}</p>
                     {% if decision.description %}
                         <p class="mb-1">{{ decision.description|truncatechars:150 }}</p>
                     {% endif %}
-                    <small><a href="{{ decision.file.url }}" download>Скачать файл</a></small>
+                    <small><a href="{{ decision.file.url }}" download>{% trans "Скачать файл" %}</a></small>
                 </a>
             {% endfor %}
         </div>
     {% else %}
-        <p class="lead">Решений Кенеша пока нет.</p>
+        <p class="lead">{% trans "Решений Кенеша пока нет." %}</p>
     {% endif %}
 {% endblock %}

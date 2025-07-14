@@ -1,17 +1,18 @@
 {% extends 'base.html' %}
+{% load i18n %} {# Load the internationalization tags #}
 
-{% block title %}Информационные страницы{% endblock %}
+{% block title %}{% trans "Информационные страницы" %}{% endblock %}
 
 {% block content %}
     <nav aria-label="breadcrumb" class="my-3">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">Главная</a></li>
-            <li class="breadcrumb-item"><a href="{% url 'about:leadership_list' %}">Об айыл окмоту</a></li> {# Ссылка на раздел "Об айыл окмоту" #}
-            <li class="breadcrumb-item active" aria-current="page">Информационные страницы</li>
+            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">{% trans "Главная" %}</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'about:leadership_list' %}">{% trans "Об айыл окмоту" %}</a></li> {# Ссылка на раздел "Об айыл окмоту" #}
+            <li class="breadcrumb-item active" aria-current="page">{% trans "Информационные страницы" %}</li>
         </ol>
     </nav>
 
-    <h1 class="my-4">Информационные страницы</h1>
+    <h1 class="my-4">{% trans "Информационные страницы" %}</h1>
     {% if pages %}
         <div class="list-group"> {# Список Bootstrap #}
             {% for page in pages %}
@@ -19,6 +20,6 @@
             {% endfor %}
         </div>
     {% else %}
-        <p class="lead">Информационных страниц пока нет.</p>
+        <p class="lead">{% trans "Информационных страниц пока нет." %}</p>
     {% endif %}
 {% endblock %}

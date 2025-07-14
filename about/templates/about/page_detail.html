@@ -1,13 +1,14 @@
 {% extends 'base.html' %}
+{% load i18n %} {# Load the internationalization tags #}
 
-{% block title %}{{ page.title }} - Об айыл окмоту{% endblock %}
+{% block title %}{{ page.title }} - {% trans "Об айыл окмоту" %}{% endblock %}
 
 {% block content %}
     <nav aria-label="breadcrumb" class="my-3">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">Главная</a></li>
-            <li class="breadcrumb-item"><a href="{% url 'about:leadership_list' %}">Об айыл окмоту</a></li>
-            <li class="breadcrumb-item"><a href="{% url 'about:page_list' %}">Информационные страницы</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">{% trans "Главная" %}</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'about:leadership_list' %}">{% trans "Об айыл окмоту" %}</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'about:page_list' %}">{% trans "Информационные страницы" %}</a></li>
             <li class="breadcrumb-item active" aria-current="page">{{ page.title|truncatechars:50 }}</li>
         </ol>
     </nav>
@@ -16,10 +17,10 @@
     <div class="content lead">
         {{ page.content|linebreaksbr }}
     </div>
-    <p class="text-muted small mt-4">Последнее обновление: {{ page.updated_at|date:"d M Y H:i" }}</p>
+    <p class="text-muted small mt-4">{% trans "Последнее обновление" %}: {{ page.updated_at|date:"d M Y H:i" }}</p>
 
     <div class="mt-4">
-        <a href="{% url 'about:page_list' %}" class="btn btn-outline-primary me-2">К списку страниц</a>
-        <a href="{% url 'main:home' %}" class="btn btn-outline-secondary">На главную</a>
+        <a href="{% url 'about:page_list' %}" class="btn btn-outline-primary me-2">{% trans "К списку страниц" %}</a>
+        <a href="{% url 'main:home' %}" class="btn btn-outline-secondary">{% trans "На главную" %}</a>
     </div>
 {% endblock %}

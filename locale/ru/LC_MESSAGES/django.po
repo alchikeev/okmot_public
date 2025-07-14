@@ -1,0 +1,2042 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-14 17:53+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: about/templates/about/budget_detail.html:4
+msgid "Бюджеты"
+msgstr ""
+
+#: about/templates/about/budget_detail.html:9
+#: about/templates/about/budget_list.html:9
+#: about/templates/about/department_detail.html:9
+#: about/templates/about/department_list.html:9
+#: about/templates/about/leadership_list.html:9
+#: about/templates/about/page_detail.html:9
+#: about/templates/about/page_list.html:9
+#: about/templates/about/person_detail.html:9
+#: about/templates/about/report_detail.html:9
+#: about/templates/about/report_list.html:9
+#: appeals/templates/appeals/submit_appeal.html:9
+#: community/templates/community/advertisement_detail.html:9
+#: community/templates/community/advertisement_list.html:9
+#: community/templates/community/blog_detail.html:9
+#: community/templates/community/blog_list.html:9
+#: community/templates/community/submit_content.html:10
+#: council/templates/council/decision_detail.html:9
+#: council/templates/council/decision_list.html:9
+#: council/templates/council/deputy_detail.html:9
+#: council/templates/council/deputy_list.html:9
+#: documents/templates/documents/document_detail.html:9
+#: gallery/templates/gallery/album_detail.html:9
+#: gallery/templates/gallery/album_list.html:9
+#: info/templates/info/landmark_detail.html:9
+#: info/templates/info/landmark_list.html:9
+#: info/templates/info/phone_list.html:9
+#: info/templates/info/static_page_detail.html:9
+#: investors/templates/investors/project_detail.html:9
+#: investors/templates/investors/project_list.html:9
+#: news/templates/news/news_detail.html:9
+#: search/templates/search/search_results.html:9 templates/base.html:91
+msgid "Главная"
+msgstr ""
+
+#: about/templates/about/budget_detail.html:10
+#: about/templates/about/budget_list.html:10
+#: about/templates/about/department_detail.html:4
+#: about/templates/about/department_detail.html:10
+#: about/templates/about/department_list.html:10
+#: about/templates/about/page_detail.html:4
+#: about/templates/about/page_detail.html:10
+#: about/templates/about/page_list.html:10
+#: about/templates/about/person_detail.html:4
+#: about/templates/about/report_detail.html:10
+#: about/templates/about/report_list.html:10 templates/base.html:101
+msgid "Об айыл окмоту"
+msgstr ""
+
+#: about/templates/about/budget_detail.html:11
+#: about/templates/about/budget_list.html:4
+#: about/templates/about/budget_list.html:11
+#: about/templates/about/budget_list.html:15 main/templates/main/home.html:89
+#: templates/base.html:108
+msgid "Бюджеты для граждан"
+msgstr ""
+
+#: about/templates/about/budget_detail.html:17
+msgid "Год бюджета"
+msgstr ""
+
+#: about/templates/about/budget_detail.html:18
+#: about/templates/about/budget_list.html:24
+#: about/templates/about/report_detail.html:18
+#: about/templates/about/report_list.html:24
+#: community/templates/community/advertisement_detail.html:16
+#: community/templates/community/advertisement_list.html:28
+#: community/templates/community/blog_detail.html:18
+#: community/templates/community/blog_list.html:30
+#: council/templates/council/decision_detail.html:20
+#: documents/templates/documents/document_detail.html:16
+#: documents/templates/documents/document_list.html:16
+#: gallery/templates/gallery/album_list.html:27
+#: investors/templates/investors/project_detail.html:16
+#: main/templates/main/home.html:40 main/templates/main/home.html:61
+#: news/templates/news/news_detail.html:16
+#: news/templates/news/news_list.html:19
+msgid "Опубликовано"
+msgstr ""
+
+#: about/templates/about/budget_detail.html:20
+#: about/templates/about/report_detail.html:20
+msgid "Описание"
+msgstr ""
+
+#: about/templates/about/budget_detail.html:23
+msgid "Скачать полный бюджет"
+msgstr ""
+
+#: about/templates/about/budget_detail.html:26
+msgid "К списку бюджетов"
+msgstr ""
+
+#: about/templates/about/budget_detail.html:27
+#: about/templates/about/department_detail.html:32
+#: about/templates/about/page_detail.html:24
+#: about/templates/about/person_detail.html:45
+#: about/templates/about/report_detail.html:27
+#: community/templates/community/advertisement_detail.html:41
+#: community/templates/community/blog_detail.html:33
+#: council/templates/council/decision_detail.html:30
+#: council/templates/council/deputy_detail.html:43
+#: documents/templates/documents/document_detail.html:27
+#: gallery/templates/gallery/album_detail.html:35
+#: info/templates/info/landmark_detail.html:33
+#: info/templates/info/static_page_detail.html:21
+#: investors/templates/investors/project_detail.html:57
+#: news/templates/news/news_detail.html:30
+msgid "На главную"
+msgstr ""
+
+#: about/templates/about/budget_list.html:22
+#, python-format
+msgid "%(budget.budget_year)s год"
+msgstr ""
+
+#: about/templates/about/budget_list.html:26
+#: about/templates/about/report_list.html:26
+#: council/templates/council/decision_list.html:28
+msgid "Скачать файл"
+msgstr ""
+
+#: about/templates/about/budget_list.html:31
+msgid "Бюджетов пока нет."
+msgstr ""
+
+#: about/templates/about/department_detail.html:11
+#: about/templates/about/department_list.html:11
+#: main/templates/main/home.html:87 templates/base.html:105
+msgid "Отделы"
+msgstr ""
+
+#: about/templates/about/department_detail.html:19
+#: about/templates/about/department_list.html:23
+msgid "Руководитель"
+msgstr ""
+
+#: about/templates/about/department_detail.html:21
+#: about/templates/about/department_list.html:29
+#: about/templates/about/leadership_list.html:26
+#: about/templates/about/leadership_list.html:50
+#: about/templates/about/person_detail.html:34
+#: community/templates/community/advertisement_detail.html:34
+#: council/templates/council/deputy_detail.html:35
+#: investors/templates/investors/project_detail.html:51
+#: main/templates/main/home.html:17
+msgid "Телефон"
+msgstr ""
+
+#: about/templates/about/department_detail.html:22
+#: about/templates/about/department_list.html:30
+#: about/templates/about/leadership_list.html:27
+#: about/templates/about/person_detail.html:35
+#: community/templates/community/advertisement_detail.html:35
+#: community/templates/community/advertisement_list.html:35
+#: council/templates/council/deputy_detail.html:36
+#: investors/templates/investors/project_detail.html:50
+#: main/templates/main/home.html:18
+msgid "Email"
+msgstr ""
+
+#: about/templates/about/department_detail.html:26
+msgid "Описание деятельности"
+msgstr ""
+
+#: about/templates/about/department_detail.html:31
+msgid "К списку отделов"
+msgstr ""
+
+#: about/templates/about/department_list.html:4
+#: about/templates/about/department_list.html:15
+msgid "Отделы айыл окмоту"
+msgstr ""
+
+#: about/templates/about/department_list.html:35
+msgid "Информация об отделах пока недоступна."
+msgstr ""
+
+#: about/templates/about/leadership_list.html:4
+#: about/templates/about/leadership_list.html:10
+#: about/templates/about/person_detail.html:10 main/templates/main/home.html:86
+#: templates/base.html:104
+msgid "Руководство и сотрудники"
+msgstr ""
+
+#: about/templates/about/leadership_list.html:14
+msgid "Руководство айыл окмоту"
+msgstr ""
+
+#: about/templates/about/leadership_list.html:28
+#: community/templates/community/advertisement_list.html:37
+#: info/templates/info/landmark_list.html:31
+#: investors/templates/investors/project_list.html:29
+msgid "Подробнее"
+msgstr ""
+
+#: about/templates/about/leadership_list.html:35
+msgid "Информация о руководстве пока недоступна."
+msgstr ""
+
+#: about/templates/about/leadership_list.html:38
+msgid "Сотрудники"
+msgstr ""
+
+#: about/templates/about/leadership_list.html:57
+msgid "Информация о сотрудниках пока недоступна."
+msgstr ""
+
+#: about/templates/about/page_detail.html:11
+#: about/templates/about/page_list.html:4
+#: about/templates/about/page_list.html:11
+#: about/templates/about/page_list.html:15 main/templates/main/home.html:85
+#: templates/base.html:110
+msgid "Информационные страницы"
+msgstr ""
+
+#: about/templates/about/page_detail.html:20
+msgid "Последнее обновление"
+msgstr ""
+
+#: about/templates/about/page_detail.html:23
+msgid "К списку страниц"
+msgstr ""
+
+#: about/templates/about/page_list.html:23
+msgid "Информационных страниц пока нет."
+msgstr ""
+
+#: about/templates/about/person_detail.html:21
+#: council/templates/council/deputy_detail.html:21
+#: council/templates/council/deputy_list.html:24
+msgid "Нет фото"
+msgstr ""
+
+#: about/templates/about/person_detail.html:28
+#: council/templates/council/deputy_detail.html:29
+msgid "Биография"
+msgstr ""
+
+#: about/templates/about/person_detail.html:32
+#: council/templates/council/deputy_detail.html:33
+#: investors/templates/investors/project_detail.html:46
+msgid "Контактная информация"
+msgstr ""
+
+#: about/templates/about/person_detail.html:37
+msgid "График приема"
+msgstr ""
+
+#: about/templates/about/person_detail.html:44
+msgid "К списку руководства"
+msgstr ""
+
+#: about/templates/about/report_detail.html:4
+#: about/templates/about/report_detail.html:11
+#: about/templates/about/report_list.html:11 main/templates/main/home.html:88
+#: templates/base.html:107
+msgid "Отчеты"
+msgstr ""
+
+#: about/templates/about/report_detail.html:17
+msgid "Год отчета"
+msgstr ""
+
+#: about/templates/about/report_detail.html:23
+msgid "Скачать полный отчет"
+msgstr ""
+
+#: about/templates/about/report_detail.html:26
+msgid "К списку отчетов"
+msgstr ""
+
+#: about/templates/about/report_list.html:4
+#: about/templates/about/report_list.html:15
+msgid "Отчеты айыл окмоту"
+msgstr ""
+
+#: about/templates/about/report_list.html:22
+#, python-format
+msgid "%(report.report_year)s год"
+msgstr ""
+
+#: about/templates/about/report_list.html:31
+msgid "Отчетов пока нет."
+msgstr ""
+
+#: appeals/templates/appeals/submit_appeal.html:4
+#: appeals/templates/appeals/submit_appeal.html:10
+msgid "Электронное обращение"
+msgstr ""
+
+#: appeals/templates/appeals/submit_appeal.html:14
+#: main/templates/main/home.html:77
+msgid "Электронное обращение граждан"
+msgstr ""
+
+#: appeals/templates/appeals/submit_appeal.html:15
+msgid "Пожалуйста, заполните форму для отправки обращения в айыл окмоту."
+msgstr ""
+
+#: appeals/templates/appeals/submit_appeal.html:37
+#: main/templates/main/home.html:79
+msgid "Отправить обращение"
+msgstr ""
+
+#: community/templates/community/advertisement_detail.html:4
+msgid "Объявления"
+msgstr ""
+
+#: community/templates/community/advertisement_detail.html:10
+#: community/templates/community/advertisement_list.html:4
+#: community/templates/community/advertisement_list.html:10
+#: community/templates/community/advertisement_list.html:14
+#: templates/base.html:130
+msgid "Объявления жителей"
+msgstr ""
+
+#: community/templates/community/advertisement_detail.html:30
+msgid "Контакты для связи"
+msgstr ""
+
+#: community/templates/community/advertisement_detail.html:33
+msgid "Имя"
+msgstr ""
+
+#: community/templates/community/advertisement_detail.html:40
+msgid "К списку объявлений"
+msgstr ""
+
+#: community/templates/community/advertisement_list.html:15
+msgid ""
+"Здесь вы можете найти частные объявления от жителей нашего муниципалитета "
+"или разместить свое."
+msgstr ""
+
+#: community/templates/community/advertisement_list.html:16
+msgid "Подать новое объявление"
+msgstr ""
+
+#: community/templates/community/advertisement_list.html:32
+msgid "Контакты"
+msgstr ""
+
+#: community/templates/community/advertisement_list.html:34
+#: council/templates/council/deputy_list.html:30
+msgid "Тел"
+msgstr ""
+
+#: community/templates/community/advertisement_list.html:45
+msgid "Объявлений пока нет."
+msgstr ""
+
+#: community/templates/community/blog_detail.html:4
+msgid "Блоги"
+msgstr ""
+
+#: community/templates/community/blog_detail.html:10
+#: community/templates/community/blog_list.html:4
+#: community/templates/community/blog_list.html:10
+#: community/templates/community/blog_list.html:14 templates/base.html:131
+msgid "Блоги жителей"
+msgstr ""
+
+#: community/templates/community/blog_detail.html:17
+#: community/templates/community/blog_list.html:29
+#: search/templates/search/search_results.html:59
+msgid "Автор"
+msgstr ""
+
+#: community/templates/community/blog_detail.html:17
+#: community/templates/community/blog_list.html:29
+msgid "Аноним"
+msgstr ""
+
+#: community/templates/community/blog_detail.html:32
+msgid "К списку публикаций"
+msgstr ""
+
+#: community/templates/community/blog_list.html:15
+msgid ""
+"Читайте публикации наших жителей о жизни муниципалитета, событиях и мнениях."
+msgstr ""
+
+#: community/templates/community/blog_list.html:16
+msgid "Написать новую публикацию"
+msgstr ""
+
+#: community/templates/community/blog_list.html:33
+#: main/templates/main/home.html:42 news/templates/news/news_list.html:21
+msgid "Читать далее"
+msgstr ""
+
+#: community/templates/community/blog_list.html:40
+msgid "Публикаций пока нет."
+msgstr ""
+
+#: community/templates/community/submit_content.html:5
+#: community/templates/community/submit_content.html:11 templates/base.html:127
+msgid "Сообщество"
+msgstr ""
+
+#: community/templates/community/submit_content.html:39
+msgid "Отправить"
+msgstr ""
+
+#: config/settings.py:8
+msgid "Кыргызча"
+msgstr ""
+
+#: config/settings.py:9
+msgid "Русский"
+msgstr ""
+
+#: council/templates/council/decision_detail.html:4
+#: council/templates/council/decision_detail.html:11
+#: council/templates/council/decision_list.html:11 templates/base.html:119
+msgid "Решения Кенеша"
+msgstr ""
+
+#: council/templates/council/decision_detail.html:10
+#: council/templates/council/decision_list.html:10
+#: council/templates/council/deputy_detail.html:10
+#: council/templates/council/deputy_list.html:10 templates/base.html:115
+msgid "Местный Кенеш"
+msgstr ""
+
+#: council/templates/council/decision_detail.html:17
+msgid "Тип документа"
+msgstr ""
+
+#: council/templates/council/decision_detail.html:18
+#: info/templates/info/phone_list.html:24
+msgid "Номер"
+msgstr ""
+
+#: council/templates/council/decision_detail.html:19
+msgid "Дата принятия"
+msgstr ""
+
+#: council/templates/council/decision_detail.html:23
+msgid "Краткое содержание"
+msgstr ""
+
+#: council/templates/council/decision_detail.html:26
+msgid "Скачать полный документ"
+msgstr ""
+
+#: council/templates/council/decision_detail.html:29
+msgid "К списку решений"
+msgstr ""
+
+#: council/templates/council/decision_list.html:4
+#: council/templates/council/decision_list.html:15
+msgid "Решения Местного Кенеша"
+msgstr ""
+
+#: council/templates/council/decision_list.html:24
+#, python-format
+msgid ""
+"№%(decision.decision_number)s от %(decision.decision_date|date:\"d M Y\")s"
+msgstr ""
+
+#: council/templates/council/decision_list.html:33
+msgid "Решений Кенеша пока нет."
+msgstr ""
+
+#: council/templates/council/deputy_detail.html:4
+#: council/templates/council/deputy_detail.html:11
+#: council/templates/council/deputy_list.html:11 templates/base.html:118
+msgid "Депутаты"
+msgstr ""
+
+#: council/templates/council/deputy_detail.html:25
+#: council/templates/council/deputy_list.html:29
+msgid "Округ"
+msgstr ""
+
+#: council/templates/council/deputy_detail.html:42
+msgid "К списку депутатов"
+msgstr ""
+
+#: council/templates/council/deputy_list.html:4
+#: council/templates/council/deputy_list.html:15
+msgid "Депутаты Местного Кенеша"
+msgstr ""
+
+#: council/templates/council/deputy_list.html:37
+msgid "Информация о депутатах пока недоступна."
+msgstr ""
+
+#: documents/templates/documents/document_detail.html:4
+#: documents/templates/documents/document_detail.html:10 templates/base.html:97
+msgid "Документы"
+msgstr ""
+
+#: documents/templates/documents/document_detail.html:25
+#: documents/templates/documents/document_list.html:20
+msgid "Скачать документ"
+msgstr ""
+
+#: documents/templates/documents/document_detail.html:26
+msgid "К списку документов"
+msgstr ""
+
+#: documents/templates/documents/document_list.html:4
+msgid "Документы айыл окмоту"
+msgstr ""
+
+#: documents/templates/documents/document_list.html:7
+msgid "Официальные документы"
+msgstr ""
+
+#: documents/templates/documents/document_list.html:27
+#: main/templates/main/home.html:73
+msgid "Документов пока нет."
+msgstr ""
+
+#: gallery/templates/gallery/album_detail.html:4
+#: gallery/templates/gallery/album_detail.html:10
+#: gallery/templates/gallery/album_list.html:4
+#: gallery/templates/gallery/album_list.html:10
+#: gallery/templates/gallery/album_list.html:14 templates/base.html:138
+msgid "Фотогалерея"
+msgstr ""
+
+#: gallery/templates/gallery/album_detail.html:30
+msgid "В этом альбоме пока нет фотографий."
+msgstr ""
+
+#: gallery/templates/gallery/album_detail.html:34
+msgid "К списку альбомов"
+msgstr ""
+
+#: gallery/templates/gallery/album_list.html:15
+msgid ""
+"Здесь собраны фотоотчеты о событиях и мероприятиях в нашем муниципалитете."
+msgstr ""
+
+#: gallery/templates/gallery/album_list.html:29
+msgid "Смотреть альбом"
+msgstr ""
+
+#: gallery/templates/gallery/album_list.html:36
+msgid "Фотоальбомов пока нет."
+msgstr ""
+
+#: info/templates/info/landmark_detail.html:4
+#: info/templates/info/landmark_detail.html:10
+#: info/templates/info/landmark_list.html:4
+#: info/templates/info/landmark_list.html:10
+#: info/templates/info/landmark_list.html:14 templates/base.html:146
+msgid "Достопримечательности"
+msgstr ""
+
+#: info/templates/info/landmark_detail.html:28
+msgid "Расположение"
+msgstr ""
+
+#: info/templates/info/landmark_detail.html:32
+msgid "К списку достопримечательностей"
+msgstr ""
+
+#: info/templates/info/landmark_list.html:15
+msgid "Ознакомьтесь с интересными местами нашего муниципалитета."
+msgstr ""
+
+#: info/templates/info/landmark_list.html:38
+msgid "Достопримечательностей пока нет."
+msgstr ""
+
+#: info/templates/info/phone_list.html:4 info/templates/info/phone_list.html:10
+#: info/templates/info/phone_list.html:14 templates/base.html:145
+msgid "Важные телефоны"
+msgstr ""
+
+#: info/templates/info/phone_list.html:15
+msgid "Список контактных телефонов экстренных и коммунальных служб."
+msgstr ""
+
+#: info/templates/info/phone_list.html:34
+msgid "Список телефонов пока пуст."
+msgstr ""
+
+#: info/templates/info/static_page_detail.html:4
+#: info/templates/info/static_page_detail.html:10 templates/base.html:142
+msgid "Справочная информация"
+msgstr ""
+
+#: investors/templates/investors/project_detail.html:4
+msgid "Инвест. проект"
+msgstr ""
+
+#: investors/templates/investors/project_detail.html:10
+#: investors/templates/investors/project_list.html:10 templates/base.html:123
+msgid "Для инвесторов"
+msgstr ""
+
+#: investors/templates/investors/project_detail.html:16
+#: investors/templates/investors/project_list.html:27
+msgid "Статус"
+msgstr ""
+
+#: investors/templates/investors/project_detail.html:30
+msgid "Основные показатели проекта"
+msgstr ""
+
+#: investors/templates/investors/project_detail.html:34
+msgid "Необходимый бюджет"
+msgstr ""
+
+#: investors/templates/investors/project_detail.html:37
+msgid "Ожидаемая доходность"
+msgstr ""
+
+#: investors/templates/investors/project_detail.html:39
+msgid "Дата начала"
+msgstr ""
+
+#: investors/templates/investors/project_detail.html:40
+msgid "Дата завершения"
+msgstr ""
+
+#: investors/templates/investors/project_detail.html:49
+msgid "Контактное лицо"
+msgstr ""
+
+#: investors/templates/investors/project_detail.html:56
+msgid "К списку проектов"
+msgstr ""
+
+#: investors/templates/investors/project_list.html:4
+#: investors/templates/investors/project_list.html:14
+msgid "Инвестиционные проекты"
+msgstr ""
+
+#: investors/templates/investors/project_list.html:15
+msgid ""
+"Ознакомьтесь с текущими и потенциальными инвестиционными проектами в нашем "
+"муниципалитете."
+msgstr ""
+
+#: investors/templates/investors/project_list.html:36
+msgid "Инвестиционных проектов пока нет."
+msgstr ""
+
+#: main/templates/main/home.html:4
+msgid "Главная страница"
+msgstr ""
+
+#: main/templates/main/home.html:4 templates/base.html:84
+#: templates/base.html:197
+msgid "Айыл Окмоту"
+msgstr ""
+
+#: main/templates/main/home.html:14
+msgid "Глава айыл окмоту"
+msgstr ""
+
+#: main/templates/main/home.html:16
+msgid "Должность"
+msgstr ""
+
+#: main/templates/main/home.html:19
+msgid "Все руководство"
+msgstr ""
+
+#: main/templates/main/home.html:24
+msgid "Добро пожаловать на сайт айыл окмоту!"
+msgstr ""
+
+#: main/templates/main/home.html:25
+msgid "Это базовая главная страница."
+msgstr ""
+
+#: main/templates/main/home.html:29
+msgid "Последние новости"
+msgstr ""
+
+#: main/templates/main/home.html:48
+msgid "Показать все новости"
+msgstr ""
+
+#: main/templates/main/home.html:50 news/templates/news/news_list.html:28
+msgid "Новостей пока нет."
+msgstr ""
+
+#: main/templates/main/home.html:53
+msgid "Последние документы"
+msgstr ""
+
+#: main/templates/main/home.html:65
+msgid "Скачать"
+msgstr ""
+
+#: main/templates/main/home.html:71
+msgid "Показать все документы"
+msgstr ""
+
+#: main/templates/main/home.html:78
+msgid "Есть вопрос или предложение? Отправьте нам электронное обращение."
+msgstr ""
+
+#: main/templates/main/home.html:83
+msgid "Разделы \\"
+msgstr ""
+
+#: news/templates/news/news_detail.html:4
+#: news/templates/news/news_detail.html:10 templates/base.html:94
+msgid "Новости"
+msgstr ""
+
+#: news/templates/news/news_detail.html:29
+msgid "К списку новостей"
+msgstr ""
+
+#: news/templates/news/news_list.html:4 news/templates/news/news_list.html:7
+msgid "Новости айыл окмоту"
+msgstr ""
+
+#: search/templates/search/search_results.html:4
+#: search/templates/search/search_results.html:14
+msgid "Результаты поиска"
+msgstr ""
+
+#: search/templates/search/search_results.html:10 templates/base.html:158
+#: templates/base.html:159
+msgid "Поиск"
+msgstr ""
+
+#: search/templates/search/search_results.html:16
+#, python-format
+msgid "По запросу \"%(query)s\" найдено:"
+msgstr ""
+
+#: search/templates/search/search_results.html:21
+#, python-format
+msgid "Новости (%(results.news.count)s)"
+msgstr ""
+
+#: search/templates/search/search_results.html:37
+#, python-format
+msgid "Документы (%(results.documents.count)s)"
+msgstr ""
+
+#: search/templates/search/search_results.html:53
+#, python-format
+msgid "Блоги жителей (%(results.blogs.count)s)"
+msgstr ""
+
+#: search/templates/search/search_results.html:69
+#, python-format
+msgid "Информационные страницы (%(results.pages.count)s)"
+msgstr ""
+
+#: search/templates/search/search_results.html:84
+#, python-format
+msgid "Достопримечательности (%(results.landmarks.count)s)"
+msgstr ""
+
+#: search/templates/search/search_results.html:90
+msgid "Не указано"
+msgstr ""
+
+#: search/templates/search/search_results.html:101
+msgid "К сожалению, по вашему запросу ничего не найдено."
+msgstr ""
+
+#: search/templates/search/search_results.html:105
+msgid "Введите поисковый запрос в поле выше."
+msgstr ""
+
+#: templates/base.html:7
+msgid "Сайт айыл окмоту"
+msgstr ""
+
+#: templates/base.html:85
+msgid "Переключить навигацию"
+msgstr ""
+
+#: templates/base.html:133
+msgid "Подать объявление"
+msgstr ""
+
+#: templates/base.html:134
+msgid "Написать в блог"
+msgstr ""
+
+#: templates/base.html:148
+msgid "Расписание транспорта"
+msgstr ""
+
+#: templates/base.html:152
+msgid "Обращения"
+msgstr ""
+
+#: templates/base.html:165
+msgid "Админка"
+msgstr ""
+
+#: templates/base.html:168
+msgid "Выйти"
+msgstr ""
+
+#: templates/base.html:172
+msgid "Войти"
+msgstr ""
+
+#: templates/base.html:197
+msgid "Все права защищены."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/contrib/messages/apps.py:15
+msgid "Messages"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/contrib/sitemaps/apps.py:8
+msgid "Site Maps"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/contrib/staticfiles/apps.py:9
+msgid "Static Files"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/contrib/syndication/apps.py:7
+msgid "Syndication"
+msgstr ""
+
+#. Translators: String used to replace omitted page numbers in elided page
+#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
+#: venv/lib/python3.9/site-packages/django/core/paginator.py:30
+msgid "…"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/core/paginator.py:50
+msgid "That page number is not an integer"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/core/paginator.py:52
+msgid "That page number is less than 1"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/core/paginator.py:54
+msgid "That page contains no results"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/core/validators.py:22
+msgid "Enter a valid value."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/core/validators.py:104
+#: venv/lib/python3.9/site-packages/django/forms/fields.py:752
+msgid "Enter a valid URL."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/core/validators.py:165
+msgid "Enter a valid integer."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/core/validators.py:176
+msgid "Enter a valid email address."
+msgstr ""
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+#: venv/lib/python3.9/site-packages/django/core/validators.py:259
+msgid ""
+"Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/core/validators.py:267
+msgid ""
+"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
+"hyphens."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/core/validators.py:281
+#: venv/lib/python3.9/site-packages/django/core/validators.py:289
+#: venv/lib/python3.9/site-packages/django/core/validators.py:318
+msgid "Enter a valid IPv4 address."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/core/validators.py:298
+#: venv/lib/python3.9/site-packages/django/core/validators.py:319
+msgid "Enter a valid IPv6 address."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/core/validators.py:310
+#: venv/lib/python3.9/site-packages/django/core/validators.py:317
+msgid "Enter a valid IPv4 or IPv6 address."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/core/validators.py:353
+msgid "Enter only digits separated by commas."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/core/validators.py:359
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/core/validators.py:394
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/core/validators.py:403
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/core/validators.py:412
+#, python-format
+msgid "Ensure this value is a multiple of step size %(limit_value)s."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/core/validators.py:422
+#, python-format
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.9/site-packages/django/core/validators.py:440
+#, python-format
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.9/site-packages/django/core/validators.py:463
+#: venv/lib/python3.9/site-packages/django/forms/fields.py:347
+#: venv/lib/python3.9/site-packages/django/forms/fields.py:386
+msgid "Enter a number."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/core/validators.py:465
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.9/site-packages/django/core/validators.py:470
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.9/site-packages/django/core/validators.py:475
+#, python-format
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural ""
+"Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.9/site-packages/django/core/validators.py:546
+#, python-format
+msgid ""
+"File extension “%(extension)s” is not allowed. Allowed extensions are: "
+"%(allowed_extensions)s."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/core/validators.py:607
+msgid "Null characters are not allowed."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/base.py:1423
+#: venv/lib/python3.9/site-packages/django/forms/models.py:893
+msgid "and"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/base.py:1425
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/constraints.py:17
+#, python-format
+msgid "Constraint “%(name)s” is violated."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:128
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:129
+msgid "This field cannot be null."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:130
+msgid "This field cannot be blank."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:131
+#, python-format
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr ""
+
+#. Translators: The 'lookup_type' is one of 'date', 'year' or
+#. 'month'. Eg: "Title must be unique for pub_date year"
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:135
+#, python-format
+msgid ""
+"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:173
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1094
+#, python-format
+msgid "“%(value)s” value must be either True or False."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1095
+#, python-format
+msgid "“%(value)s” value must be either True, False, or None."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1097
+msgid "Boolean (Either True or False)"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1147
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1149
+msgid "String (unlimited)"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1253
+msgid "Comma-separated integers"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1354
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
+"format."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1358
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1493
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
+"date."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1362
+msgid "Date (without time)"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1489
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD "
+"HH:MM[:ss[.uuuuuu]][TZ] format."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1497
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ]) but it is an invalid date/time."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1502
+msgid "Date (with time)"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1626
+#, python-format
+msgid "“%(value)s” value must be a decimal number."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1628
+msgid "Decimal number"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1789
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in [DD] "
+"[[HH:]MM:]ss[.uuuuuu] format."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1793
+msgid "Duration"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1845
+msgid "Email address"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1870
+msgid "File path"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1948
+#, python-format
+msgid "“%(value)s” value must be a float."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1950
+msgid "Floating point number"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1990
+#, python-format
+msgid "“%(value)s” value must be an integer."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1992
+msgid "Integer"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:2088
+msgid "Big (8 byte) integer"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:2105
+msgid "Small integer"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:2113
+msgid "IPv4 address"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:2144
+msgid "IP address"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:2237
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:2238
+#, python-format
+msgid "“%(value)s” value must be either None, True or False."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:2240
+msgid "Boolean (Either True, False or None)"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:2291
+msgid "Positive big integer"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:2306
+msgid "Positive integer"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:2321
+msgid "Positive small integer"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:2337
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:2373
+msgid "Text"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:2448
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
+"format."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:2452
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
+"invalid time."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:2456
+msgid "Time"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:2564
+msgid "URL"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:2588
+msgid "Raw binary data"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:2653
+#, python-format
+msgid "“%(value)s” is not a valid UUID."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:2655
+msgid "Universally unique identifier"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/files.py:232
+msgid "File"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/files.py:393
+msgid "Image"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/json.py:26
+msgid "A JSON object"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/json.py:28
+msgid "Value must be valid JSON."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/related.py:919
+#, python-format
+msgid "%(model)s instance with %(field)s %(value)r does not exist."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/related.py:921
+msgid "Foreign Key (type determined by related field)"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/related.py:1212
+msgid "One-to-one relationship"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/related.py:1269
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/related.py:1271
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/db/models/fields/related.py:1319
+msgid "Many-to-many relationship"
+msgstr ""
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to the label
+#: venv/lib/python3.9/site-packages/django/forms/boundfield.py:184
+msgid ":?.!"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/forms/fields.py:91
+msgid "This field is required."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/forms/fields.py:298
+msgid "Enter a whole number."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/forms/fields.py:467
+#: venv/lib/python3.9/site-packages/django/forms/fields.py:1241
+msgid "Enter a valid date."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/forms/fields.py:490
+#: venv/lib/python3.9/site-packages/django/forms/fields.py:1242
+msgid "Enter a valid time."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/forms/fields.py:517
+msgid "Enter a valid date/time."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/forms/fields.py:551
+msgid "Enter a valid duration."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/forms/fields.py:552
+#, python-brace-format
+msgid "The number of days must be between {min_days} and {max_days}."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/forms/fields.py:621
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/forms/fields.py:622
+msgid "No file was submitted."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/forms/fields.py:623
+msgid "The submitted file is empty."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/forms/fields.py:625
+#, python-format
+msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.9/site-packages/django/forms/fields.py:630
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/forms/fields.py:694
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/forms/fields.py:857
+#: venv/lib/python3.9/site-packages/django/forms/fields.py:949
+#: venv/lib/python3.9/site-packages/django/forms/models.py:1566
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/forms/fields.py:951
+#: venv/lib/python3.9/site-packages/django/forms/fields.py:1070
+#: venv/lib/python3.9/site-packages/django/forms/models.py:1564
+msgid "Enter a list of values."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/forms/fields.py:1071
+msgid "Enter a complete value."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/forms/fields.py:1313
+msgid "Enter a valid UUID."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/forms/fields.py:1343
+msgid "Enter a valid JSON."
+msgstr ""
+
+#. Translators: This is the default suffix added to form field labels
+#: venv/lib/python3.9/site-packages/django/forms/forms.py:98
+msgid ":"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/forms/forms.py:244
+#: venv/lib/python3.9/site-packages/django/forms/forms.py:328
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/forms/formsets.py:63
+#, python-format
+msgid ""
+"ManagementForm data is missing or has been tampered with. Missing fields: "
+"%(field_names)s. You may need to file a bug report if the issue persists."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/forms/formsets.py:67
+#, python-format
+msgid "Please submit at most %(num)d form."
+msgid_plural "Please submit at most %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.9/site-packages/django/forms/formsets.py:72
+#, python-format
+msgid "Please submit at least %(num)d form."
+msgid_plural "Please submit at least %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.9/site-packages/django/forms/formsets.py:484
+#: venv/lib/python3.9/site-packages/django/forms/formsets.py:491
+msgid "Order"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/forms/formsets.py:499
+msgid "Delete"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/forms/models.py:886
+#, python-format
+msgid "Please correct the duplicate data for %(field)s."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/forms/models.py:891
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/forms/models.py:898
+#, python-format
+msgid ""
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/forms/models.py:907
+msgid "Please correct the duplicate values below."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/forms/models.py:1338
+msgid "The inline value did not match the parent instance."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/forms/models.py:1429
+msgid "Select a valid choice. That choice is not one of the available choices."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/forms/models.py:1568
+#, python-format
+msgid "“%(pk)s” is not a valid value."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/forms/utils.py:226
+#, python-format
+msgid ""
+"%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
+"may be ambiguous or it may not exist."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/forms/widgets.py:463
+msgid "Clear"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/forms/widgets.py:464
+msgid "Currently"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/forms/widgets.py:465
+msgid "Change"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/forms/widgets.py:794
+msgid "Unknown"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/forms/widgets.py:795
+msgid "Yes"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/forms/widgets.py:796
+msgid "No"
+msgstr ""
+
+#. Translators: Please do not add spaces around commas.
+#: venv/lib/python3.9/site-packages/django/template/defaultfilters.py:874
+msgid "yes,no,maybe"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/template/defaultfilters.py:904
+#: venv/lib/python3.9/site-packages/django/template/defaultfilters.py:921
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.9/site-packages/django/template/defaultfilters.py:923
+#, python-format
+msgid "%s KB"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/template/defaultfilters.py:925
+#, python-format
+msgid "%s MB"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/template/defaultfilters.py:927
+#, python-format
+msgid "%s GB"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/template/defaultfilters.py:929
+#, python-format
+msgid "%s TB"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/template/defaultfilters.py:931
+#, python-format
+msgid "%s PB"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dateformat.py:73
+msgid "p.m."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dateformat.py:74
+msgid "a.m."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dateformat.py:79
+msgid "PM"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dateformat.py:80
+msgid "AM"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dateformat.py:152
+msgid "midnight"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dateformat.py:154
+msgid "noon"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:7
+msgid "Monday"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:8
+msgid "Tuesday"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:9
+msgid "Wednesday"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:10
+msgid "Thursday"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:11
+msgid "Friday"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:12
+msgid "Saturday"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:13
+msgid "Sunday"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:16
+msgid "Mon"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:17
+msgid "Tue"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:18
+msgid "Wed"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:19
+msgid "Thu"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:20
+msgid "Fri"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:21
+msgid "Sat"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:22
+msgid "Sun"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:25
+msgid "January"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:26
+msgid "February"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:27
+msgid "March"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:28
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:29
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:30
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:31
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:32
+msgid "August"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:33
+msgid "September"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:34
+msgid "October"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:35
+msgid "November"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:36
+msgid "December"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:39
+msgid "jan"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:40
+msgid "feb"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:41
+msgid "mar"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:42
+msgid "apr"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:43
+msgid "may"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:44
+msgid "jun"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:45
+msgid "jul"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:46
+msgid "aug"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:47
+msgid "sep"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:48
+msgid "oct"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:49
+msgid "nov"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:50
+msgid "dec"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:53
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:54
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:55
+msgctxt "abbrev. month"
+msgid "March"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:56
+msgctxt "abbrev. month"
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:57
+msgctxt "abbrev. month"
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:58
+msgctxt "abbrev. month"
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:59
+msgctxt "abbrev. month"
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:60
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:61
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:62
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:63
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:64
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:67
+msgctxt "alt. month"
+msgid "January"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:68
+msgctxt "alt. month"
+msgid "February"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:69
+msgctxt "alt. month"
+msgid "March"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:70
+msgctxt "alt. month"
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:71
+msgctxt "alt. month"
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:72
+msgctxt "alt. month"
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:73
+msgctxt "alt. month"
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:74
+msgctxt "alt. month"
+msgid "August"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:75
+msgctxt "alt. month"
+msgid "September"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:76
+msgctxt "alt. month"
+msgid "October"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:77
+msgctxt "alt. month"
+msgid "November"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/dates.py:78
+msgctxt "alt. month"
+msgid "December"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/ipv6.py:20
+msgid "This is not a valid IPv6 address."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/text.py:138
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s…"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/text.py:323
+msgid "or"
+msgstr ""
+
+#. Translators: This string is used as a separator between list elements
+#: venv/lib/python3.9/site-packages/django/utils/text.py:342
+#: venv/lib/python3.9/site-packages/django/utils/timesince.py:135
+msgid ", "
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/utils/timesince.py:8
+#, python-format
+msgid "%(num)d year"
+msgid_plural "%(num)d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.9/site-packages/django/utils/timesince.py:9
+#, python-format
+msgid "%(num)d month"
+msgid_plural "%(num)d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.9/site-packages/django/utils/timesince.py:10
+#, python-format
+msgid "%(num)d week"
+msgid_plural "%(num)d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.9/site-packages/django/utils/timesince.py:11
+#, python-format
+msgid "%(num)d day"
+msgid_plural "%(num)d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.9/site-packages/django/utils/timesince.py:12
+#, python-format
+msgid "%(num)d hour"
+msgid_plural "%(num)d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.9/site-packages/django/utils/timesince.py:13
+#, python-format
+msgid "%(num)d minute"
+msgid_plural "%(num)d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.9/site-packages/django/views/csrf.py:111
+msgid "Forbidden"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/views/csrf.py:112
+msgid "CSRF verification failed. Request aborted."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/views/csrf.py:116
+msgid ""
+"You are seeing this message because this HTTPS site requires a “Referer "
+"header” to be sent by your web browser, but none was sent. This header is "
+"required for security reasons, to ensure that your browser is not being "
+"hijacked by third parties."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/views/csrf.py:122
+msgid ""
+"If you have configured your browser to disable “Referer” headers, please re-"
+"enable them, at least for this site, or for HTTPS connections, or for “same-"
+"origin” requests."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/views/csrf.py:127
+msgid ""
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
+"including the “Referrer-Policy: no-referrer” header, please remove them. The "
+"CSRF protection requires the “Referer” header to do strict referer checking. "
+"If you’re concerned about privacy, use alternatives like <a "
+"rel=\"noreferrer\" …> for links to third-party sites."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/views/csrf.py:136
+msgid ""
+"You are seeing this message because this site requires a CSRF cookie when "
+"submitting forms. This cookie is required for security reasons, to ensure "
+"that your browser is not being hijacked by third parties."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/views/csrf.py:142
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for “same-origin” requests."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/views/csrf.py:148
+msgid "More information is available with DEBUG=True."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/views/generic/dates.py:44
+msgid "No year specified"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/views/generic/dates.py:64
+#: venv/lib/python3.9/site-packages/django/views/generic/dates.py:115
+#: venv/lib/python3.9/site-packages/django/views/generic/dates.py:214
+msgid "Date out of range"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/views/generic/dates.py:94
+msgid "No month specified"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/views/generic/dates.py:147
+msgid "No day specified"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/views/generic/dates.py:194
+msgid "No week specified"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/views/generic/dates.py:349
+#: venv/lib/python3.9/site-packages/django/views/generic/dates.py:380
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/views/generic/dates.py:652
+#, python-format
+msgid ""
+"Future %(verbose_name_plural)s not available because "
+"%(class_name)s.allow_future is False."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/views/generic/dates.py:692
+#, python-format
+msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/views/generic/detail.py:56
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/views/generic/list.py:70
+msgid "Page is not “last”, nor can it be converted to an int."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/views/generic/list.py:77
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/views/generic/list.py:169
+#, python-format
+msgid "Empty list and “%(class_name)s.allow_empty” is False."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/views/static.py:38
+msgid "Directory indexes are not allowed here."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/views/static.py:40
+#, python-format
+msgid "“%(path)s” does not exist"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/views/static.py:79
+#, python-format
+msgid "Index of %(directory)s"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/views/templates/default_urlconf.html:7
+#: venv/lib/python3.9/site-packages/django/views/templates/default_urlconf.html:220
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/views/templates/default_urlconf.html:206
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/views/templates/default_urlconf.html:221
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" "
+"rel=\"noopener\">DEBUG=True</a> is in your settings file and you have not "
+"configured any URLs."
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/views/templates/default_urlconf.html:229
+msgid "Django Documentation"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/views/templates/default_urlconf.html:230
+msgid "Topics, references, &amp; how-to’s"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/views/templates/default_urlconf.html:238
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/views/templates/default_urlconf.html:239
+msgid "Get started with Django"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/views/templates/default_urlconf.html:247
+msgid "Django Community"
+msgstr ""
+
+#: venv/lib/python3.9/site-packages/django/views/templates/default_urlconf.html:248
+msgid "Connect, get help, or contribute"
+msgstr ""

@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% load i18n %} {# Load the internationalization tags #}
+
+{% block title %}{% trans "Важные телефоны" %}{% endblock %}
+
+{% block content %}
+    <nav aria-label="breadcrumb" class="my-3">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">{% trans "Главная" %}</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{% trans "Важные телефоны" %}</li>
+        </ol>
+    </nav>
+
+    <h1 class="my-4">{% trans "Важные телефоны" %}</h1>
+    <p class="lead">{% trans "Список контактных телефонов экстренных и коммунальных служб." %}</p>
+
+    {% if phones %}
+        <div class="row">
+        {% for phone in phones %}
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ phone.organization }}</h5>
+                        <p class="card-text"><strong>{% trans "Номер" %}:</strong> {{ phone.phone_number }}</p>
+                        {% if phone.description %}
+                            <p class="card-text text-muted">{{ phone.description|linebreaksbr }}</p>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+    {% else %}
+        <p class="lead">{% trans "Список телефонов пока пуст." %}</p>
+    {% endif %}
+{% endblock %}
