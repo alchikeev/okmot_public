@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block title %}Инвестиционные проекты{% endblock %}
+
+{% block content %}
+    <nav aria-label="breadcrumb" class="my-3">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">Главная</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Для инвесторов</li>
+        </ol>
+    </nav>
+
+    <h1 class="my-4">Инвестиционные проекты</h1>
+    <p class="lead">Ознакомьтесь с текущими и потенциальными инвестиционными проектами в нашем муниципалитете.</p>
+
+    {% if projects %}
+        <div class="row">
+        {% for project in projects %}
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    {% if project.image %}
+                        <img src="{{ project.image.url }}" class="card-img-top" alt="{{ project.title }}" style="height: 200px; object-fit: cover;">
+                    {% endif %}
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title"><a href="{% url 'investors:project_detail' slug=project.slug %}">{{ project.title }}</a></h5>
+                        <p class="card-text text-muted small">Статус: <span class="badge bg-info">{{ project.get_status_display }}</span></p>
+                        <p class="card-text flex-grow-1">{{ project.short_description|truncatechars:150 }}</p>
+                        <a href="{% url 'investors:project_detail' slug=project.slug %}" class="btn btn-primary mt-auto">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+    {% else %}
+        <p class="lead">Инвестиционных проектов пока нет.</p>
+    {% endif %}
+{% endblock %}

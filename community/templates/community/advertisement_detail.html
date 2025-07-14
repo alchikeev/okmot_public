@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ ad.title }} - Объявления{% endblock %}
+
+{% block content %}
+    <nav aria-label="breadcrumb" class="my-3">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">Главная</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'community:advertisement_list' %}">Объявления жителей</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{{ ad.title|truncatechars:50 }}</li>
+        </ol>
+    </nav>
+
+    <h1 class="my-4">{{ ad.title }}</h1>
+    <p class="text-muted small">Опубликовано: {{ ad.published_at|date:"d M Y H:i" }}</p>
+
+    {% if ad.image %}
+        <div class="text-center my-4">
+            <img src="{{ ad.image.url }}" class="img-fluid rounded" alt="{{ ad.title }}" style="max-height: 450px; object-fit: cover;">
+        </div>
+    {% endif %}
+
+    <div class="lead my-4">
+        {{ ad.content|linebreaksbr }}
+    </div>
+
+    <div class="card mt-4 shadow-sm">
+        <div class="card-header bg-light">
+            <h4>Контакты для связи</h4>
+        </div>
+        <ul class="list-group list-group-flush">
+            {% if ad.contact_name %}<li class="list-group-item"><strong>Имя:</strong> {{ ad.contact_name }}</li>{% endif %}
+            {% if ad.contact_phone %}<li class="list-group-item"><strong>Телефон:</strong> <a href="tel:{{ ad.contact_phone }}">{{ ad.contact_phone }}</a></li>{% endif %}
+            {% if ad.contact_email %}<li class="list-group-item"><strong>Email:</strong> <a href="mailto:{{ ad.contact_email }}">{{ ad.contact_email }}</a></li>{% endif %}
+        </ul>
+    </div>
+
+    <div class="mt-4">
+        <a href="{% url 'community:advertisement_list' %}" class="btn btn-outline-primary me-2">К списку объявлений</a>
+        <a href="{% url 'main:home' %}" class="btn btn-outline-secondary">На главную</a>
+    </div>
+{% endblock %}

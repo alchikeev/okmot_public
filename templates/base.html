@@ -85,7 +85,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0"> {# ЭТО ПЕРВАЯ ГРУППА ССЫЛОК #}
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="{% url 'main:home' %}">Главная</a>
                         </li>
@@ -119,9 +119,25 @@
                             </ul>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="{% url 'investors:project_list' %}">Для инвесторов</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCommunity" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Сообщество
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownCommunity">
+                                <li><a class="dropdown-item" href="{% url 'community:advertisement_list' %}">Объявления жителей</a></li>
+                                <li><a class="dropdown-item" href="{% url 'community:blog_list' %}">Блоги жителей</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="{% url 'community:submit_advertisement' %}">Подать объявление</a></li>
+                                <li><a class="dropdown-item" href="{% url 'community:submit_blog_post' %}">Написать в блог</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="{% url 'appeals:submit' %}">Обращения</a>
                         </li>
                     </ul>
+                    {# ЭТО ВТОРАЯ ГРУППА ССЫЛОК БЕЗ me-auto, ДЛЯ КНОПОК ВХОДА/ВЫХОДА (прижимается к правому краю) #}
                     <ul class="navbar-nav">
                         {% if user.is_authenticated %}
                             <li class="nav-item">

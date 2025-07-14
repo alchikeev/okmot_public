@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% load form_utils %} 
+{% block title %}{{ title }} - Сообщество{% endblock %}
+
+{% block content %}
+    <nav aria-label="breadcrumb" class="my-3">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">Главная</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'community:advertisement_list' %}">Сообщество</a></li> {# Можно использовать ссылку на список объявлений как общий вход #}
+            <li class="breadcrumb-item active" aria-current="page">{{ title }}</li>
+        </ol>
+    </nav>
+
+    <h1 class="my-4">{{ title }}</h1>
+    <p class="lead">{{ intro_text }}</p>
+
+    {# Сообщения Django будут отображаться из base.html #}
+
+    <form method="post" enctype="multipart/form-data" class="p-4 border rounded shadow-sm">
+        {% csrf_token %}
+
+        {% for field in form %}
+            <div class="mb-3">
+                {{ field.label_tag }}
+                {{ field|add_class:"form-control" }} {# Добавляем класс Bootstrap для стилизации полей #}
+                {% if field.help_text %}
+                    <div class="form-text text-muted">{{ field.help_text }}</div>
+                {% endif %}
+                {% if field.errors %}
+                    {% for error in field.errors %}
+                        <div class="text-danger small">{{ error }}</div>
+                    {% endfor %}
+                {% endif %}
+            </div>
+        {% endfor %}
+
+        <button type="submit" class="btn btn-success btn-lg mt-3">Отправить</button>
+    </form>
+{% endblock %}

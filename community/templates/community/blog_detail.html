@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ post.title }} - Блоги{% endblock %}
+
+{% block content %}
+    <nav aria-label="breadcrumb" class="my-3">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">Главная</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'community:blog_list' %}">Блоги жителей</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{{ post.title|truncatechars:50 }}</li>
+        </ol>
+    </nav>
+
+    <h1 class="my-4">{{ post.title }}</h1>
+    <p class="text-muted small">
+        Автор: {% if post.author_name %}{{ post.author_name }}{% else %}Аноним{% endif %} <br>
+        Опубликовано: {{ post.published_at|date:"d M Y H:i" }}
+    </p>
+
+    {% if post.image %}
+        <div class="text-center my-4">
+            <img src="{{ post.image.url }}" class="img-fluid rounded" alt="{{ post.title }}" style="max-height: 450px; object-fit: cover;">
+        </div>
+    {% endif %}
+
+    <div class="lead my-4">
+        {{ post.content|linebreaksbr }}
+    </div>
+
+    <div class="mt-4">
+        <a href="{% url 'community:blog_list' %}" class="btn btn-outline-primary me-2">К списку публикаций</a>
+        <a href="{% url 'main:home' %}" class="btn btn-outline-secondary">На главную</a>
+    </div>
+{% endblock %}
