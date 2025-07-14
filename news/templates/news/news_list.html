@@ -1,35 +1,29 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Новости айыл окмоту</title>
-    <style>
-        body { font-family: sans-serif; margin: 20px; }
-        .news-item { border-bottom: 1px solid #eee; padding-bottom: 15px; margin-bottom: 15px; }
-        .news-item h2 a { text-decoration: none; color: #333; }
-        .news-item p { font-size: 0.9em; color: #666; }
-        .news-item img { max-width: 100%; height: auto; display: block; margin-top: 10px; }
-    </style>
-</head>
-<body>
-    <h1>Последние новости</h1>
+{% extends 'base.html' %}
+
+{% block title %}Новости айыл окмоту{% endblock %}
+
+{% block content %}
+    <h1 class="my-4">Новости айыл окмоту</h1>
 
     {% if news_items %}
+        <div class="row">
         {% for news in news_items %}
-            <div class="news-item">
-                <h2><a href="{% url 'news:detail' slug=news.slug %}">{{ news.title }}</a></h2>
-                <p>Опубликовано: {{ news.published_date|date:"d M Y H:i" }}</p>
-                {% if news.image %}
-                    <img src="{{ news.image.url }}" alt="{{ news.title }}">
-                {% endif %}
-                <p>{{ news.content|truncatechars:200 }} <a href="{% url 'news:detail' slug=news.slug %}">Читать далее</a></p>
+            <div class="col-md-6 col-lg-4 mb-4"> {# 2 колонки на средних экранах, 3 на больших #}
+                <div class="card h-100 shadow-sm"> {# Добавим тени для карточек #}
+                    {% if news.image %}
+                        <img src="{{ news.image.url }}" class="card-img-top" alt="{{ news.title }}" style="height: 200px; object-fit: cover;">
+                    {% endif %}
+                    <div class="card-body d-flex flex-column"> {# Используем flexbox для растягивания карточки #}
+                        <h5 class="card-title"><a href="{% url 'news:detail' slug=news.slug %}">{{ news.title }}</a></h5>
+                        <p class="card-text text-muted small">Опубликовано: {{ news.published_date|date:"d M Y H:i" }}</p>
+                        <p class="card-text flex-grow-1">{{ news.content|truncatechars:150 }}</p> {# Flex-grow для текста #}
+                        <a href="{% url 'news:detail' slug=news.slug %}" class="btn btn-primary mt-auto">Читать далее</a> {# mt-auto для кнопки внизу #}
+                    </div>
+                </div>
             </div>
         {% endfor %}
+        </div>
     {% else %}
-        <p>Новостей пока нет.</p>
+        <p class="lead">Новостей пока нет.</p>
     {% endif %}
-
-    <p><a href="/">На главную</a></p>
-</body>
-</html>
+{% endblock %}

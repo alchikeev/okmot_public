@@ -1,21 +1,28 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ budget.title }}</title>
-    <style>body { font-family: sans-serif; margin: 20px; }</style>
-</head>
-<body>
-    <h1>{{ budget.title }}</h1>
-    <p><strong>Год бюджета:</strong> {{ budget.budget_year }}</p>
-    <p>Опубликовано: {{ budget.published_date|date:"d M Y H:i" }}</p>
+{% extends 'base.html' %}
+
+{% block title %}{{ budget.title }} - Бюджеты{% endblock %}
+
+{% block content %}
+    <nav aria-label="breadcrumb" class="my-3">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">Главная</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'about:leadership_list' %}">Об айыл окмоту</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'about:budget_list' %}">Бюджеты для граждан</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{{ budget.title|truncatechars:50 }}</li>
+        </ol>
+    </nav>
+
+    <h1 class="my-4">{{ budget.title }}</h1>
+    <p class="text-muted"><strong>Год бюджета:</strong> {{ budget.budget_year }}</p>
+    <p class="text-muted small">Опубликовано: {{ budget.published_date|date:"d M Y H:i" }}</p>
     {% if budget.description %}
-        <h2>Описание</h2>
-        <p>{{ budget.description|linebreaksbr }}</p>
+        <h2 class="mt-4">Описание</h2>
+        <p class="lead">{{ budget.description|linebreaksbr }}</p>
     {% endif %}
-    <p><a href="{{ budget.file.url }}" class="download-link" download>Скачать полный бюджет</a></p>
-    <p><a href="{% url 'about:budget_list' %}">К списку бюджетов</a></p>
-    <p><a href="/">На главную</a></p>
-</body>
-</html>
+    <p><a href="{{ budget.file.url }}" class="btn btn-success btn-lg mt-3" download>Скачать полный бюджет</a></p>
+
+    <div class="mt-4">
+        <a href="{% url 'about:budget_list' %}" class="btn btn-outline-primary me-2">К списку бюджетов</a>
+        <a href="{% url 'main:home' %}" class="btn btn-outline-secondary">На главную</a>
+    </div>
+{% endblock %}

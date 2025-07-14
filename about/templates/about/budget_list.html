@@ -1,27 +1,32 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Бюджеты для граждан</title>
-    <style>body { font-family: sans-serif; margin: 20px; }</style>
-</head>
-<body>
-    <h1>Бюджеты для граждан</h1>
+{% extends 'base.html' %}
+
+{% block title %}Бюджеты для граждан{% endblock %}
+
+{% block content %}
+    <nav aria-label="breadcrumb" class="my-3">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">Главная</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'about:leadership_list' %}">Об айыл окмоту</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Бюджеты для граждан</li>
+        </ol>
+    </nav>
+
+    <h1 class="my-4">Бюджеты для граждан</h1>
     {% if budgets %}
-        <ul>
+        <div class="list-group">
             {% for budget in budgets %}
-                <li>
-                    <a href="{% url 'about:budget_detail' slug=budget.slug %}">{{ budget.title }}</a>
-                    ({{ budget.budget_year }} год)
-                    - Опубликовано: {{ budget.published_date|date:"d M Y" }}
-                    <a href="{{ budget.file.url }}" download>[Скачать]</a>
-                </li>
+                <a href="{% url 'about:budget_detail' slug=budget.slug %}" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">{{ budget.title }}</h5>
+                        <small class="text-muted">{{ budget.budget_year }} год</small>
+                    </div>
+                    <p class="mb-1 text-muted small">Опубликовано: {{ budget.published_date|date:"d M Y" }}</p>
+                    {% if budget.description %}<p class="mb-1">{{ budget.description|truncatechars:100 }}</p>{% endif %}
+                    <small><a href="{{ budget.file.url }}" download>Скачать файл</a></small>
+                </a>
             {% endfor %}
-        </ul>
+        </div>
     {% else %}
-        <p>Бюджетов пока нет.</p>
+        <p class="lead">Бюджетов пока нет.</p>
     {% endif %}
-    <p><a href="/">На главную</a></p>
-</body>
-</html>
+{% endblock %}

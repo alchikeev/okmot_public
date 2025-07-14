@@ -1,25 +1,33 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ department.name }}</title>
-    <style>body { font-family: sans-serif; margin: 20px; }</style>
-</head>
-<body>
-    <h1>{{ department.name }}</h1>
-    {% if department.head %}
-        <p><strong>Руководитель:</strong> <a href="{% url 'about:person_detail' pk=department.head.pk %}">{{ department.head.full_name }}</a> ({{ department.head.position }})</p>
-    {% endif %}
-    {% if department.phone %}<p><strong>Телефон:</strong> {{ department.phone }}</p>{% endif %}
-    {% if department.email %}<p><strong>Email:</strong> {{ department.email }}</p>{% endif %}
+{% extends 'base.html' %}
+
+{% block title %}{{ department.name }} - Об айыл окмоту{% endblock %}
+
+{% block content %}
+    <nav aria-label="breadcrumb" class="my-3">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">Главная</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'about:leadership_list' %}">Об айыл окмоту</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'about:department_list' %}">Отделы</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{{ department.name }}</li>
+        </ol>
+    </nav>
+
+    <h1 class="my-4">{{ department.name }}</h1>
+    <ul class="list-group list-group-flush mb-4">
+        {% if department.head %}
+            <li class="list-group-item"><strong>Руководитель:</strong> <a href="{% url 'about:person_detail' pk=department.head.pk %}">{{ department.head.full_name }}</a> ({{ department.head.position }})</li>
+        {% endif %}
+        {% if department.phone %}<li class="list-group-item"><strong>Телефон:</strong> {{ department.phone }}</li>{% endif %}
+        {% if department.email %}<li class="list-group-item"><strong>Email:</strong> {{ department.email }}</li>{% endif %}
+    </ul>
 
     {% if department.description %}
         <h2>Описание деятельности</h2>
-        <p>{{ department.description|linebreaksbr }}</p>
+        <p class="lead">{{ department.description|linebreaksbr }}</p>
     {% endif %}
 
-    <p><a href="{% url 'about:department_list' %}">К списку отделов</a></p>
-    <p><a href="/">На главную</a></p>
-</body>
-</html>
+    <div class="mt-4">
+        <a href="{% url 'about:department_list' %}" class="btn btn-outline-primary me-2">К списку отделов</a>
+        <a href="{% url 'main:home' %}" class="btn btn-outline-secondary">На главную</a>
+    </div>
+{% endblock %}

@@ -1,68 +1,9 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Главная страница айыл окмоту</title>
-    <style>
-        body { font-family: sans-serif; margin: 20px; }
-        .news-preview, .document-preview { border: 1px solid #eee; padding: 10px; margin-bottom: 10px; }
-        .news-preview h3 a, .document-preview h3 a { text-decoration: none; color: #333; } /* Исправлено h2 на h3 для соответствия шаблону */
-        .news-preview p, .document-preview p { font-size: 0.9em; color: #666; }
-        .news-preview img { max-width: 100%; height: auto; display: block; margin-top: 10px; }
-        .document-preview .download-link { display: inline-block; margin-top: 5px; padding: 5px 10px; background-color: #007bff; color: white; text-decoration: none; border-radius: 3px; font-size: 0.8em;}
-        .document-preview .download-link:hover { background-color: #0056b3; }
-        .appeal-section { margin-top: 30px; padding: 20px; background-color: #f0f8ff; border: 1px solid #e0f0ff; border-radius: 8px; text-align: center;}
-        .appeal-section h2 { color: #0056b3; }
-        .appeal-section a {
-            display: inline-block;
-            margin-top: 15px;
-            padding: 12px 25px;
-            background-color: #28a745;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 1.1em;
-        }
-        .appeal-section a:hover { background-color: #218838; }
-        .head-section {
-            margin-bottom: 30px;
-            padding: 20px;
-            background-color: #e6f7ff;
-            border: 1px solid #cceeff;
-            border-radius: 8px;
-            display: flex;
-            align-items: center;
-        }
-        .head-section img {
-            width: 120px;
-            height: 120px;
-            object-fit: cover;
-            border-radius: 50%;
-            margin-right: 20px;
-            border: 2px solid #007bff;
-        }
-        .head-info h2 { margin: 0 0 5px 0; color: #0056b3; }
-        .head-info h3 { margin: 0 0 5px 0; color: #333; } /* Добавлен стиль для h3 в head-info */
-        .head-info p { margin: 0 0 3px 0; font-size: 0.95em; color: #333; }
-        .main-content { /* Добавлен новый класс для основного контента */
-            margin-top: 20px; /* Отступ от шапки */
-        }
-        .section-nav { /* Новый класс для навигации по разделам */
-            margin-top: 40px; 
-            padding: 20px; 
-            background-color: #f9f9f9; 
-            border-radius: 8px;
-        }
-        .section-nav h2 { margin-top: 0; }
-        .section-nav ul { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; }
-        .section-nav ul li { margin-right: 20px; margin-bottom: 10px; } /* Располагаем ссылки в строку */
-        .section-nav ul li a { text-decoration: none; color: #007bff; font-weight: bold; }
-        .section-nav ul li a:hover { text-decoration: underline; }
-    </style>
-</head>
-<body>
-    {# Блок с информацией о Главе айыл окмоту - перемещен вверх #}
+{% extends 'base.html' %} {# Указываем, что этот шаблон наследуется от base.html #}
+
+{% block title %}Главная страница - Айыл Окмоту{% endblock %} {# Переопределяем заголовок #}
+
+{% block content %} {# Весь контент этой страницы идет внутрь блока content #}
+
     {% if head_of_okmot %}
     <div class="head-section">
         {% if head_of_okmot.photo %}
@@ -79,54 +20,65 @@
     </div>
     {% endif %}
 
-    <h1>Добро пожаловать на сайт айыл окмоту!</h1>
+    <h1 class="my-4">Добро пожаловать на сайт айыл окмоту!</h1> {# Добавлены Bootstrap классы для отступов #}
     <p>Это базовая главная страница.</p>
 
-    {# Новый блок для основного контента #}
-    <div class="main-content">
+    <div class="main-content"> {# Оставляем этот блок для оформления контента главной страницы #}
 
-        <h2>Последние новости</h2>
+        <h2 class="mb-3">Последние новости</h2>
         {% if latest_news %}
+            <div class="row"> {# Используем сетку Bootstrap для колонок #}
             {% for news in latest_news %}
-                <div class="news-preview">
-                    <h3><a href="{% url 'news:detail' slug=news.slug %}">{{ news.title }}</a></h3>
-                    <p>Опубликовано: {{ news.published_date|date:"d M Y H:i" }}</p>
-                    {% if news.image %}
-                        <img src="{{ news.image.url }}" alt="{{ news.title }}">
-                    {% endif %}
-                    <p>{{ news.content|truncatechars:100 }} <a href="{% url 'news:detail' slug=news.slug %}">Читать далее</a></p>
+                <div class="col-md-4 mb-4"> {# 3 колонки на средних экранах и выше, отступ снизу #}
+                    <div class="card h-100"> {# Карточка Bootstrap #}
+                        {% if news.image %}
+                            <img src="{{ news.image.url }}" class="card-img-top" alt="{{ news.title }}" style="height: 180px; object-fit: cover;">
+                        {% endif %}
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="{% url 'news:detail' slug=news.slug %}">{{ news.title }}</a></h5>
+                            <p class="card-text text-muted small">Опубликовано: {{ news.published_date|date:"d M Y H:i" }}</p>
+                            <p class="card-text">{{ news.content|truncatechars:100 }}</p>
+                            <a href="{% url 'news:detail' slug=news.slug %}" class="btn btn-primary btn-sm">Читать далее</a>
+                        </div>
+                    </div>
                 </div>
             {% endfor %}
-            <p><a href="{% url 'news:list' %}">Показать все новости</a></p>
+            </div>
+            <p><a href="{% url 'news:list' %}" class="btn btn-outline-primary mt-3">Показать все новости</a></p> {# Добавлен класс btn-outline-primary #}
         {% else %}
             <p>Новостей пока нет.</p>
         {% endif %}
 
-        <h2 style="margin-top: 30px;">Последние документы</h2>
+        <h2 class="mt-5 mb-3">Последние документы</h2> {# Использование Bootstrap классов для отступов #}
         {% if latest_documents %}
+            <div class="row">
             {% for doc in latest_documents %}
-                <div class="document-preview">
-                    <h3><a href="{% url 'documents:detail' slug=doc.slug %}">{{ doc.title }}</a></h3>
-                    <p>Опубликовано: {{ doc.published_date|date:"d M Y H:i" }}</p>
-                    {% if doc.description %}
-                        <p>{{ doc.description|truncatechars:100 }}</p>
-                    {% endif %}
-                    <a href="{{ doc.file.url }}" class="download-link" download>Скачать</a>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="{% url 'documents:detail' slug=doc.slug %}">{{ doc.title }}</a></h5>
+                            <p class="card-text text-muted small">Опубликовано: {{ doc.published_date|date:"d M Y H:i" }}</p>
+                            {% if doc.description %}
+                                <p class="card-text">{{ doc.description|truncatechars:100 }}</p>
+                            {% endif %}
+                            <a href="{{ doc.file.url }}" class="btn btn-primary btn-sm" download>Скачать</a>
+                        </div>
+                    </div>
                 </div>
             {% endfor %}
-            <p><a href="{% url 'documents:list' %}">Показать все документы</a></p>
+            </div>
+            <p><a href="{% url 'documents:list' %}" class="btn btn-outline-primary mt-3">Показать все документы</a></p>
         {% else %}
             <p>Документов пока нет.</p>
         {% endif %}
 
-        <div class="appeal-section">
+        <div class="appeal-section mt-5">
             <h2>Электронное обращение граждан</h2>
             <p>Есть вопрос или предложение? Отправьте нам электронное обращение.</p>
-            <a href="{% url 'appeals:submit' %}">Отправить обращение</a>
+            <a href="{% url 'appeals:submit' %}" class="btn btn-success btn-lg">Отправить обращение</a>
         </div>
 
-        {# Блок с навигацией по разделам "Об айыл окмоту" - перемещен вниз #}
-        <div class="section-nav">
+        <div class="section-nav mt-5">
             <h2>Разделы "Об айыл окмоту"</h2>
             <ul>
                 <li><a href="{% url 'about:page_list' %}">Информационные страницы</a></li>
@@ -139,5 +91,4 @@
 
     </div> {# Конец блока main-content #}
 
-</body>
-</html>
+{% endblock %}

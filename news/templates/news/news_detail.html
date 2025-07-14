@@ -1,29 +1,31 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ news_item.title }}</title>
-    <style>
-        body { font-family: sans-serif; margin: 20px; }
-        .news-detail-content img { max-width: 100%; height: auto; display: block; margin: 20px 0; }
-    </style>
-</head>
-<body>
-    <h1>{{ news_item.title }}</h1>
-    <p>Опубликовано: {{ news_item.published_date|date:"d M Y H:i" }}</p>
+{% extends 'base.html' %}
+
+{% block title %}{{ news_item.title }} - Новости{% endblock %}
+
+{% block content %}
+    <nav aria-label="breadcrumb" class="my-3"> {# Хлебные крошки #}
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">Главная</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'news:list' %}">Новости</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{{ news_item.title|truncatechars:50 }}</li>
+        </ol>
+    </nav>
+
+    <h1 class="my-4">{{ news_item.title }}</h1>
+    <p class="text-muted small">Опубликовано: {{ news_item.published_date|date:"d M Y H:i" }}</p>
 
     {% if news_item.image %}
-        <div class="news-detail-image">
-            <img src="{{ news_item.image.url }}" alt="{{ news_item.title }}">
+        <div class="news-detail-image text-center my-4">
+            <img src="{{ news_item.image.url }}" class="img-fluid rounded" alt="{{ news_item.title }}" style="max-height: 450px; object-fit: cover;">
         </div>
     {% endif %}
 
-    <div class="news-detail-content">
-        <p>{{ news_item.content|linebreaksbr }}</p>
+    <div class="news-detail-content lead"> {# Класс lead для более крупного текста #}
+        {{ news_item.content|linebreaksbr }}
     </div>
 
-    <p><a href="{% url 'news:list' %}">К списку новостей</a></p>
-    <p><a href="/">На главную</a></p>
-</body>
-</html>
+    <div class="mt-4">
+        <a href="{% url 'news:list' %}" class="btn btn-outline-primary me-2">К списку новостей</a>
+        <a href="{% url 'main:home' %}" class="btn btn-outline-secondary">На главную</a>
+    </div>
+{% endblock %}

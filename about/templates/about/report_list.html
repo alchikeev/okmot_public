@@ -1,27 +1,32 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Отчеты</title>
-    <style>body { font-family: sans-serif; margin: 20px; }</style>
-</head>
-<body>
-    <h1>Отчеты айыл окмоту</h1>
+{% extends 'base.html' %}
+
+{% block title %}Отчеты айыл окмоту{% endblock %}
+
+{% block content %}
+    <nav aria-label="breadcrumb" class="my-3">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">Главная</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'about:leadership_list' %}">Об айыл окмоту</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Отчеты</li>
+        </ol>
+    </nav>
+
+    <h1 class="my-4">Отчеты айыл окмоту</h1>
     {% if reports %}
-        <ul>
+        <div class="list-group">
             {% for report in reports %}
-                <li>
-                    <a href="{% url 'about:report_detail' slug=report.slug %}">{{ report.title }}</a>
-                    {% if report.report_year %}({{ report.report_year }} год){% endif %}
-                    - Опубликовано: {{ report.published_date|date:"d M Y" }}
-                    <a href="{{ report.file.url }}" download>[Скачать]</a>
-                </li>
+                <a href="{% url 'about:report_detail' slug=report.slug %}" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">{{ report.title }}</h5>
+                        {% if report.report_year %}<small class="text-muted">{{ report.report_year }} год</small>{% endif %}
+                    </div>
+                    <p class="mb-1 text-muted small">Опубликовано: {{ report.published_date|date:"d M Y" }}</p>
+                    {% if report.description %}<p class="mb-1">{{ report.description|truncatechars:100 }}</p>{% endif %}
+                    <small><a href="{{ report.file.url }}" download>Скачать файл</a></small>
+                </a>
             {% endfor %}
-        </ul>
+        </div>
     {% else %}
-        <p>Отчетов пока нет.</p>
+        <p class="lead">Отчетов пока нет.</p>
     {% endif %}
-    <p><a href="/">На главную</a></p>
-</body>
-</html>
+{% endblock %}

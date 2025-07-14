@@ -1,37 +1,46 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ person.full_name }}</title>
-    <style>
-        body { font-family: sans-serif; margin: 20px; }
-        .person-photo { max-width: 200px; height: auto; border-radius: 50%; display: block; margin-bottom: 20px; }
-        .person-contact p { margin: 5px 0; }
-    </style>
-</head>
-<body>
-    <h1>{{ person.full_name }}</h1>
-    <p><strong>Должность:</strong> {{ person.position }}</p>
-    {% if person.photo %}
-        <img src="{{ person.photo.url }}" alt="{{ person.full_name }}" class="person-photo">
-    {% endif %}
-    {% if person.biography %}
-        <h2>Биография</h2>
-        <p>{{ person.biography|linebreaksbr }}</p>
-    {% endif %}
+{% extends 'base.html' %}
 
-    <h2>Контактная информация</h2>
-    <div class="person-contact">
-        {% if person.phone %}<p><strong>Телефон:</strong> {{ person.phone }}</p>{% endif %}
-        {% if person.email %}<p><strong>Email:</strong> {{ person.email }}</p>{% endif %}
-        {% if person.reception_schedule %}
-            <p><strong>График приема:</strong></p>
-            <p>{{ person.reception_schedule|linebreaksbr }}</p>
-        {% endif %}
+{% block title %}{{ person.full_name }} - Об айыл окмоту{% endblock %}
+
+{% block content %}
+    <nav aria-label="breadcrumb" class="my-3">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{% url 'main:home' %}">Главная</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'about:leadership_list' %}">Руководство и сотрудники</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{{ person.full_name }}</li>
+        </ol>
+    </nav>
+
+    <div class="row my-4">
+        <div class="col-md-4 text-center">
+            {% if person.photo %}
+                <img src="{{ person.photo.url }}" class="img-fluid rounded-circle shadow-sm" alt="{{ person.full_name }}" style="width: 250px; height: 250px; object-fit: cover;">
+            {% else %}
+                {# Заглушка, если нет фото #}
+                <img src="https://via.placeholder.com/250x250?text=Нет+фото" class="img-fluid rounded-circle shadow-sm" alt="Нет фото" style="width: 250px; height: 250px; object-fit: cover;">
+            {% endif %}
+            <h3 class="mt-3">{{ person.full_name }}</h3>
+            <p class="text-muted">{{ person.position }}</p>
+        </div>
+        <div class="col-md-8">
+            {% if person.biography %}
+                <h2 class="mt-3 mt-md-0">Биография</h2>
+                <p class="lead">{{ person.biography|linebreaksbr }}</p>
+            {% endif %}
+
+            <h2 class="mt-4">Контактная информация</h2>
+            <ul class="list-group list-group-flush">
+                {% if person.phone %}<li class="list-group-item"><strong>Телефон:</strong> {{ person.phone }}</li>{% endif %}
+                {% if person.email %}<li class="list-group-item"><strong>Email:</strong> {{ person.email }}</li>{% endif %}
+                {% if person.reception_schedule %}
+                    <li class="list-group-item"><strong>График приема:</strong><br>{{ person.reception_schedule|linebreaksbr }}</li>
+                {% endif %}
+            </ul>
+        </div>
     </div>
 
-    <p><a href="{% url 'about:leadership_list' %}">К списку руководства</a></p>
-    <p><a href="/">На главную</a></p>
-</body>
-</html>
+    <div class="mt-4">
+        <a href="{% url 'about:leadership_list' %}" class="btn btn-outline-primary me-2">К списку руководства</a>
+        <a href="{% url 'main:home' %}" class="btn btn-outline-secondary">На главную</a>
+    </div>
+{% endblock %}
