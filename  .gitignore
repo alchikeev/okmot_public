@@ -1,0 +1,22 @@
+# Virtual environment
+/venv/
+
+# Byte-code files
+*.pyc
+__pycache__/
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Django-specific files
+db.sqlite3
+/media/
+/static/
+
+# Local settings
+config/local_settings.py
+
+# OS generated files
+.DS_Store
+.env
