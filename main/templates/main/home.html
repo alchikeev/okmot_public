@@ -4,9 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная страница айыл окмоту</title>
+    <style>
+        body { font-family: sans-serif; margin: 20px; }
+        .news-preview, .document-preview { border: 1px solid #eee; padding: 10px; margin-bottom: 10px; }
+        .news-preview h2 a, .document-preview h2 a { text-decoration: none; color: #333; }
+        .news-preview p, .document-preview p { font-size: 0.9em; color: #666; }
+        .news-preview img { max-width: 100%; height: auto; display: block; margin-top: 10px; }
+        .document-preview .download-link { display: inline-block; margin-top: 5px; padding: 5px 10px; background-color: #007bff; color: white; text-decoration: none; border-radius: 3px; font-size: 0.8em;}
+        .document-preview .download-link:hover { background-color: #0056b3; }
+        .appeal-section { margin-top: 30px; padding: 20px; background-color: #f0f8ff; border: 1px solid #e0f0ff; border-radius: 8px; text-align: center;}
+        .appeal-section h2 { color: #0056b3; }
+        .appeal-section a {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 25px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+        }
+        .appeal-section a:hover { background-color: #218838; }
+    </style>
 </head>
 <body>
     <h1>Добро пожаловать на сайт айыл окмоту!</h1>
     <p>Это базовая главная страница.</p>
+
+    <h2>Последние новости</h2>
+    {% if latest_news %}
+        {% for news in latest_news %}
+            <div class="news-preview">
+                <h3><a href="{% url 'news:detail' slug=news.slug %}">{{ news.title }}</a></h3>
+                <p>Опубликовано: {{ news.published_date|date:"d M Y H:i" }}</p>
+                {% if news.image %}
+                    <img src="{{ news.image.url }}" alt="{{ news.title }}">
+                {% endif %}
+                <p>{{ news.content|truncatechars:100 }} <a href="{% url 'news:detail' slug=news.slug %}">Читать далее</a></p>
+            </div>
+        {% endfor %}
+        <p><a href="{% url 'news:list' %}">Показать все новости</a></p>
+    {% else %}
+        <p>Новостей пока нет.</p>
+    {% endif %}
+
+    <h2 style="margin-top: 30px;">Последние документы</h2> {# Добавлен небольшой отступ #}
+    {% if latest_documents %}
+        {% for doc in latest_documents %}
+            <div class="document-preview">
+                <h3><a href="{% url 'documents:detail' slug=doc.slug %}">{{ doc.title }}</a></h3>
+                <p>Опубликовано: {{ doc.published_date|date:"d M Y H:i" }}</p>
+                {% if doc.description %}
+                    <p>{{ doc.description|truncatechars:100 }}</p>
+                {% endif %}
+                <a href="{{ doc.file.url }}" class="download-link" download>Скачать</a>
+            </div>
+        {% endfor %}
+        <p><a href="{% url 'documents:list' %}">Показать все документы</a></p>
+    {% else %}
+        <p>Документов пока нет.</p>
+    {% endif %}
+
+    <div class="appeal-section">
+        <h2>Электронное обращение граждан</h2>
+        <p>Есть вопрос или предложение? Отправьте нам электронное обращение.</p>
+        <a href="{% url 'appeals:submit' %}">Отправить обращение</a>
+    </div>
+
 </body>
 </html>

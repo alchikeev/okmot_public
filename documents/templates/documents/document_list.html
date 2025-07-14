@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Документы айыл окмоту</title>
+    <style>
+        body { font-family: sans-serif; margin: 20px; }
+        .document-item { border-bottom: 1px solid #eee; padding-bottom: 15px; margin-bottom: 15px; }
+        .document-item h2 a { text-decoration: none; color: #333; }
+        .document-item p { font-size: 0.9em; color: #666; }
+        .document-item .download-link { display: inline-block; margin-top: 10px; padding: 8px 15px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px; }
+        .document-item .download-link:hover { background-color: #0056b3; }
+    </style>
+</head>
+<body>
+    <h1>Официальные документы</h1>
+
+    {% if documents %}
+        {% for doc in documents %}
+            <div class="document-item">
+                <h2><a href="{% url 'documents:detail' slug=doc.slug %}">{{ doc.title }}</a></h2>
+                <p>Опубликовано: {{ doc.published_date|date:"d M Y H:i" }}</p>
+                {% if doc.description %}
+                    <p>{{ doc.description|truncatechars:200 }}</p>
+                {% endif %}
+                <a href="{{ doc.file.url }}" class="download-link" download>Скачать документ</a>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>Документов пока нет.</p>
+    {% endif %}
+
+    <p><a href="/">На главную</a></p>
+</body>
+</html>

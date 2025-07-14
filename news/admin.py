@@ -9,13 +9,14 @@ class NewsAdmin(admin.ModelAdmin):
     search_fields = ('title', 'content')
     prepopulated_fields = {'slug': ('title',)} # Автоматически заполняет slug на основе заголовка
     date_hierarchy = 'published_date' # Иерархия по дате для удобной навигации
-    # Добавляем поле для загрузки изображений в админке
+
+    # ИЗМЕНЕНИЕ ЗДЕСЬ: Убираем 'published_date' и 'updated_date' из 'fieldsets'
     fieldsets = (
         (None, {
             'fields': ('title', 'slug', 'content', 'image', 'is_published')
         }),
-        ('Даты', {
-            'fields': ('published_date', 'updated_date'),
-            'classes': ('collapse',), # Можно свернуть этот блок
-        }),
+        # Блок "Даты" можно убрать совсем, или оставить пустым, если он не нужен для других полей
+        # (Если хотите отображать их только для информации, не для редактирования, Django сам это сделает)
+        # Если вы хотите, чтобы эти поля (published_date, updated_date) просто отображались в форме без возможности редактирования
+        # то их нужно убрать из fieldsets. Django админка сама покажет их в просмотре/редактировании как нередактируемые.
     )

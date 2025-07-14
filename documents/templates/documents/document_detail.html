@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ document.title }}</title>
+    <style>
+        body { font-family: sans-serif; margin: 20px; }
+        .document-detail-content { margin-top: 20px; }
+        .download-link { display: inline-block; margin-top: 20px; padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px; font-size: 1.1em; }
+        .download-link:hover { background-color: #0056b3; }
+    </style>
+</head>
+<body>
+    <h1>{{ document.title }}</h1>
+    <p>Опубликовано: {{ document.published_date|date:"d M Y H:i" }}</p>
+
+    {% if document.description %}
+        <div class="document-detail-content">
+            <p>{{ document.description|linebreaksbr }}</p>
+        </div>
+    {% endif %}
+
+    <a href="{{ document.file.url }}" class="download-link" download>Скачать документ</a>
+
+    <p><a href="{% url 'documents:list' %}">К списку документов</a></p>
+    <p><a href="/">На главную</a></p>
+</body>
+</html>

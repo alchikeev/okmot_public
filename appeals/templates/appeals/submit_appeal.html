@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Электронное обращение</title>
+    <style>
+        body { font-family: sans-serif; margin: 20px; }
+        form div { margin-bottom: 10px; }
+        label { display: block; margin-bottom: 5px; font-weight: bold; }
+        input[type="text"], input[type="email"], textarea, input[type="file"] {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        textarea { resize: vertical; }
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover { background-color: #218838; }
+        .errorlist { color: red; list-style: none; padding: 0; margin: 0; }
+        .message { padding: 10px; margin-bottom: 15px; border-radius: 5px; }
+        .message.success { background-color: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
+        .message.error { background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
+    </style>
+</head>
+<body>
+    <h1>Электронное обращение граждан</h1>
+    <p>Пожалуйста, заполните форму для отправки обращения в айыл окмоту.</p>
+
+    {% if messages %}
+        <ul class="messages">
+            {% for message in messages %}
+                <li{% if message.tags %} class="message {{ message.tags }}"{% endif %}>{{ message }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+    <form method="post" enctype="multipart/form-data"> {# enctype="multipart/form-data" ОБЯЗАТЕЛЕН для загрузки файлов #}
+        {% csrf_token %} {# Важно для безопасности Django #}
+
+        {{ form.as_p }} {# Выводит форму в виде параграфов #}
+
+        <input type="submit" value="Отправить обращение">
+    </form>
+
+    <p><a href="/">На главную</a></p>
+</body>
+</html>
