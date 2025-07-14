@@ -21,6 +21,7 @@ INSTALLED_APPS = [
     'documents',
     'appeals',
     'about',
+    'council',
 ]
 
 MIDDLEWARE = [

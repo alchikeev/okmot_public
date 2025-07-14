@@ -11,6 +11,7 @@ urlpatterns = [
     path('documents/', include('documents.urls')),
     path('appeals/', include('appeals.urls')),
     path('about/', include('about.urls')),
+    path('council/', include('council.urls')),
 ]
 
 if settings.DEBUG:
