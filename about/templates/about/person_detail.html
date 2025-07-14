@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ person.full_name }}</title>
+    <style>
+        body { font-family: sans-serif; margin: 20px; }
+        .person-photo { max-width: 200px; height: auto; border-radius: 50%; display: block; margin-bottom: 20px; }
+        .person-contact p { margin: 5px 0; }
+    </style>
+</head>
+<body>
+    <h1>{{ person.full_name }}</h1>
+    <p><strong>Должность:</strong> {{ person.position }}</p>
+    {% if person.photo %}
+        <img src="{{ person.photo.url }}" alt="{{ person.full_name }}" class="person-photo">
+    {% endif %}
+    {% if person.biography %}
+        <h2>Биография</h2>
+        <p>{{ person.biography|linebreaksbr }}</p>
+    {% endif %}
+
+    <h2>Контактная информация</h2>
+    <div class="person-contact">
+        {% if person.phone %}<p><strong>Телефон:</strong> {{ person.phone }}</p>{% endif %}
+        {% if person.email %}<p><strong>Email:</strong> {{ person.email }}</p>{% endif %}
+        {% if person.reception_schedule %}
+            <p><strong>График приема:</strong></p>
+            <p>{{ person.reception_schedule|linebreaksbr }}</p>
+        {% endif %}
+    </div>
+
+    <p><a href="{% url 'about:leadership_list' %}">К списку руководства</a></p>
+    <p><a href="/">На главную</a></p>
+</body>
+</html>

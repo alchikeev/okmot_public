@@ -10,6 +10,7 @@ urlpatterns = [
     path('news/', include('news.urls')),
     path('documents/', include('documents.urls')),
     path('appeals/', include('appeals.urls')),
+    path('about/', include('about.urls')),
 ]
 
 if settings.DEBUG:

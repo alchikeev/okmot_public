@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отчеты</title>
+    <style>body { font-family: sans-serif; margin: 20px; }</style>
+</head>
+<body>
+    <h1>Отчеты айыл окмоту</h1>
+    {% if reports %}
+        <ul>
+            {% for report in reports %}
+                <li>
+                    <a href="{% url 'about:report_detail' slug=report.slug %}">{{ report.title }}</a>
+                    {% if report.report_year %}({{ report.report_year }} год){% endif %}
+                    - Опубликовано: {{ report.published_date|date:"d M Y" }}
+                    <a href="{{ report.file.url }}" download>[Скачать]</a>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>Отчетов пока нет.</p>
+    {% endif %}
+    <p><a href="/">На главную</a></p>
+</body>
+</html>

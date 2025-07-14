@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Руководство и сотрудники</title>
+    <style>
+        body { font-family: sans-serif; margin: 20px; }
+        .person-item { border-bottom: 1px solid #eee; padding-bottom: 15px; margin-bottom: 15px; display: flex; align-items: center; }
+        .person-item img { width: 100px; height: 100px; object-fit: cover; border-radius: 50%; margin-right: 20px; }
+        .person-info h3 { margin: 0 0 5px 0; }
+        .person-info p { margin: 0; font-size: 0.9em; color: #555; }
+    </style>
+</head>
+<body>
+    <h1>Руководство айыл окмоту</h1>
+    {% if leaders %}
+        {% for person in leaders %}
+            <div class="person-item">
+                {% if person.photo %}
+                    <img src="{{ person.photo.url }}" alt="{{ person.full_name }}">
+                {% endif %}
+                <div class="person-info">
+                    <h3><a href="{% url 'about:person_detail' pk=person.pk %}">{{ person.full_name }}</a></h3>
+                    <p>{{ person.position }}</p>
+                    {% if person.phone %}<p>Телефон: {{ person.phone }}</p>{% endif %}
+                    {% if person.email %}<p>Email: {{ person.email }}</p>{% endif %}
+                </div>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>Информация о руководстве пока недоступна.</p>
+    {% endif %}
+
+    <h2 style="margin-top: 30px;">Сотрудники</h2>
+    {% if other_staff %}
+        {% for person in other_staff %}
+            <div class="person-item">
+                {% if person.photo %}
+                    <img src="{{ person.photo.url }}" alt="{{ person.full_name }}">
+                {% endif %}
+                <div class="person-info">
+                    <h3><a href="{% url 'about:person_detail' pk=person.pk %}">{{ person.full_name }}</a></h3>
+                    <p>{{ person.position }}</p>
+                    {% if person.phone %}<p>Телефон: {{ person.phone }}</p>{% endif %}
+                    {% if person.email %}<p>Email: {{ person.email }}</p>{% endif %}
+                </div>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>Информация о сотрудниках пока недоступна.</p>
+    {% endif %}
+
+    <p><a href="/">На главную</a></p>
+</body>
+</html>

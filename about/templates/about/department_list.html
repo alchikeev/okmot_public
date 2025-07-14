@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отделы айыл окмоту</title>
+    <style>
+        body { font-family: sans-serif; margin: 20px; }
+        .department-item { border-bottom: 1px solid #eee; padding-bottom: 15px; margin-bottom: 15px; }
+        .department-item h2 { margin-bottom: 5px; }
+        .department-item p { margin: 0; font-size: 0.9em; color: #555; }
+    </style>
+</head>
+<body>
+    <h1>Отделы айыл окмоту</h1>
+    {% if departments %}
+        <ul>
+            {% for department in departments %}
+                <div class="department-item">
+                    <h2><a href="{% url 'about:department_detail' pk=department.pk %}">{{ department.name }}</a></h2>
+                    {% if department.head %}
+                        <p>Руководитель: <a href="{% url 'about:person_detail' pk=department.head.pk %}">{{ department.head.full_name }}</a></p>
+                    {% endif %}
+                    {% if department.phone %}<p>Телефон: {{ department.phone }}</p>{% endif %}
+                    {% if department.email %}<p>Email: {{ department.email }}</p>{% endif %}
+                    {% if department.description %}
+                        <p>{{ department.description|truncatechars:150 }}</p>
+                    {% endif %}
+                </div>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>Информация об отделах пока недоступна.</p>
+    {% endif %}
+    <p><a href="/">На главную</a></p>
+</body>
+</html>

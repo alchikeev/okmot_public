@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ report.title }}</title>
+    <style>body { font-family: sans-serif; margin: 20px; }</style>
+</head>
+<body>
+    <h1>{{ report.title }}</h1>
+    {% if report.report_year %}<p><strong>Год отчета:</strong> {{ report.report_year }}</p>{% endif %}
+    <p>Опубликовано: {{ report.published_date|date:"d M Y H:i" }}</p>
+    {% if report.description %}
+        <h2>Описание</h2>
+        <p>{{ report.description|linebreaksbr }}</p>
+    {% endif %}
+    <p><a href="{{ report.file.url }}" class="download-link" download>Скачать полный отчет</a></p>
+    <p><a href="{% url 'about:report_list' %}">К списку отчетов</a></p>
+    <p><a href="/">На главную</a></p>
+</body>
+</html>

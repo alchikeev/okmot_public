@@ -7,7 +7,7 @@
     <style>
         body { font-family: sans-serif; margin: 20px; }
         .news-preview, .document-preview { border: 1px solid #eee; padding: 10px; margin-bottom: 10px; }
-        .news-preview h2 a, .document-preview h2 a { text-decoration: none; color: #333; }
+        .news-preview h3 a, .document-preview h3 a { text-decoration: none; color: #333; } /* Исправлено h2 на h3 для соответствия шаблону */
         .news-preview p, .document-preview p { font-size: 0.9em; color: #666; }
         .news-preview img { max-width: 100%; height: auto; display: block; margin-top: 10px; }
         .document-preview .download-link { display: inline-block; margin-top: 5px; padding: 5px 10px; background-color: #007bff; color: white; text-decoration: none; border-radius: 3px; font-size: 0.8em;}
@@ -25,51 +25,119 @@
             font-size: 1.1em;
         }
         .appeal-section a:hover { background-color: #218838; }
+        .head-section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #e6f7ff;
+            border: 1px solid #cceeff;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+        }
+        .head-section img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-right: 20px;
+            border: 2px solid #007bff;
+        }
+        .head-info h2 { margin: 0 0 5px 0; color: #0056b3; }
+        .head-info h3 { margin: 0 0 5px 0; color: #333; } /* Добавлен стиль для h3 в head-info */
+        .head-info p { margin: 0 0 3px 0; font-size: 0.95em; color: #333; }
+        .main-content { /* Добавлен новый класс для основного контента */
+            margin-top: 20px; /* Отступ от шапки */
+        }
+        .section-nav { /* Новый класс для навигации по разделам */
+            margin-top: 40px; 
+            padding: 20px; 
+            background-color: #f9f9f9; 
+            border-radius: 8px;
+        }
+        .section-nav h2 { margin-top: 0; }
+        .section-nav ul { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; }
+        .section-nav ul li { margin-right: 20px; margin-bottom: 10px; } /* Располагаем ссылки в строку */
+        .section-nav ul li a { text-decoration: none; color: #007bff; font-weight: bold; }
+        .section-nav ul li a:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
+    {# Блок с информацией о Главе айыл окмоту - перемещен вверх #}
+    {% if head_of_okmot %}
+    <div class="head-section">
+        {% if head_of_okmot.photo %}
+            <img src="{{ head_of_okmot.photo.url }}" alt="{{ head_of_okmot.full_name }}">
+        {% endif %}
+        <div class="head-info">
+            <h2>Глава айыл окмоту</h2>
+            <h3><a href="{% url 'about:person_detail' pk=head_of_okmot.pk %}">{{ head_of_okmot.full_name }}</a></h3>
+            <p><strong>Должность:</strong> {{ head_of_okmot.position }}</p>
+            {% if head_of_okmot.phone %}<p>Телефон: {{ head_of_okmot.phone }}</p>{% endif %}
+            {% if head_of_okmot.email %}<p>Email: {{ head_of_okmot.email }}</p>{% endif %}
+            <p><a href="{% url 'about:leadership_list' %}">Все руководство</a></p>
+        </div>
+    </div>
+    {% endif %}
+
     <h1>Добро пожаловать на сайт айыл окмоту!</h1>
     <p>Это базовая главная страница.</p>
 
-    <h2>Последние новости</h2>
-    {% if latest_news %}
-        {% for news in latest_news %}
-            <div class="news-preview">
-                <h3><a href="{% url 'news:detail' slug=news.slug %}">{{ news.title }}</a></h3>
-                <p>Опубликовано: {{ news.published_date|date:"d M Y H:i" }}</p>
-                {% if news.image %}
-                    <img src="{{ news.image.url }}" alt="{{ news.title }}">
-                {% endif %}
-                <p>{{ news.content|truncatechars:100 }} <a href="{% url 'news:detail' slug=news.slug %}">Читать далее</a></p>
-            </div>
-        {% endfor %}
-        <p><a href="{% url 'news:list' %}">Показать все новости</a></p>
-    {% else %}
-        <p>Новостей пока нет.</p>
-    {% endif %}
+    {# Новый блок для основного контента #}
+    <div class="main-content">
 
-    <h2 style="margin-top: 30px;">Последние документы</h2> {# Добавлен небольшой отступ #}
-    {% if latest_documents %}
-        {% for doc in latest_documents %}
-            <div class="document-preview">
-                <h3><a href="{% url 'documents:detail' slug=doc.slug %}">{{ doc.title }}</a></h3>
-                <p>Опубликовано: {{ doc.published_date|date:"d M Y H:i" }}</p>
-                {% if doc.description %}
-                    <p>{{ doc.description|truncatechars:100 }}</p>
-                {% endif %}
-                <a href="{{ doc.file.url }}" class="download-link" download>Скачать</a>
-            </div>
-        {% endfor %}
-        <p><a href="{% url 'documents:list' %}">Показать все документы</a></p>
-    {% else %}
-        <p>Документов пока нет.</p>
-    {% endif %}
+        <h2>Последние новости</h2>
+        {% if latest_news %}
+            {% for news in latest_news %}
+                <div class="news-preview">
+                    <h3><a href="{% url 'news:detail' slug=news.slug %}">{{ news.title }}</a></h3>
+                    <p>Опубликовано: {{ news.published_date|date:"d M Y H:i" }}</p>
+                    {% if news.image %}
+                        <img src="{{ news.image.url }}" alt="{{ news.title }}">
+                    {% endif %}
+                    <p>{{ news.content|truncatechars:100 }} <a href="{% url 'news:detail' slug=news.slug %}">Читать далее</a></p>
+                </div>
+            {% endfor %}
+            <p><a href="{% url 'news:list' %}">Показать все новости</a></p>
+        {% else %}
+            <p>Новостей пока нет.</p>
+        {% endif %}
 
-    <div class="appeal-section">
-        <h2>Электронное обращение граждан</h2>
-        <p>Есть вопрос или предложение? Отправьте нам электронное обращение.</p>
-        <a href="{% url 'appeals:submit' %}">Отправить обращение</a>
-    </div>
+        <h2 style="margin-top: 30px;">Последние документы</h2>
+        {% if latest_documents %}
+            {% for doc in latest_documents %}
+                <div class="document-preview">
+                    <h3><a href="{% url 'documents:detail' slug=doc.slug %}">{{ doc.title }}</a></h3>
+                    <p>Опубликовано: {{ doc.published_date|date:"d M Y H:i" }}</p>
+                    {% if doc.description %}
+                        <p>{{ doc.description|truncatechars:100 }}</p>
+                    {% endif %}
+                    <a href="{{ doc.file.url }}" class="download-link" download>Скачать</a>
+                </div>
+            {% endfor %}
+            <p><a href="{% url 'documents:list' %}">Показать все документы</a></p>
+        {% else %}
+            <p>Документов пока нет.</p>
+        {% endif %}
+
+        <div class="appeal-section">
+            <h2>Электронное обращение граждан</h2>
+            <p>Есть вопрос или предложение? Отправьте нам электронное обращение.</p>
+            <a href="{% url 'appeals:submit' %}">Отправить обращение</a>
+        </div>
+
+        {# Блок с навигацией по разделам "Об айыл окмоту" - перемещен вниз #}
+        <div class="section-nav">
+            <h2>Разделы "Об айыл окмоту"</h2>
+            <ul>
+                <li><a href="{% url 'about:page_list' %}">Информационные страницы</a></li>
+                <li><a href="{% url 'about:leadership_list' %}">Руководство и сотрудники</a></li>
+                <li><a href="{% url 'about:department_list' %}">Отделы</a></li>
+                <li><a href="{% url 'about:report_list' %}">Отчеты</a></li>
+                <li><a href="{% url 'about:budget_list' %}">Бюджеты для граждан</a></li>
+            </ul>
+        </div>
+
+    </div> {# Конец блока main-content #}
 
 </body>
 </html>

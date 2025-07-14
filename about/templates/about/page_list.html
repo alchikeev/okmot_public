@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Информационные страницы</title>
+    <style>body { font-family: sans-serif; margin: 20px; }</style>
+</head>
+<body>
+    <h1>Информационные страницы</h1>
+    {% if pages %}
+        <ul>
+            {% for page in pages %}
+                <li><a href="{% url 'about:page_detail' slug=page.slug %}">{{ page.title }}</a></li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>Информационных страниц пока нет.</p>
+    {% endif %}
+    <p><a href="/">На главную</a></p>
+</body>
+</html>
