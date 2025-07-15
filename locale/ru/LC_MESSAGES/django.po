@@ -8,2035 +8,724 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-14 17:53+0000\n"
+"POT-Creation-Date: 2025-07-15 01:04+0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
-"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: about/templates/about/budget_detail.html:4
+
 msgid "Бюджеты"
-msgstr ""
+msgstr "Бюджеты"
 
-#: about/templates/about/budget_detail.html:9
-#: about/templates/about/budget_list.html:9
-#: about/templates/about/department_detail.html:9
-#: about/templates/about/department_list.html:9
-#: about/templates/about/leadership_list.html:9
-#: about/templates/about/page_detail.html:9
-#: about/templates/about/page_list.html:9
-#: about/templates/about/person_detail.html:9
-#: about/templates/about/report_detail.html:9
-#: about/templates/about/report_list.html:9
-#: appeals/templates/appeals/submit_appeal.html:9
-#: community/templates/community/advertisement_detail.html:9
-#: community/templates/community/advertisement_list.html:9
-#: community/templates/community/blog_detail.html:9
-#: community/templates/community/blog_list.html:9
-#: community/templates/community/submit_content.html:10
-#: council/templates/council/decision_detail.html:9
-#: council/templates/council/decision_list.html:9
-#: council/templates/council/deputy_detail.html:9
-#: council/templates/council/deputy_list.html:9
-#: documents/templates/documents/document_detail.html:9
-#: gallery/templates/gallery/album_detail.html:9
-#: gallery/templates/gallery/album_list.html:9
-#: info/templates/info/landmark_detail.html:9
-#: info/templates/info/landmark_list.html:9
-#: info/templates/info/phone_list.html:9
-#: info/templates/info/static_page_detail.html:9
-#: investors/templates/investors/project_detail.html:9
-#: investors/templates/investors/project_list.html:9
-#: news/templates/news/news_detail.html:9
-#: search/templates/search/search_results.html:9 templates/base.html:91
 msgid "Главная"
-msgstr ""
+msgstr "Главная"
 
-#: about/templates/about/budget_detail.html:10
-#: about/templates/about/budget_list.html:10
-#: about/templates/about/department_detail.html:4
-#: about/templates/about/department_detail.html:10
-#: about/templates/about/department_list.html:10
-#: about/templates/about/page_detail.html:4
-#: about/templates/about/page_detail.html:10
-#: about/templates/about/page_list.html:10
-#: about/templates/about/person_detail.html:4
-#: about/templates/about/report_detail.html:10
-#: about/templates/about/report_list.html:10 templates/base.html:101
 msgid "Об айыл окмоту"
-msgstr ""
+msgstr "Об айыл окмоту"
 
-#: about/templates/about/budget_detail.html:11
-#: about/templates/about/budget_list.html:4
-#: about/templates/about/budget_list.html:11
-#: about/templates/about/budget_list.html:15 main/templates/main/home.html:89
-#: templates/base.html:108
 msgid "Бюджеты для граждан"
-msgstr ""
+msgstr "Бюджеты для граждан"
 
-#: about/templates/about/budget_detail.html:17
 msgid "Год бюджета"
-msgstr ""
+msgstr "Год бюджета"
 
-#: about/templates/about/budget_detail.html:18
-#: about/templates/about/budget_list.html:24
-#: about/templates/about/report_detail.html:18
-#: about/templates/about/report_list.html:24
-#: community/templates/community/advertisement_detail.html:16
-#: community/templates/community/advertisement_list.html:28
-#: community/templates/community/blog_detail.html:18
-#: community/templates/community/blog_list.html:30
-#: council/templates/council/decision_detail.html:20
-#: documents/templates/documents/document_detail.html:16
-#: documents/templates/documents/document_list.html:16
-#: gallery/templates/gallery/album_list.html:27
-#: investors/templates/investors/project_detail.html:16
-#: main/templates/main/home.html:40 main/templates/main/home.html:61
-#: news/templates/news/news_detail.html:16
-#: news/templates/news/news_list.html:19
 msgid "Опубликовано"
-msgstr ""
+msgstr "Опубликовано"
 
-#: about/templates/about/budget_detail.html:20
-#: about/templates/about/report_detail.html:20
 msgid "Описание"
-msgstr ""
+msgstr "Описание"
 
-#: about/templates/about/budget_detail.html:23
 msgid "Скачать полный бюджет"
-msgstr ""
+msgstr "Скачать полный бюджет"
 
-#: about/templates/about/budget_detail.html:26
 msgid "К списку бюджетов"
-msgstr ""
+msgstr "К списку бюджетов"
 
-#: about/templates/about/budget_detail.html:27
-#: about/templates/about/department_detail.html:32
-#: about/templates/about/page_detail.html:24
-#: about/templates/about/person_detail.html:45
-#: about/templates/about/report_detail.html:27
-#: community/templates/community/advertisement_detail.html:41
-#: community/templates/community/blog_detail.html:33
-#: council/templates/council/decision_detail.html:30
-#: council/templates/council/deputy_detail.html:43
-#: documents/templates/documents/document_detail.html:27
-#: gallery/templates/gallery/album_detail.html:35
-#: info/templates/info/landmark_detail.html:33
-#: info/templates/info/static_page_detail.html:21
-#: investors/templates/investors/project_detail.html:57
-#: news/templates/news/news_detail.html:30
 msgid "На главную"
-msgstr ""
+msgstr "На главную"
 
-#: about/templates/about/budget_list.html:22
-#, python-format
 msgid "%(budget.budget_year)s год"
-msgstr ""
+msgstr "%(budget.budget_year)s год"
 
-#: about/templates/about/budget_list.html:26
-#: about/templates/about/report_list.html:26
-#: council/templates/council/decision_list.html:28
 msgid "Скачать файл"
-msgstr ""
+msgstr "Скачать файл"
 
-#: about/templates/about/budget_list.html:31
 msgid "Бюджетов пока нет."
-msgstr ""
+msgstr "Бюджетов пока нет."
 
-#: about/templates/about/department_detail.html:11
-#: about/templates/about/department_list.html:11
-#: main/templates/main/home.html:87 templates/base.html:105
 msgid "Отделы"
-msgstr ""
+msgstr "Отделы"
 
-#: about/templates/about/department_detail.html:19
-#: about/templates/about/department_list.html:23
 msgid "Руководитель"
-msgstr ""
+msgstr "Руководитель"
 
-#: about/templates/about/department_detail.html:21
-#: about/templates/about/department_list.html:29
-#: about/templates/about/leadership_list.html:26
-#: about/templates/about/leadership_list.html:50
-#: about/templates/about/person_detail.html:34
-#: community/templates/community/advertisement_detail.html:34
-#: council/templates/council/deputy_detail.html:35
-#: investors/templates/investors/project_detail.html:51
-#: main/templates/main/home.html:17
 msgid "Телефон"
-msgstr ""
+msgstr "Телефон"
 
-#: about/templates/about/department_detail.html:22
-#: about/templates/about/department_list.html:30
-#: about/templates/about/leadership_list.html:27
-#: about/templates/about/person_detail.html:35
-#: community/templates/community/advertisement_detail.html:35
-#: community/templates/community/advertisement_list.html:35
-#: council/templates/council/deputy_detail.html:36
-#: investors/templates/investors/project_detail.html:50
-#: main/templates/main/home.html:18
 msgid "Email"
-msgstr ""
+msgstr "Электронная почта"
 
-#: about/templates/about/department_detail.html:26
 msgid "Описание деятельности"
-msgstr ""
+msgstr "Описание деятельности"
 
-#: about/templates/about/department_detail.html:31
 msgid "К списку отделов"
-msgstr ""
+msgstr "К списку отделов"
 
-#: about/templates/about/department_list.html:4
-#: about/templates/about/department_list.html:15
 msgid "Отделы айыл окмоту"
-msgstr ""
+msgstr "Отделы айыл окмоту"
 
-#: about/templates/about/department_list.html:35
 msgid "Информация об отделах пока недоступна."
-msgstr ""
+msgstr "Информация об отделах пока недоступна."
 
-#: about/templates/about/leadership_list.html:4
-#: about/templates/about/leadership_list.html:10
-#: about/templates/about/person_detail.html:10 main/templates/main/home.html:86
-#: templates/base.html:104
 msgid "Руководство и сотрудники"
-msgstr ""
+msgstr "Руководство и сотрудники"
 
-#: about/templates/about/leadership_list.html:14
 msgid "Руководство айыл окмоту"
-msgstr ""
+msgstr "Руководство айыл окмоту"
 
-#: about/templates/about/leadership_list.html:28
-#: community/templates/community/advertisement_list.html:37
-#: info/templates/info/landmark_list.html:31
-#: investors/templates/investors/project_list.html:29
 msgid "Подробнее"
-msgstr ""
+msgstr "Подробнее"
 
-#: about/templates/about/leadership_list.html:35
 msgid "Информация о руководстве пока недоступна."
-msgstr ""
+msgstr "Информация о руководстве пока недоступна."
 
-#: about/templates/about/leadership_list.html:38
 msgid "Сотрудники"
-msgstr ""
+msgstr "Сотрудники"
 
-#: about/templates/about/leadership_list.html:57
 msgid "Информация о сотрудниках пока недоступна."
-msgstr ""
+msgstr "Информация о сотрудниках пока недоступна."
 
-#: about/templates/about/page_detail.html:11
-#: about/templates/about/page_list.html:4
-#: about/templates/about/page_list.html:11
-#: about/templates/about/page_list.html:15 main/templates/main/home.html:85
-#: templates/base.html:110
 msgid "Информационные страницы"
-msgstr ""
+msgstr "Информационные страницы"
 
-#: about/templates/about/page_detail.html:20
 msgid "Последнее обновление"
-msgstr ""
+msgstr "Последнее обновление"
 
-#: about/templates/about/page_detail.html:23
 msgid "К списку страниц"
-msgstr ""
+msgstr "К списку страниц"
 
-#: about/templates/about/page_list.html:23
 msgid "Информационных страниц пока нет."
-msgstr ""
+msgstr "Информационных страниц пока нет."
 
-#: about/templates/about/person_detail.html:21
-#: council/templates/council/deputy_detail.html:21
-#: council/templates/council/deputy_list.html:24
 msgid "Нет фото"
-msgstr ""
+msgstr "Нет фото"
 
-#: about/templates/about/person_detail.html:28
-#: council/templates/council/deputy_detail.html:29
 msgid "Биография"
-msgstr ""
+msgstr "Биография"
 
-#: about/templates/about/person_detail.html:32
-#: council/templates/council/deputy_detail.html:33
-#: investors/templates/investors/project_detail.html:46
 msgid "Контактная информация"
-msgstr ""
+msgstr "Контактная информация"
 
-#: about/templates/about/person_detail.html:37
 msgid "График приема"
-msgstr ""
+msgstr "График приема"
 
-#: about/templates/about/person_detail.html:44
 msgid "К списку руководства"
-msgstr ""
+msgstr "К списку руководства"
 
-#: about/templates/about/report_detail.html:4
-#: about/templates/about/report_detail.html:11
-#: about/templates/about/report_list.html:11 main/templates/main/home.html:88
-#: templates/base.html:107
 msgid "Отчеты"
-msgstr ""
+msgstr "Отчеты"
 
-#: about/templates/about/report_detail.html:17
 msgid "Год отчета"
-msgstr ""
+msgstr "Год отчета"
 
-#: about/templates/about/report_detail.html:23
 msgid "Скачать полный отчет"
-msgstr ""
+msgstr "Скачать полный отчет"
 
-#: about/templates/about/report_detail.html:26
 msgid "К списку отчетов"
-msgstr ""
+msgstr "К списку отчетов"
 
-#: about/templates/about/report_list.html:4
-#: about/templates/about/report_list.html:15
 msgid "Отчеты айыл окмоту"
-msgstr ""
+msgstr "Отчеты айыл окмоту"
 
-#: about/templates/about/report_list.html:22
-#, python-format
 msgid "%(report.report_year)s год"
-msgstr ""
+msgstr "%(report.report_year)s год"
 
-#: about/templates/about/report_list.html:31
 msgid "Отчетов пока нет."
-msgstr ""
+msgstr "Отчетов пока нет."
 
-#: appeals/templates/appeals/submit_appeal.html:4
-#: appeals/templates/appeals/submit_appeal.html:10
 msgid "Электронное обращение"
-msgstr ""
+msgstr "Электронное обращение"
 
-#: appeals/templates/appeals/submit_appeal.html:14
-#: main/templates/main/home.html:77
 msgid "Электронное обращение граждан"
-msgstr ""
+msgstr "Электронное обращение граждан"
 
-#: appeals/templates/appeals/submit_appeal.html:15
 msgid "Пожалуйста, заполните форму для отправки обращения в айыл окмоту."
-msgstr ""
+msgstr "Пожалуйста, заполните форму для отправки обращения в айыл окмоту."
 
-#: appeals/templates/appeals/submit_appeal.html:37
-#: main/templates/main/home.html:79
 msgid "Отправить обращение"
-msgstr ""
+msgstr "Отправить обращение"
 
-#: community/templates/community/advertisement_detail.html:4
 msgid "Объявления"
-msgstr ""
+msgstr "Объявления"
 
-#: community/templates/community/advertisement_detail.html:10
-#: community/templates/community/advertisement_list.html:4
-#: community/templates/community/advertisement_list.html:10
-#: community/templates/community/advertisement_list.html:14
-#: templates/base.html:130
 msgid "Объявления жителей"
-msgstr ""
+msgstr "Объявления жителей"
 
-#: community/templates/community/advertisement_detail.html:30
 msgid "Контакты для связи"
-msgstr ""
+msgstr "Контакты для связи"
 
-#: community/templates/community/advertisement_detail.html:33
 msgid "Имя"
-msgstr ""
+msgstr "Имя"
 
-#: community/templates/community/advertisement_detail.html:40
 msgid "К списку объявлений"
-msgstr ""
+msgstr "К списку объявлений"
 
-#: community/templates/community/advertisement_list.html:15
 msgid ""
 "Здесь вы можете найти частные объявления от жителей нашего муниципалитета "
 "или разместить свое."
 msgstr ""
+"Здесь вы можете найти частные объявления от жителей нашего муниципалитета "
+"или разместить свое."
 
-#: community/templates/community/advertisement_list.html:16
 msgid "Подать новое объявление"
-msgstr ""
+msgstr "Подать новое объявление"
 
-#: community/templates/community/advertisement_list.html:32
 msgid "Контакты"
-msgstr ""
+msgstr "Контакты"
 
-#: community/templates/community/advertisement_list.html:34
-#: council/templates/council/deputy_list.html:30
 msgid "Тел"
-msgstr ""
+msgstr "Тел"
 
-#: community/templates/community/advertisement_list.html:45
 msgid "Объявлений пока нет."
-msgstr ""
+msgstr "Объявлений пока нет."
 
-#: community/templates/community/blog_detail.html:4
 msgid "Блоги"
-msgstr ""
+msgstr "Блоги"
 
-#: community/templates/community/blog_detail.html:10
-#: community/templates/community/blog_list.html:4
-#: community/templates/community/blog_list.html:10
-#: community/templates/community/blog_list.html:14 templates/base.html:131
 msgid "Блоги жителей"
-msgstr ""
+msgstr "Блоги жителей"
 
-#: community/templates/community/blog_detail.html:17
-#: community/templates/community/blog_list.html:29
-#: search/templates/search/search_results.html:59
 msgid "Автор"
-msgstr ""
+msgstr "Автор"
 
-#: community/templates/community/blog_detail.html:17
-#: community/templates/community/blog_list.html:29
 msgid "Аноним"
-msgstr ""
+msgstr "Аноним"
 
-#: community/templates/community/blog_detail.html:32
 msgid "К списку публикаций"
-msgstr ""
+msgstr "К списку публикаций"
 
-#: community/templates/community/blog_list.html:15
 msgid ""
 "Читайте публикации наших жителей о жизни муниципалитета, событиях и мнениях."
 msgstr ""
+"Читайте публикации наших жителей о жизни муниципалитета, событиях и мнениях."
 
-#: community/templates/community/blog_list.html:16
 msgid "Написать новую публикацию"
-msgstr ""
+msgstr "Написать новую публикацию"
 
-#: community/templates/community/blog_list.html:33
-#: main/templates/main/home.html:42 news/templates/news/news_list.html:21
 msgid "Читать далее"
-msgstr ""
+msgstr "Читать далее"
 
-#: community/templates/community/blog_list.html:40
 msgid "Публикаций пока нет."
-msgstr ""
+msgstr "Публикаций пока нет."
 
-#: community/templates/community/submit_content.html:5
-#: community/templates/community/submit_content.html:11 templates/base.html:127
 msgid "Сообщество"
-msgstr ""
+msgstr "Сообщество"
 
-#: community/templates/community/submit_content.html:39
 msgid "Отправить"
-msgstr ""
+msgstr "Отправить"
 
-#: config/settings.py:8
-msgid "Кыргызча"
-msgstr ""
-
-#: config/settings.py:9
 msgid "Русский"
-msgstr ""
+msgstr "Русский"
 
-#: council/templates/council/decision_detail.html:4
-#: council/templates/council/decision_detail.html:11
-#: council/templates/council/decision_list.html:11 templates/base.html:119
+msgid "Кыргызча"
+msgstr "Кыргызский"
+
 msgid "Решения Кенеша"
-msgstr ""
+msgstr "Решения Кенеша"
 
-#: council/templates/council/decision_detail.html:10
-#: council/templates/council/decision_list.html:10
-#: council/templates/council/deputy_detail.html:10
-#: council/templates/council/deputy_list.html:10 templates/base.html:115
 msgid "Местный Кенеш"
-msgstr ""
+msgstr "Местный Кенеш"
 
-#: council/templates/council/decision_detail.html:17
 msgid "Тип документа"
-msgstr ""
+msgstr "Тип документа"
 
-#: council/templates/council/decision_detail.html:18
-#: info/templates/info/phone_list.html:24
 msgid "Номер"
-msgstr ""
+msgstr "Номер"
 
-#: council/templates/council/decision_detail.html:19
 msgid "Дата принятия"
-msgstr ""
+msgstr "Дата принятия"
 
-#: council/templates/council/decision_detail.html:23
 msgid "Краткое содержание"
-msgstr ""
+msgstr "Краткое содержание"
 
-#: council/templates/council/decision_detail.html:26
 msgid "Скачать полный документ"
-msgstr ""
+msgstr "Скачать полный документ"
 
-#: council/templates/council/decision_detail.html:29
 msgid "К списку решений"
-msgstr ""
+msgstr "К списку решений"
 
-#: council/templates/council/decision_list.html:4
-#: council/templates/council/decision_list.html:15
 msgid "Решения Местного Кенеша"
-msgstr ""
+msgstr "Решения Местного Кенеша"
 
-#: council/templates/council/decision_list.html:24
-#, python-format
-msgid ""
-"№%(decision.decision_number)s от %(decision.decision_date|date:\"d M Y\")s"
-msgstr ""
+msgid "№%(decision.decision_number)s от %(decision.decision_date|date:\"d M Y\")s"
+msgstr "№%(decision.decision_number)s от %(decision.decision_date|date:\"d M Y\")s"
 
-#: council/templates/council/decision_list.html:33
 msgid "Решений Кенеша пока нет."
-msgstr ""
+msgstr "Решений Кенеша пока нет."
 
-#: council/templates/council/deputy_detail.html:4
-#: council/templates/council/deputy_detail.html:11
-#: council/templates/council/deputy_list.html:11 templates/base.html:118
 msgid "Депутаты"
-msgstr ""
+msgstr "Депутаты"
 
-#: council/templates/council/deputy_detail.html:25
-#: council/templates/council/deputy_list.html:29
 msgid "Округ"
-msgstr ""
+msgstr "Округ"
 
-#: council/templates/council/deputy_detail.html:42
 msgid "К списку депутатов"
-msgstr ""
+msgstr "К списку депутатов"
 
-#: council/templates/council/deputy_list.html:4
-#: council/templates/council/deputy_list.html:15
 msgid "Депутаты Местного Кенеша"
-msgstr ""
+msgstr "Депутаты Местного Кенеша"
 
-#: council/templates/council/deputy_list.html:37
 msgid "Информация о депутатах пока недоступна."
-msgstr ""
+msgstr "Информация о депутатах пока недоступна."
 
-#: documents/templates/documents/document_detail.html:4
-#: documents/templates/documents/document_detail.html:10 templates/base.html:97
 msgid "Документы"
-msgstr ""
+msgstr "Документы"
 
-#: documents/templates/documents/document_detail.html:25
-#: documents/templates/documents/document_list.html:20
 msgid "Скачать документ"
-msgstr ""
+msgstr "Скачать документ"
 
-#: documents/templates/documents/document_detail.html:26
 msgid "К списку документов"
-msgstr ""
+msgstr "К списку документов"
 
-#: documents/templates/documents/document_list.html:4
 msgid "Документы айыл окмоту"
-msgstr ""
+msgstr "Документы айыл окмоту"
 
-#: documents/templates/documents/document_list.html:7
 msgid "Официальные документы"
-msgstr ""
+msgstr "Официальные документы"
 
-#: documents/templates/documents/document_list.html:27
-#: main/templates/main/home.html:73
 msgid "Документов пока нет."
-msgstr ""
+msgstr "Документов пока нет."
 
-#: gallery/templates/gallery/album_detail.html:4
-#: gallery/templates/gallery/album_detail.html:10
-#: gallery/templates/gallery/album_list.html:4
-#: gallery/templates/gallery/album_list.html:10
-#: gallery/templates/gallery/album_list.html:14 templates/base.html:138
 msgid "Фотогалерея"
-msgstr ""
+msgstr "Фотогалерея"
 
-#: gallery/templates/gallery/album_detail.html:30
 msgid "В этом альбоме пока нет фотографий."
-msgstr ""
+msgstr "В этом альбоме пока нет фотографий."
 
-#: gallery/templates/gallery/album_detail.html:34
 msgid "К списку альбомов"
-msgstr ""
+msgstr "К списку альбомов"
 
-#: gallery/templates/gallery/album_list.html:15
 msgid ""
 "Здесь собраны фотоотчеты о событиях и мероприятиях в нашем муниципалитете."
 msgstr ""
+"Здесь собраны фотоотчеты о событиях и мероприятиях в нашем муниципалитете."
 
-#: gallery/templates/gallery/album_list.html:29
 msgid "Смотреть альбом"
-msgstr ""
+msgstr "Смотреть альбом"
 
-#: gallery/templates/gallery/album_list.html:36
 msgid "Фотоальбомов пока нет."
-msgstr ""
+msgstr "Фотоальбомов пока нет."
 
-#: info/templates/info/landmark_detail.html:4
-#: info/templates/info/landmark_detail.html:10
-#: info/templates/info/landmark_list.html:4
-#: info/templates/info/landmark_list.html:10
-#: info/templates/info/landmark_list.html:14 templates/base.html:146
 msgid "Достопримечательности"
-msgstr ""
+msgstr "Достопримечательности"
 
-#: info/templates/info/landmark_detail.html:28
 msgid "Расположение"
-msgstr ""
+msgstr "Расположение"
 
-#: info/templates/info/landmark_detail.html:32
 msgid "К списку достопримечательностей"
-msgstr ""
+msgstr "К списку достопримечательностей"
 
-#: info/templates/info/landmark_list.html:15
 msgid "Ознакомьтесь с интересными местами нашего муниципалитета."
-msgstr ""
+msgstr "Ознакомьтесь с интересными местами нашего муниципалитета."
 
-#: info/templates/info/landmark_list.html:38
 msgid "Достопримечательностей пока нет."
-msgstr ""
+msgstr "Достопримечательностей пока нет."
 
-#: info/templates/info/phone_list.html:4 info/templates/info/phone_list.html:10
-#: info/templates/info/phone_list.html:14 templates/base.html:145
 msgid "Важные телефоны"
-msgstr ""
+msgstr "Важные телефоны"
 
-#: info/templates/info/phone_list.html:15
 msgid "Список контактных телефонов экстренных и коммунальных служб."
-msgstr ""
+msgstr "Список контактных телефонов экстренных и коммунальных служб."
 
-#: info/templates/info/phone_list.html:34
 msgid "Список телефонов пока пуст."
-msgstr ""
+msgstr "Список телефонов пока пуст."
 
-#: info/templates/info/static_page_detail.html:4
-#: info/templates/info/static_page_detail.html:10 templates/base.html:142
 msgid "Справочная информация"
-msgstr ""
+msgstr "Справочная информация"
 
-#: investors/templates/investors/project_detail.html:4
 msgid "Инвест. проект"
-msgstr ""
+msgstr "Инвест. проект"
 
-#: investors/templates/investors/project_detail.html:10
-#: investors/templates/investors/project_list.html:10 templates/base.html:123
 msgid "Для инвесторов"
-msgstr ""
+msgstr "Для инвесторов"
 
-#: investors/templates/investors/project_detail.html:16
-#: investors/templates/investors/project_list.html:27
 msgid "Статус"
-msgstr ""
+msgstr "Статус"
 
-#: investors/templates/investors/project_detail.html:30
 msgid "Основные показатели проекта"
-msgstr ""
+msgstr "Основные показатели проекта"
 
-#: investors/templates/investors/project_detail.html:34
 msgid "Необходимый бюджет"
-msgstr ""
+msgstr "Необходимый бюджет"
 
-#: investors/templates/investors/project_detail.html:37
 msgid "Ожидаемая доходность"
-msgstr ""
+msgstr "Ожидаемая доходность"
 
-#: investors/templates/investors/project_detail.html:39
 msgid "Дата начала"
-msgstr ""
+msgstr "Дата начала"
 
-#: investors/templates/investors/project_detail.html:40
 msgid "Дата завершения"
-msgstr ""
+msgstr "Дата завершения"
 
-#: investors/templates/investors/project_detail.html:49
 msgid "Контактное лицо"
-msgstr ""
+msgstr "Контактное лицо"
 
-#: investors/templates/investors/project_detail.html:56
 msgid "К списку проектов"
-msgstr ""
+msgstr "К списку проектов"
 
-#: investors/templates/investors/project_list.html:4
-#: investors/templates/investors/project_list.html:14
 msgid "Инвестиционные проекты"
-msgstr ""
+msgstr "Инвестиционные проекты"
 
-#: investors/templates/investors/project_list.html:15
-msgid ""
-"Ознакомьтесь с текущими и потенциальными инвестиционными проектами в нашем "
-"муниципалитете."
-msgstr ""
+msgid "Ознакомьтесь с текущими и потенциальными инвестиционными проектами в нашем муниципалитете."
+msgstr "Ознакомьтесь с текущими и потенциальными инвестиционными проектами в нашем муниципалитете."
 
-#: investors/templates/investors/project_list.html:36
 msgid "Инвестиционных проектов пока нет."
-msgstr ""
+msgstr "Инвестиционных проектов пока нет."
 
-#: main/templates/main/home.html:4
 msgid "Главная страница"
-msgstr ""
+msgstr "Главная страница"
 
-#: main/templates/main/home.html:4 templates/base.html:84
-#: templates/base.html:197
 msgid "Айыл Окмоту"
-msgstr ""
+msgstr "Айыл Окмоту"
 
-#: main/templates/main/home.html:14
 msgid "Глава айыл окмоту"
-msgstr ""
+msgstr "Глава айыл окмоту"
 
-#: main/templates/main/home.html:16
 msgid "Должность"
-msgstr ""
+msgstr "Должность"
 
-#: main/templates/main/home.html:19
 msgid "Все руководство"
-msgstr ""
+msgstr "Все руководство"
 
-#: main/templates/main/home.html:24
 msgid "Добро пожаловать на сайт айыл окмоту!"
-msgstr ""
+msgstr "Добро пожаловать на сайт айыл окмоту!"
 
-#: main/templates/main/home.html:25
 msgid "Это базовая главная страница."
-msgstr ""
+msgstr "Это базовая главная страница."
 
-#: main/templates/main/home.html:29
 msgid "Последние новости"
-msgstr ""
+msgstr "Последние новости"
 
-#: main/templates/main/home.html:48
 msgid "Показать все новости"
-msgstr ""
+msgstr "Показать все новости"
 
-#: main/templates/main/home.html:50 news/templates/news/news_list.html:28
 msgid "Новостей пока нет."
-msgstr ""
+msgstr "Новостей пока нет."
 
-#: main/templates/main/home.html:53
 msgid "Последние документы"
-msgstr ""
+msgstr "Последние документы"
 
-#: main/templates/main/home.html:65
 msgid "Скачать"
-msgstr ""
+msgstr "Скачать"
 
-#: main/templates/main/home.html:71
 msgid "Показать все документы"
-msgstr ""
+msgstr "Показать все документы"
 
-#: main/templates/main/home.html:78
 msgid "Есть вопрос или предложение? Отправьте нам электронное обращение."
-msgstr ""
+msgstr "Есть вопрос или предложение? Отправьте нам электронное обращение."
 
-#: main/templates/main/home.html:83
 msgid "Разделы \\"
-msgstr ""
+msgstr "Разделы \\"
 
-#: news/templates/news/news_detail.html:4
-#: news/templates/news/news_detail.html:10 templates/base.html:94
 msgid "Новости"
-msgstr ""
+msgstr "Новости"
 
-#: news/templates/news/news_detail.html:29
 msgid "К списку новостей"
-msgstr ""
+msgstr "К списку новостей"
 
-#: news/templates/news/news_list.html:4 news/templates/news/news_list.html:7
 msgid "Новости айыл окмоту"
-msgstr ""
+msgstr "Новости айыл окмоту"
 
-#: search/templates/search/search_results.html:4
-#: search/templates/search/search_results.html:14
 msgid "Результаты поиска"
-msgstr ""
+msgstr "Результаты поиска"
 
-#: search/templates/search/search_results.html:10 templates/base.html:158
-#: templates/base.html:159
 msgid "Поиск"
-msgstr ""
+msgstr "Поиск"
 
-#: search/templates/search/search_results.html:16
-#, python-format
 msgid "По запросу \"%(query)s\" найдено:"
-msgstr ""
+msgstr "По запросу \"%(query)s\" найдено:"
 
-#: search/templates/search/search_results.html:21
-#, python-format
 msgid "Новости (%(results.news.count)s)"
-msgstr ""
+msgstr "Новости (%(results.news.count)s)"
 
-#: search/templates/search/search_results.html:37
-#, python-format
 msgid "Документы (%(results.documents.count)s)"
-msgstr ""
+msgstr "Документы (%(results.documents.count)s)"
 
-#: search/templates/search/search_results.html:53
-#, python-format
 msgid "Блоги жителей (%(results.blogs.count)s)"
-msgstr ""
+msgstr "Блоги жителей (%(results.blogs.count)s)"
 
-#: search/templates/search/search_results.html:69
-#, python-format
 msgid "Информационные страницы (%(results.pages.count)s)"
-msgstr ""
+msgstr "Информационные страницы (%(results.pages.count)s)"
 
-#: search/templates/search/search_results.html:84
-#, python-format
 msgid "Достопримечательности (%(results.landmarks.count)s)"
-msgstr ""
+msgstr "Достопримечательности (%(results.landmarks.count)s)"
 
-#: search/templates/search/search_results.html:90
 msgid "Не указано"
-msgstr ""
+msgstr "Не указано"
 
-#: search/templates/search/search_results.html:101
 msgid "К сожалению, по вашему запросу ничего не найдено."
-msgstr ""
+msgstr "К сожалению, по вашему запросу ничего не найдено."
 
-#: search/templates/search/search_results.html:105
 msgid "Введите поисковый запрос в поле выше."
-msgstr ""
+msgstr "Введите поисковый запрос в поле выше."
 
-#: templates/base.html:7
-msgid "Сайт айыл окмоту"
-msgstr ""
-
-#: templates/base.html:85
-msgid "Переключить навигацию"
-msgstr ""
-
-#: templates/base.html:133
-msgid "Подать объявление"
-msgstr ""
-
-#: templates/base.html:134
-msgid "Написать в блог"
-msgstr ""
-
-#: templates/base.html:148
-msgid "Расписание транспорта"
-msgstr ""
-
-#: templates/base.html:152
-msgid "Обращения"
-msgstr ""
-
-#: templates/base.html:165
-msgid "Админка"
-msgstr ""
-
-#: templates/base.html:168
-msgid "Выйти"
-msgstr ""
-
-#: templates/base.html:172
-msgid "Войти"
-msgstr ""
-
-#: templates/base.html:197
-msgid "Все права защищены."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/contrib/messages/apps.py:15
 msgid "Messages"
-msgstr ""
+msgstr "Сообщения"
 
-#: venv/lib/python3.9/site-packages/django/contrib/sitemaps/apps.py:8
 msgid "Site Maps"
-msgstr ""
+msgstr "Карта сайта"
 
-#: venv/lib/python3.9/site-packages/django/contrib/staticfiles/apps.py:9
 msgid "Static Files"
-msgstr ""
+msgstr "Статические файлы"
 
-#: venv/lib/python3.9/site-packages/django/contrib/syndication/apps.py:7
 msgid "Syndication"
-msgstr ""
+msgstr "Синдикация"
 
-#. Translators: String used to replace omitted page numbers in elided page
-#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
-#: venv/lib/python3.9/site-packages/django/core/paginator.py:30
 msgid "…"
-msgstr ""
+msgstr "…"
 
-#: venv/lib/python3.9/site-packages/django/core/paginator.py:50
 msgid "That page number is not an integer"
-msgstr ""
+msgstr "Номер страницы должен быть целым числом"
 
-#: venv/lib/python3.9/site-packages/django/core/paginator.py:52
 msgid "That page number is less than 1"
-msgstr ""
+msgstr "Номер страницы должен быть больше нуля"
 
-#: venv/lib/python3.9/site-packages/django/core/paginator.py:54
 msgid "That page contains no results"
-msgstr ""
+msgstr "На этой странице нет результатов"
 
-#: venv/lib/python3.9/site-packages/django/core/validators.py:22
 msgid "Enter a valid value."
-msgstr ""
+msgstr "Введите допустимое значение."
 
-#: venv/lib/python3.9/site-packages/django/core/validators.py:104
-#: venv/lib/python3.9/site-packages/django/forms/fields.py:752
 msgid "Enter a valid URL."
-msgstr ""
+msgstr "Введите допустимый URL-адрес."
 
-#: venv/lib/python3.9/site-packages/django/core/validators.py:165
 msgid "Enter a valid integer."
-msgstr ""
+msgstr "Введите допустимое целое число."
 
-#: venv/lib/python3.9/site-packages/django/core/validators.py:176
 msgid "Enter a valid email address."
-msgstr ""
+msgstr "Введите допустимый адрес электронной почты."
 
-#. Translators: "letters" means latin letters: a-z and A-Z.
-#: venv/lib/python3.9/site-packages/django/core/validators.py:259
-msgid ""
-"Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
-msgstr ""
+msgid "Enter a valid \u201cslug\u201d consisting of letters, numbers, underscores or hyphens."
+msgstr "Введите допустимый \u201cслаг\u201d, состоящий из букв, цифр, подчеркиваний или дефисов."
 
-#: venv/lib/python3.9/site-packages/django/core/validators.py:267
-msgid ""
-"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
-"hyphens."
-msgstr ""
+msgid "Enter a valid \u201cslug\u201d consisting of Unicode letters, numbers, underscores, or hyphens."
+msgstr "Введите допустимый \u201cслаг\u201d, состоящий из букв Unicode, цифр, подчеркиваний или дефисов."
 
-#: venv/lib/python3.9/site-packages/django/core/validators.py:281
-#: venv/lib/python3.9/site-packages/django/core/validators.py:289
-#: venv/lib/python3.9/site-packages/django/core/validators.py:318
 msgid "Enter a valid IPv4 address."
-msgstr ""
+msgstr "Введите допустимый IPv4-адрес."
 
-#: venv/lib/python3.9/site-packages/django/core/validators.py:298
-#: venv/lib/python3.9/site-packages/django/core/validators.py:319
 msgid "Enter a valid IPv6 address."
-msgstr ""
+msgstr "Введите допустимый IPv6-адрес."
 
-#: venv/lib/python3.9/site-packages/django/core/validators.py:310
-#: venv/lib/python3.9/site-packages/django/core/validators.py:317
 msgid "Enter a valid IPv4 or IPv6 address."
-msgstr ""
+msgstr "Введите допустимый IPv4 или IPv6 адрес."
 
-#: venv/lib/python3.9/site-packages/django/core/validators.py:353
 msgid "Enter only digits separated by commas."
-msgstr ""
+msgstr "Введите только цифры, разделенные запятыми."
 
-#: venv/lib/python3.9/site-packages/django/core/validators.py:359
-#, python-format
-msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/core/validators.py:394
-#, python-format
-msgid "Ensure this value is less than or equal to %(limit_value)s."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/core/validators.py:403
-#, python-format
-msgid "Ensure this value is greater than or equal to %(limit_value)s."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/core/validators.py:412
-#, python-format
-msgid "Ensure this value is a multiple of step size %(limit_value)s."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/core/validators.py:422
-#, python-format
-msgid ""
-"Ensure this value has at least %(limit_value)d character (it has "
-"%(show_value)d)."
-msgid_plural ""
-"Ensure this value has at least %(limit_value)d characters (it has "
-"%(show_value)d)."
-msgstr[0] ""
-msgstr[1] ""
-
-#: venv/lib/python3.9/site-packages/django/core/validators.py:440
-#, python-format
-msgid ""
-"Ensure this value has at most %(limit_value)d character (it has "
-"%(show_value)d)."
-msgid_plural ""
-"Ensure this value has at most %(limit_value)d characters (it has "
-"%(show_value)d)."
-msgstr[0] ""
-msgstr[1] ""
-
-#: venv/lib/python3.9/site-packages/django/core/validators.py:463
-#: venv/lib/python3.9/site-packages/django/forms/fields.py:347
-#: venv/lib/python3.9/site-packages/django/forms/fields.py:386
 msgid "Enter a number."
-msgstr ""
+msgstr "Введите число."
 
-#: venv/lib/python3.9/site-packages/django/core/validators.py:465
-#, python-format
-msgid "Ensure that there are no more than %(max)s digit in total."
-msgid_plural "Ensure that there are no more than %(max)s digits in total."
-msgstr[0] ""
-msgstr[1] ""
-
-#: venv/lib/python3.9/site-packages/django/core/validators.py:470
-#, python-format
-msgid "Ensure that there are no more than %(max)s decimal place."
-msgid_plural "Ensure that there are no more than %(max)s decimal places."
-msgstr[0] ""
-msgstr[1] ""
-
-#: venv/lib/python3.9/site-packages/django/core/validators.py:475
-#, python-format
-msgid ""
-"Ensure that there are no more than %(max)s digit before the decimal point."
-msgid_plural ""
-"Ensure that there are no more than %(max)s digits before the decimal point."
-msgstr[0] ""
-msgstr[1] ""
-
-#: venv/lib/python3.9/site-packages/django/core/validators.py:546
-#, python-format
-msgid ""
-"File extension “%(extension)s” is not allowed. Allowed extensions are: "
-"%(allowed_extensions)s."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/core/validators.py:607
 msgid "Null characters are not allowed."
-msgstr ""
+msgstr "Нулевые символы недопустимы."
 
-#: venv/lib/python3.9/site-packages/django/db/models/base.py:1423
-#: venv/lib/python3.9/site-packages/django/forms/models.py:893
 msgid "and"
-msgstr ""
+msgstr "и"
 
-#: venv/lib/python3.9/site-packages/django/db/models/base.py:1425
-#, python-format
-msgid "%(model_name)s with this %(field_labels)s already exists."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/db/models/constraints.py:17
-#, python-format
-msgid "Constraint “%(name)s” is violated."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:128
-#, python-format
-msgid "Value %(value)r is not a valid choice."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:129
 msgid "This field cannot be null."
-msgstr ""
+msgstr "Это поле не может быть пустым."
 
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:130
 msgid "This field cannot be blank."
-msgstr ""
+msgstr "Это поле не может быть пустым."
 
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:131
-#, python-format
-msgid "%(model_name)s with this %(field_label)s already exists."
-msgstr ""
-
-#. Translators: The 'lookup_type' is one of 'date', 'year' or
-#. 'month'. Eg: "Title must be unique for pub_date year"
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:135
-#, python-format
-msgid ""
-"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:173
-#, python-format
-msgid "Field of type: %(field_type)s"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1094
-#, python-format
-msgid "“%(value)s” value must be either True or False."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1095
-#, python-format
-msgid "“%(value)s” value must be either True, False, or None."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1097
 msgid "Boolean (Either True or False)"
-msgstr ""
+msgstr "Булево значение (ИСТИНА или ЛОЖЬ)"
 
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1147
-#, python-format
-msgid "String (up to %(max_length)s)"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1149
 msgid "String (unlimited)"
-msgstr ""
+msgstr "Строка (без ограничения)"
 
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1253
 msgid "Comma-separated integers"
-msgstr ""
+msgstr "Целые числа, разделенные запятыми"
 
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1354
-#, python-format
-msgid ""
-"“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
-"format."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1358
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1493
-#, python-format
-msgid ""
-"“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
-"date."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1362
 msgid "Date (without time)"
-msgstr ""
+msgstr "Дата (без времени)"
 
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1489
-#, python-format
-msgid ""
-"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD "
-"HH:MM[:ss[.uuuuuu]][TZ] format."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1497
-#, python-format
-msgid ""
-"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
-"[TZ]) but it is an invalid date/time."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1502
 msgid "Date (with time)"
-msgstr ""
+msgstr "Дата и время"
 
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1626
-#, python-format
-msgid "“%(value)s” value must be a decimal number."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1628
 msgid "Decimal number"
-msgstr ""
+msgstr "Десятичное число"
 
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1789
-#, python-format
-msgid ""
-"“%(value)s” value has an invalid format. It must be in [DD] "
-"[[HH:]MM:]ss[.uuuuuu] format."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1793
 msgid "Duration"
-msgstr ""
+msgstr "Длительность"
 
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1845
 msgid "Email address"
-msgstr ""
+msgstr "Адрес электронной почты"
 
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1870
 msgid "File path"
-msgstr ""
+msgstr "Путь к файлу"
 
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1948
-#, python-format
-msgid "“%(value)s” value must be a float."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1950
 msgid "Floating point number"
-msgstr ""
+msgstr "Число с плавающей запятой"
 
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1990
-#, python-format
-msgid "“%(value)s” value must be an integer."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1992
 msgid "Integer"
-msgstr ""
+msgstr "Целое число"
 
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:2088
 msgid "Big (8 byte) integer"
-msgstr ""
+msgstr "Большое целое число (8 байт)"
 
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:2105
 msgid "Small integer"
-msgstr ""
+msgstr "Малое целое число"
 
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:2113
 msgid "IPv4 address"
-msgstr ""
+msgstr "IPv4-адрес"
 
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:2144
 msgid "IP address"
-msgstr ""
+msgstr "IP-адрес"
 
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:2237
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:2238
-#, python-format
-msgid "“%(value)s” value must be either None, True or False."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:2240
 msgid "Boolean (Either True, False or None)"
-msgstr ""
+msgstr "Булево значение (ИСТИНА, ЛОЖЬ или НЕТ ЗНАЧЕНИЯ)"
 
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:2291
 msgid "Positive big integer"
-msgstr ""
+msgstr "Положительное большое целое число"
 
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:2306
 msgid "Positive integer"
-msgstr ""
+msgstr "Положительное целое число"
 
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:2321
 msgid "Positive small integer"
-msgstr ""
+msgstr "Положительное малое целое число"
 
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:2337
-#, python-format
-msgid "Slug (up to %(max_length)s)"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:2373
 msgid "Text"
-msgstr ""
+msgstr "Текст"
 
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:2448
-#, python-format
-msgid ""
-"“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
-"format."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:2452
-#, python-format
-msgid ""
-"“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
-"invalid time."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:2456
 msgid "Time"
-msgstr ""
+msgstr "Время"
 
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:2564
 msgid "URL"
-msgstr ""
+msgstr "URL-адрес"
 
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:2588
 msgid "Raw binary data"
-msgstr ""
+msgstr "Необработанные бинарные данные"
 
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:2653
-#, python-format
-msgid "“%(value)s” is not a valid UUID."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:2655
 msgid "Universally unique identifier"
-msgstr ""
+msgstr "Универсальный уникальный идентификатор (UUID)"
 
-#: venv/lib/python3.9/site-packages/django/db/models/fields/files.py:232
 msgid "File"
-msgstr ""
+msgstr "Файл"
 
-#: venv/lib/python3.9/site-packages/django/db/models/fields/files.py:393
 msgid "Image"
-msgstr ""
+msgstr "Изображение"
 
-#: venv/lib/python3.9/site-packages/django/db/models/fields/json.py:26
 msgid "A JSON object"
-msgstr ""
+msgstr "Объект JSON"
 
-#: venv/lib/python3.9/site-packages/django/db/models/fields/json.py:28
 msgid "Value must be valid JSON."
-msgstr ""
+msgstr "Значение должно быть допустимым JSON."
 
-#: venv/lib/python3.9/site-packages/django/db/models/fields/related.py:919
-#, python-format
-msgid "%(model)s instance with %(field)s %(value)r does not exist."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/db/models/fields/related.py:921
 msgid "Foreign Key (type determined by related field)"
-msgstr ""
+msgstr "Внешний ключ (тип определяется связным полем)"
 
-#: venv/lib/python3.9/site-packages/django/db/models/fields/related.py:1212
 msgid "One-to-one relationship"
-msgstr ""
+msgstr "Связь один к одному"
 
-#: venv/lib/python3.9/site-packages/django/db/models/fields/related.py:1269
-#, python-format
-msgid "%(from)s-%(to)s relationship"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/db/models/fields/related.py:1271
-#, python-format
-msgid "%(from)s-%(to)s relationships"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/db/models/fields/related.py:1319
 msgid "Many-to-many relationship"
-msgstr ""
+msgstr "Связь многие ко многим"
 
-#. Translators: If found as last label character, these punctuation
-#. characters will prevent the default label_suffix to be appended to the label
-#: venv/lib/python3.9/site-packages/django/forms/boundfield.py:184
-msgid ":?.!"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/forms/fields.py:91
 msgid "This field is required."
-msgstr ""
+msgstr "Это поле обязательно для заполнения."
 
-#: venv/lib/python3.9/site-packages/django/forms/fields.py:298
 msgid "Enter a whole number."
-msgstr ""
+msgstr "Введите целое число."
 
-#: venv/lib/python3.9/site-packages/django/forms/fields.py:467
-#: venv/lib/python3.9/site-packages/django/forms/fields.py:1241
 msgid "Enter a valid date."
-msgstr ""
+msgstr "Введите допустимую дату."
 
-#: venv/lib/python3.9/site-packages/django/forms/fields.py:490
-#: venv/lib/python3.9/site-packages/django/forms/fields.py:1242
 msgid "Enter a valid time."
-msgstr ""
+msgstr "Введите допустимое время."
 
-#: venv/lib/python3.9/site-packages/django/forms/fields.py:517
 msgid "Enter a valid date/time."
-msgstr ""
+msgstr "Введите допустимую дату и время."
 
-#: venv/lib/python3.9/site-packages/django/forms/fields.py:551
 msgid "Enter a valid duration."
-msgstr ""
+msgstr "Введите допустимую длительность."
 
-#: venv/lib/python3.9/site-packages/django/forms/fields.py:552
-#, python-brace-format
-msgid "The number of days must be between {min_days} and {max_days}."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/forms/fields.py:621
 msgid "No file was submitted. Check the encoding type on the form."
-msgstr ""
+msgstr "Файл не был отправлен. Проверьте тип кодировки формы."
 
-#: venv/lib/python3.9/site-packages/django/forms/fields.py:622
 msgid "No file was submitted."
-msgstr ""
+msgstr "Файл не был отправлен."
 
-#: venv/lib/python3.9/site-packages/django/forms/fields.py:623
 msgid "The submitted file is empty."
-msgstr ""
+msgstr "Отправленный файл пуст."
 
-#: venv/lib/python3.9/site-packages/django/forms/fields.py:625
-#, python-format
-msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
-msgid_plural ""
-"Ensure this filename has at most %(max)d characters (it has %(length)d)."
-msgstr[0] ""
-msgstr[1] ""
-
-#: venv/lib/python3.9/site-packages/django/forms/fields.py:630
 msgid "Please either submit a file or check the clear checkbox, not both."
-msgstr ""
+msgstr "Пожалуйста, либо прикрепите файл, либо установите флажок очистки — не оба сразу."
 
-#: venv/lib/python3.9/site-packages/django/forms/fields.py:694
-msgid ""
-"Upload a valid image. The file you uploaded was either not an image or a "
-"corrupted image."
-msgstr ""
+msgid "Upload a valid image. The file you uploaded was either not an image or a corrupted image."
+msgstr "Загрузите допустимое изображение. Загруженный файл не является изображением или поврежден."
 
-#: venv/lib/python3.9/site-packages/django/forms/fields.py:857
-#: venv/lib/python3.9/site-packages/django/forms/fields.py:949
-#: venv/lib/python3.9/site-packages/django/forms/models.py:1566
-#, python-format
-msgid "Select a valid choice. %(value)s is not one of the available choices."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/forms/fields.py:951
-#: venv/lib/python3.9/site-packages/django/forms/fields.py:1070
-#: venv/lib/python3.9/site-packages/django/forms/models.py:1564
 msgid "Enter a list of values."
-msgstr ""
+msgstr "Введите список значений."
 
-#: venv/lib/python3.9/site-packages/django/forms/fields.py:1071
 msgid "Enter a complete value."
-msgstr ""
+msgstr "Введите полное значение."
 
-#: venv/lib/python3.9/site-packages/django/forms/fields.py:1313
 msgid "Enter a valid UUID."
-msgstr ""
+msgstr "Введите допустимый UUID."
 
-#: venv/lib/python3.9/site-packages/django/forms/fields.py:1343
 msgid "Enter a valid JSON."
-msgstr ""
+msgstr "Введите допустимый JSON."
 
-#. Translators: This is the default suffix added to form field labels
-#: venv/lib/python3.9/site-packages/django/forms/forms.py:98
 msgid ":"
-msgstr ""
+msgstr ":"
 
-#: venv/lib/python3.9/site-packages/django/forms/forms.py:244
-#: venv/lib/python3.9/site-packages/django/forms/forms.py:328
-#, python-format
-msgid "(Hidden field %(name)s) %(error)s"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/forms/formsets.py:63
-#, python-format
-msgid ""
-"ManagementForm data is missing or has been tampered with. Missing fields: "
-"%(field_names)s. You may need to file a bug report if the issue persists."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/forms/formsets.py:67
-#, python-format
-msgid "Please submit at most %(num)d form."
-msgid_plural "Please submit at most %(num)d forms."
-msgstr[0] ""
-msgstr[1] ""
-
-#: venv/lib/python3.9/site-packages/django/forms/formsets.py:72
-#, python-format
-msgid "Please submit at least %(num)d form."
-msgid_plural "Please submit at least %(num)d forms."
-msgstr[0] ""
-msgstr[1] ""
-
-#: venv/lib/python3.9/site-packages/django/forms/formsets.py:484
-#: venv/lib/python3.9/site-packages/django/forms/formsets.py:491
 msgid "Order"
-msgstr ""
+msgstr "Порядок"
 
-#: venv/lib/python3.9/site-packages/django/forms/formsets.py:499
 msgid "Delete"
-msgstr ""
+msgstr "Удалить"
 
-#: venv/lib/python3.9/site-packages/django/forms/models.py:886
-#, python-format
-msgid "Please correct the duplicate data for %(field)s."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/forms/models.py:891
-#, python-format
-msgid "Please correct the duplicate data for %(field)s, which must be unique."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/forms/models.py:898
-#, python-format
-msgid ""
-"Please correct the duplicate data for %(field_name)s which must be unique "
-"for the %(lookup)s in %(date_field)s."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/forms/models.py:907
-msgid "Please correct the duplicate values below."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/forms/models.py:1338
-msgid "The inline value did not match the parent instance."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/forms/models.py:1429
-msgid "Select a valid choice. That choice is not one of the available choices."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/forms/models.py:1568
-#, python-format
-msgid "“%(pk)s” is not a valid value."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/forms/utils.py:226
-#, python-format
-msgid ""
-"%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
-"may be ambiguous or it may not exist."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/forms/widgets.py:463
 msgid "Clear"
-msgstr ""
+msgstr "Очистить"
 
-#: venv/lib/python3.9/site-packages/django/forms/widgets.py:464
 msgid "Currently"
-msgstr ""
+msgstr "Текущее значение"
 
-#: venv/lib/python3.9/site-packages/django/forms/widgets.py:465
 msgid "Change"
-msgstr ""
+msgstr "Изменить"
 
-#: venv/lib/python3.9/site-packages/django/forms/widgets.py:794
 msgid "Unknown"
-msgstr ""
+msgstr "Неизвестно"
 
-#: venv/lib/python3.9/site-packages/django/forms/widgets.py:795
 msgid "Yes"
-msgstr ""
+msgstr "Да"
 
-#: venv/lib/python3.9/site-packages/django/forms/widgets.py:796
 msgid "No"
-msgstr ""
+msgstr "Нет"
 
-#. Translators: Please do not add spaces around commas.
-#: venv/lib/python3.9/site-packages/django/template/defaultfilters.py:874
-msgid "yes,no,maybe"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/template/defaultfilters.py:904
-#: venv/lib/python3.9/site-packages/django/template/defaultfilters.py:921
-#, python-format
-msgid "%(size)d byte"
-msgid_plural "%(size)d bytes"
-msgstr[0] ""
-msgstr[1] ""
-
-#: venv/lib/python3.9/site-packages/django/template/defaultfilters.py:923
-#, python-format
-msgid "%s KB"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/template/defaultfilters.py:925
-#, python-format
-msgid "%s MB"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/template/defaultfilters.py:927
-#, python-format
-msgid "%s GB"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/template/defaultfilters.py:929
-#, python-format
-msgid "%s TB"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/template/defaultfilters.py:931
-#, python-format
-msgid "%s PB"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dateformat.py:73
-msgid "p.m."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dateformat.py:74
-msgid "a.m."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dateformat.py:79
-msgid "PM"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dateformat.py:80
-msgid "AM"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dateformat.py:152
-msgid "midnight"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dateformat.py:154
-msgid "noon"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:7
-msgid "Monday"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:8
-msgid "Tuesday"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:9
-msgid "Wednesday"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:10
-msgid "Thursday"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:11
-msgid "Friday"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:12
-msgid "Saturday"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:13
-msgid "Sunday"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:16
-msgid "Mon"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:17
-msgid "Tue"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:18
-msgid "Wed"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:19
-msgid "Thu"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:20
-msgid "Fri"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:21
-msgid "Sat"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:22
-msgid "Sun"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:25
-msgid "January"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:26
-msgid "February"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:27
-msgid "March"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:28
-msgid "April"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:29
-msgid "May"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:30
-msgid "June"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:31
-msgid "July"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:32
-msgid "August"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:33
-msgid "September"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:34
-msgid "October"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:35
-msgid "November"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:36
-msgid "December"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:39
-msgid "jan"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:40
-msgid "feb"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:41
-msgid "mar"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:42
-msgid "apr"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:43
-msgid "may"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:44
-msgid "jun"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:45
-msgid "jul"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:46
-msgid "aug"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:47
-msgid "sep"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:48
-msgid "oct"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:49
-msgid "nov"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:50
-msgid "dec"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:53
-msgctxt "abbrev. month"
-msgid "Jan."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:54
-msgctxt "abbrev. month"
-msgid "Feb."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:55
-msgctxt "abbrev. month"
-msgid "March"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:56
-msgctxt "abbrev. month"
-msgid "April"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:57
-msgctxt "abbrev. month"
-msgid "May"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:58
-msgctxt "abbrev. month"
-msgid "June"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:59
-msgctxt "abbrev. month"
-msgid "July"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:60
-msgctxt "abbrev. month"
-msgid "Aug."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:61
-msgctxt "abbrev. month"
-msgid "Sept."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:62
-msgctxt "abbrev. month"
-msgid "Oct."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:63
-msgctxt "abbrev. month"
-msgid "Nov."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:64
-msgctxt "abbrev. month"
-msgid "Dec."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:67
-msgctxt "alt. month"
-msgid "January"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:68
-msgctxt "alt. month"
-msgid "February"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:69
-msgctxt "alt. month"
-msgid "March"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:70
-msgctxt "alt. month"
-msgid "April"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:71
-msgctxt "alt. month"
-msgid "May"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:72
-msgctxt "alt. month"
-msgid "June"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:73
-msgctxt "alt. month"
-msgid "July"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:74
-msgctxt "alt. month"
-msgid "August"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:75
-msgctxt "alt. month"
-msgid "September"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:76
-msgctxt "alt. month"
-msgid "October"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:77
-msgctxt "alt. month"
-msgid "November"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/dates.py:78
-msgctxt "alt. month"
-msgid "December"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/ipv6.py:20
-msgid "This is not a valid IPv6 address."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/text.py:138
-#, python-format
-msgctxt "String to return when truncating text"
-msgid "%(truncated_text)s…"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/text.py:323
 msgid "or"
-msgstr ""
+msgstr "или"
 
-#. Translators: This string is used as a separator between list elements
-#: venv/lib/python3.9/site-packages/django/utils/text.py:342
-#: venv/lib/python3.9/site-packages/django/utils/timesince.py:135
-msgid ", "
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/utils/timesince.py:8
-#, python-format
-msgid "%(num)d year"
-msgid_plural "%(num)d years"
-msgstr[0] ""
-msgstr[1] ""
-
-#: venv/lib/python3.9/site-packages/django/utils/timesince.py:9
-#, python-format
-msgid "%(num)d month"
-msgid_plural "%(num)d months"
-msgstr[0] ""
-msgstr[1] ""
-
-#: venv/lib/python3.9/site-packages/django/utils/timesince.py:10
-#, python-format
-msgid "%(num)d week"
-msgid_plural "%(num)d weeks"
-msgstr[0] ""
-msgstr[1] ""
-
-#: venv/lib/python3.9/site-packages/django/utils/timesince.py:11
-#, python-format
-msgid "%(num)d day"
-msgid_plural "%(num)d days"
-msgstr[0] ""
-msgstr[1] ""
-
-#: venv/lib/python3.9/site-packages/django/utils/timesince.py:12
-#, python-format
-msgid "%(num)d hour"
-msgid_plural "%(num)d hours"
-msgstr[0] ""
-msgstr[1] ""
-
-#: venv/lib/python3.9/site-packages/django/utils/timesince.py:13
-#, python-format
-msgid "%(num)d minute"
-msgid_plural "%(num)d minutes"
-msgstr[0] ""
-msgstr[1] ""
-
-#: venv/lib/python3.9/site-packages/django/views/csrf.py:111
 msgid "Forbidden"
-msgstr ""
+msgstr "Запрещено"
 
-#: venv/lib/python3.9/site-packages/django/views/csrf.py:112
 msgid "CSRF verification failed. Request aborted."
-msgstr ""
+msgstr "Проверка CSRF не удалась. Запрос прерван."
 
-#: venv/lib/python3.9/site-packages/django/views/csrf.py:116
-msgid ""
-"You are seeing this message because this HTTPS site requires a “Referer "
-"header” to be sent by your web browser, but none was sent. This header is "
-"required for security reasons, to ensure that your browser is not being "
-"hijacked by third parties."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/views/csrf.py:122
-msgid ""
-"If you have configured your browser to disable “Referer” headers, please re-"
-"enable them, at least for this site, or for HTTPS connections, or for “same-"
-"origin” requests."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/views/csrf.py:127
-msgid ""
-"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
-"including the “Referrer-Policy: no-referrer” header, please remove them. The "
-"CSRF protection requires the “Referer” header to do strict referer checking. "
-"If you’re concerned about privacy, use alternatives like <a "
-"rel=\"noreferrer\" …> for links to third-party sites."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/views/csrf.py:136
-msgid ""
-"You are seeing this message because this site requires a CSRF cookie when "
-"submitting forms. This cookie is required for security reasons, to ensure "
-"that your browser is not being hijacked by third parties."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/views/csrf.py:142
-msgid ""
-"If you have configured your browser to disable cookies, please re-enable "
-"them, at least for this site, or for “same-origin” requests."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/views/csrf.py:148
-msgid "More information is available with DEBUG=True."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/views/generic/dates.py:44
-msgid "No year specified"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/views/generic/dates.py:64
-#: venv/lib/python3.9/site-packages/django/views/generic/dates.py:115
-#: venv/lib/python3.9/site-packages/django/views/generic/dates.py:214
-msgid "Date out of range"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/views/generic/dates.py:94
-msgid "No month specified"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/views/generic/dates.py:147
-msgid "No day specified"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/views/generic/dates.py:194
-msgid "No week specified"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/views/generic/dates.py:349
-#: venv/lib/python3.9/site-packages/django/views/generic/dates.py:380
-#, python-format
-msgid "No %(verbose_name_plural)s available"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/views/generic/dates.py:652
-#, python-format
-msgid ""
-"Future %(verbose_name_plural)s not available because "
-"%(class_name)s.allow_future is False."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/views/generic/dates.py:692
-#, python-format
-msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/views/generic/detail.py:56
-#, python-format
-msgid "No %(verbose_name)s found matching the query"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/views/generic/list.py:70
-msgid "Page is not “last”, nor can it be converted to an int."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/views/generic/list.py:77
-#, python-format
-msgid "Invalid page (%(page_number)s): %(message)s"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/views/generic/list.py:169
-#, python-format
-msgid "Empty list and “%(class_name)s.allow_empty” is False."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/views/static.py:38
-msgid "Directory indexes are not allowed here."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/views/static.py:40
-#, python-format
-msgid "“%(path)s” does not exist"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/views/static.py:79
-#, python-format
-msgid "Index of %(directory)s"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/views/templates/default_urlconf.html:7
-#: venv/lib/python3.9/site-packages/django/views/templates/default_urlconf.html:220
-msgid "The install worked successfully! Congratulations!"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/views/templates/default_urlconf.html:206
-#, python-format
-msgid ""
-"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
-"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/views/templates/default_urlconf.html:221
-#, python-format
-msgid ""
-"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
-"%(version)s/ref/settings/#debug\" target=\"_blank\" "
-"rel=\"noopener\">DEBUG=True</a> is in your settings file and you have not "
-"configured any URLs."
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/views/templates/default_urlconf.html:229
 msgid "Django Documentation"
-msgstr ""
+msgstr "Документация Django"
 
-#: venv/lib/python3.9/site-packages/django/views/templates/default_urlconf.html:230
-msgid "Topics, references, &amp; how-to’s"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/views/templates/default_urlconf.html:238
-msgid "Tutorial: A Polling App"
-msgstr ""
-
-#: venv/lib/python3.9/site-packages/django/views/templates/default_urlconf.html:239
 msgid "Get started with Django"
-msgstr ""
+msgstr "Начало работы с Django"
 
-#: venv/lib/python3.9/site-packages/django/views/templates/default_urlconf.html:247
 msgid "Django Community"
-msgstr ""
+msgstr "Сообщество Django"
 
-#: venv/lib/python3.9/site-packages/django/views/templates/default_urlconf.html:248
 msgid "Connect, get help, or contribute"
-msgstr ""
+msgstr "Свяжитесь, получите помощь или внесите вклад"
+
