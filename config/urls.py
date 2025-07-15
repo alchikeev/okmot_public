@@ -11,17 +11,17 @@ urlpatterns = [
 ]
 
 urlpatterns += i18n_patterns(
-    path('', include('main.urls')),
-    path('news/', include('news.urls')),
-    path('documents/', include('documents.urls')),
-    path('appeals/', include('appeals.urls')),
-    path('about/', include('about.urls')),
-    path('council/', include('council.urls')),
-    path('investors/', include('investors.urls')),
-    path('community/', include('community.urls')),
-    path('gallery/', include('gallery.urls')),
-    path('info/', include('info.urls')),
-    path('search/', include('search.urls')),
+    path('', include('apps.main.urls')),
+    path('news/', include('apps.news.urls')),
+    path('documents/', include('apps.documents.urls')),
+    path('appeals/', include('apps.appeals.urls')),
+    path('about/', include('apps.about.urls')),
+    path('council/', include('apps.council.urls')),
+    path('investors/', include('apps.investors.urls')),
+    path('community/', include('apps.community.urls')),
+    path('gallery/', include('apps.gallery.urls')),
+    path('info/', include('apps.info.urls')),
+    path('search/', include('apps.search.urls')),
     # ... и все остальные ваши URL-адреса, которые должны быть переведены
     prefix_default_language=True, # Это опционально, но рекомендуется.
                                  # Если True, то для LANGUAGE_CODE (в вашем случае 'ru')
