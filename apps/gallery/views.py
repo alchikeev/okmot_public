@@ -6,7 +6,8 @@ def album_list(request):
     """Отображает список всех опубликованных фотоальбомов."""
     albums = PhotoAlbum.objects.filter(is_published=True).order_by('-published_date')
     context = {
-        'albums': albums
+        'albums': albums,
+        'context_string_for_no_description': 'Нет описания',
     }
     return render(request, 'gallery/album_list.html', context)
 
@@ -16,6 +17,7 @@ def album_detail(request, slug):
     photos = album.photos.all() # Получаем все фотографии, связанные с этим альбомом
     context = {
         'album': album,
-        'photos': photos
+        'photos': photos,
+        'context_string_for_photo_alt': 'Фотография из альбома',
     }
     return render(request, 'gallery/album_detail.html', context)
