@@ -1,0 +1,232 @@
+{% load i18n %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% trans "Сайт айыл окмоту" %}{% endblock %}</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; margin: 0; padding: 0;}
+        .container { margin-top: 20px; margin-bottom: 20px; }
+
+        /* Стили для сообщений Django (messages) */
+        .messages { list-style: none; padding: 0; margin-left: 0; }
+        .messages .message { padding: 10px 15px; margin-bottom: 15px; border-radius: 5px; }
+        .messages .message.success { background-color: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
+        .messages .message.error { background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
+        .messages .message.warning { background-color: #fff3cd; color: #664d03; border: 1px solid #ffecb5; }
+        .messages .message.info { background-color: #cff4fc; color: #055160; border: 1px solid #b6effb; }
+
+        /* Стили для отдельных блоков на главной странице, если они не перенесены в дочерние шаблоны */
+        .head-section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #e6f7ff;
+            border: 1px solid #cceeff;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+        }
+        .head-section img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-right: 20px;
+            border: 2px solid #007bff;
+        }
+        .head-info h2 { margin: 0 0 5px 0; color: #0056b3; font-size: 1.5rem; }
+        .head-info h3 { margin: 0 0 5px 0; color: #333; font-size: 1.25rem; }
+        .head-info p { margin: 0 0 3px 0; font-size: 0.95em; color: #333; }
+
+        .news-preview .card-title a, .document-preview .card-title a { text-decoration: none; color: #333; }
+        .news-preview .card-text, .document-preview .card-text { font-size: 0.9em; color: #666; }
+        .news-preview .card-img-top { object-fit: cover; }
+
+        .appeal-section {
+            margin-top: 30px; padding: 20px; background-color: #f0f8ff; border: 1px solid #e0f0ff; border-radius: 8px; text-align: center;
+        }
+        .appeal-section h2 { color: #0056b3; }
+        .appeal-section a.btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 25px;
+        }
+        .section-nav {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+        }
+        .section-nav h2 { margin-top: 0; }
+        .section-nav ul { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; }
+        .section-nav ul li { margin-right: 20px; margin-bottom: 10px; }
+        .section-nav ul li a { text-decoration: none; color: #007bff; font-weight: bold; }
+        .section-nav ul li a:hover { text-decoration: underline; }
+
+        /* Отступы для заголовков, чтобы не дублировать inline */
+        h1, h2 { margin-top: 1.5em; margin-bottom: 0.5em; }
+        h1 { font-size: 2.5rem; }
+        h2 { font-size: 2rem; }
+
+    </style>
+
+    {% block extra_head %}{% endblock %}
+</head>
+<body>
+
+    {% block header %}
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="{% url 'main:home' %}">{% trans "Айыл Окмоту" %}</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="{% url 'main:home' %}">{% trans "Главная" %}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'news:list' %}">{% trans "Новости" %}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'documents:list' %}">{% trans "Документы" %}</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAbout" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                {% trans "Об айыл окмоту" %}
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownAbout">
+                                <li><a class="dropdown-item" href="{% url 'about:leadership_list' %}">{% trans "Руководство и сотрудники" %}</a></li>
+                                <li><a class="dropdown-item" href="{% url 'about:department_list' %}">{% trans "Отделы" %}</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="{% url 'about:report_list' %}">{% trans "Отчеты" %}</a></li>
+                                <li><a class="dropdown-item" href="{% url 'about:budget_list' %}">{% trans "Бюджеты для граждан" %}</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="{% url 'about:page_list' %}">{% trans "Информационные страницы" %}</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCouncil" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                {% trans "Местный Кенеш" %}
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownCouncil">
+                                <li><a class="dropdown-item" href="{% url 'council:deputy_list' %}">{% trans "Депутаты" %}</a></li>
+                                <li><a class="dropdown-item" href="{% url 'council:decision_list' %}">{% trans "Решения Кенеша" %}</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'investors:project_list' %}">{% trans "Для инвесторов" %}</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCommunity" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                {% trans "Сообщество" %}
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownCommunity">
+                                <li><a class="dropdown-item" href="{% url 'community:advertisement_list' %}">{% trans "Объявления жителей" %}</a></li>
+                                <li><a class="dropdown-item" href="{% url 'community:blog_list' %}">{% trans "Блоги жителей" %}</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="{% url 'community:submit_advertisement' %}">{% trans "Подать объявление" %}</a></li>
+                                <li><a class="dropdown-item" href="{% url 'community:submit_blog_post' %}">{% trans "Написать в блог" %}</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'gallery:album_list' %}">{% trans "Фотогалерея" %}</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownInfo" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                {% trans "Справочная информация" %}
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownInfo">
+                                <li><a class="dropdown-item" href="{% url 'info:phone_list' %}">{% trans "Важные телефоны" %}</a></li>
+                                <li><a class="dropdown-item" href="{% url 'info:landmark_list' %}">{% trans "Достопримечательности" %}</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="{% url 'info:static_page_detail' slug='raspisanie-transporta' %}">{% trans "Расписание транспорта" %}</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'appeals:submit' %}">{% trans "Обращения" %}</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex me-2" role="search" method="get" action="{% url 'search:results' %}">
+                        <input class="form-control" type="search" placeholder="{% trans "Поиск" %}" aria-label="{% trans "Поиск" %}" name="q">
+                        <button class="btn btn-outline-light ms-2" type="submit"><i class="bi bi-search"></i></button>
+                    </form>
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLanguage" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-globe"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownLanguage">
+                                <li>
+                                    <form action="{% url 'set_language' %}" method="post">
+                                        {% csrf_token %}
+                                        <input type="hidden" name="next" value="{{ request.path }}">
+                                        <input type="hidden" name="language" value="ru">
+                                        <button type="submit" class="dropdown-item">
+                                            {% trans "Русский" %}
+                                        </button>
+                                    </form>
+                                </li>
+                                <li>
+                                    <form action="{% url 'set_language' %}" method="post">
+                                        {% csrf_token %}
+                                        <input type="hidden" name="next" value="{{ request.path }}">
+                                        <input type="hidden" name="language" value="kg">
+                                        <button type="submit" class="dropdown-item">
+                                            {% trans "Кыргызча" %}
+                                        </button>
+                                    </form>
+                                </li>
+                            </ul>
+                        </li>
+                        {% if user.is_authenticated %}
+                            <li class="nav-item">
+                                <a class="nav-link" href="{% url 'admin:index' %}">{% trans "Админка" %}</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{% url 'admin:logout' %}">{% trans "Выйти" %}</a>
+                            </li>
+                        {% else %}
+                            <li class="nav-item">
+                                <a class="nav-link" href="{% url 'admin:login' %}">{% trans "Войти" %}</a>
+                            </li>
+                        {% endif %}
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    {% endblock %}
+
+    <div class="container">
+        {% if messages %}
+            <ul class="messages">
+                {% for message in messages %}
+                    <li{% if message.tags %} class="message {{ message.tags }}"{% endif %}>{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+
+        {% block content %}
+        {% endblock %}
+    </div>
+
+    {% block footer %}
+        <footer class="bg-light text-center text-lg-start mt-5 py-3">
+            <div class="container p-4">
+                <p>&copy; 2025 {% trans "Айыл Окмоту" %}. {% trans "Все права защищены." %}</p>
+            </div>
+        </footer>
+    {% endblock %}
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    {% block extra_js %}{% endblock %}
+</body>
+</html>

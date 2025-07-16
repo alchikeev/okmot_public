@@ -1,0 +1,163 @@
+/* static/css/theme.css */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Django messages */
+.messages {
+    list-style: none;
+    padding: 0;
+    margin-left: 0;
+}
+.messages .message {
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.messages .message.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+.messages .message.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+.messages .message.warning {
+    background-color: #fff3cd;
+    color: #664d03;
+    border: 1px solid #ffecb5;
+}
+.messages .message.info {
+    background-color: #cff4fc;
+    color: #055160;
+    border: 1px solid #b6effb;
+}
+
+.head-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #e6f7ff;
+    border: 1px solid #cceeff;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.head-section img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 2px solid #007bff;
+}
+
+.head-info h2 {
+    margin: 0 0 5px 0;
+    color: #0056b3;
+    font-size: 1.5rem;
+}
+
+.head-info h3 {
+    margin: 0 0 5px 0;
+    color: #333;
+    font-size: 1.25rem;
+}
+
+.head-info p {
+    margin: 0 0 3px 0;
+    font-size: 0.95em;
+    color: #333;
+}
+
+.news-preview .card-title a,
+.document-preview .card-title a {
+    text-decoration: none;
+    color: #333;
+}
+
+.news-preview .card-text,
+.document-preview .card-text {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.news-preview .card-img-top {
+    object-fit: cover;
+}
+
+.appeal-section {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f0f8ff;
+    border: 1px solid #e0f0ff;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.appeal-section h2 {
+    color: #0056b3;
+}
+
+.appeal-section a.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+}
+
+.section-nav {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.section-nav h2 {
+    margin-top: 0;
+}
+
+.section-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-nav ul li {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.section-nav ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.section-nav ul li a:hover {
+    text-decoration: underline;
+}
+
+h1, h2 {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}

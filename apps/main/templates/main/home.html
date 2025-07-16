@@ -1,5 +1,5 @@
-{% extends 'base.html' %} {# Указываем, что этот шаблон наследуется от base.html #}
-{% load i18n %} {# Загружаем теги интернационализации #}
+{% extends 'base.html' %}
+{% load i18n %}
 
 {% block title %}{% trans "Главная страница" %} - {% trans "Айыл Окмоту" %}{% endblock %} {# Переопределяем заголовок #}
 
@@ -8,7 +8,7 @@
     {% if head_of_okmot %}
     <div class="head-section">
         {% if head_of_okmot.photo %}
-            <img src="{{ head_of_okmot.photo.url }}" alt="{{ head_of_okmot.full_name }}">
+            <img src="{{ head_of_okmot.photo.url }}" class="img-fluid rounded w-50" alt="{{ head_of_okmot.full_name }}">
         {% endif %}
         <div class="head-info">
             <h2>{% trans "Глава айыл окмоту" %}</h2>
