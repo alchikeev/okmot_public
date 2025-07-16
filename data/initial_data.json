@@ -1,0 +1,3416 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-07-14T14:36:34.483Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "1",
+    "object_repr": "Постройка школы",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-07-14T15:00:11.881Z",
+    "user": 1,
+    "content_type": 19,
+    "object_id": "1",
+    "object_repr": "История",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-07-14T15:01:53.751Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "1",
+    "object_repr": "Попутка",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-07-14T15:29:58.800Z",
+    "user": 1,
+    "content_type": 19,
+    "object_id": "1",
+    "object_repr": "История",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-07-14T15:30:19.889Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "1",
+    "object_repr": "Попутка",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-07-14T15:37:29.803Z",
+    "user": 1,
+    "content_type": 21,
+    "object_id": "1",
+    "object_repr": "Фотоархив",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-07-14T15:39:22.798Z",
+    "user": 1,
+    "content_type": 20,
+    "object_id": "1",
+    "object_repr": "Фотографии с праздника",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-07-14T15:48:45.133Z",
+    "user": 1,
+    "content_type": 23,
+    "object_id": "1",
+    "object_repr": "Фото из праздника",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"Photo object (1)\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"Photo object (2)\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"Photo object (3)\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"Photo object (4)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-07-14T16:34:51.787Z",
+    "user": 1,
+    "content_type": 24,
+    "object_id": "1",
+    "object_repr": "Скорая помощь",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-07-14T16:35:20.249Z",
+    "user": 1,
+    "content_type": 24,
+    "object_id": "2",
+    "object_repr": "Милиция",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2025-07-14T16:35:51.603Z",
+    "user": 1,
+    "content_type": 25,
+    "object_id": "1",
+    "object_repr": "Сказка",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-07-14T16:36:25.885Z",
+    "user": 1,
+    "content_type": 26,
+    "object_id": "1",
+    "object_repr": "Сколько платить за воду",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2025-07-15T10:17:21.390Z",
+    "user": 1,
+    "content_type": 19,
+    "object_id": "2",
+    "object_repr": "Биздин сайт",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2025-07-15T10:17:48.148Z",
+    "user": 1,
+    "content_type": 19,
+    "object_id": "1",
+    "object_repr": "История",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2025-07-15T10:21:57.632Z",
+    "user": 1,
+    "content_type": 19,
+    "object_id": "3",
+    "object_repr": "Биздин айылыбыз — биздин тазалыгыбыз",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2025-07-15T10:25:33.287Z",
+    "user": 1,
+    "content_type": 19,
+    "object_id": "4",
+    "object_repr": "Арыктарды тазалоо — биздин түшүмүбүздүн кепилдиги",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2025-07-15T10:25:52.368Z",
+    "user": 1,
+    "content_type": 19,
+    "object_id": "2",
+    "object_repr": "Биздин сайт",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2025-07-15T10:26:02.227Z",
+    "user": 1,
+    "content_type": 19,
+    "object_id": "3",
+    "object_repr": "Биздин айылыбыз — биздин тазалыгыбыз",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2025-07-15T10:26:23.460Z",
+    "user": 1,
+    "content_type": 19,
+    "object_id": "4",
+    "object_repr": "Арыктарды тазалоо — биздин түшүмүбүздүн кепилдиги",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441\", \"\\u041a\\u043e\\u043c\\u043c\\u0435\\u043d\\u0442\\u0430\\u0440\\u0438\\u0439 \\u043c\\u043e\\u0434\\u0435\\u0440\\u0430\\u0442\\u043e\\u0440\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2025-07-15T10:31:07.393Z",
+    "user": 1,
+    "content_type": 19,
+    "object_id": "5",
+    "object_repr": "Күтүлбөгөн окуя",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2025-07-15T10:31:27.962Z",
+    "user": 1,
+    "content_type": 19,
+    "object_id": "5",
+    "object_repr": "Күтүлбөгөн окуя",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2025-07-15T10:35:04.960Z",
+    "user": 1,
+    "content_type": 19,
+    "object_id": "6",
+    "object_repr": "Нооруз: Айылдыктардын биримдиги жана кубанычы",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2025-07-15T10:35:24.275Z",
+    "user": 1,
+    "content_type": 19,
+    "object_id": "6",
+    "object_repr": "Нооруз: Айылдыктардын биримдиги жана кубанычы",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441\", \"\\u041a\\u043e\\u043c\\u043c\\u0435\\u043d\\u0442\\u0430\\u0440\\u0438\\u0439 \\u043c\\u043e\\u0434\\u0435\\u0440\\u0430\\u0442\\u043e\\u0440\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2025-07-15T10:37:06.388Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "1",
+    "object_repr": "Попутка",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2025-07-15T10:44:57.055Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "2",
+    "object_repr": "Үй сатылат",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2025-07-15T10:47:44.414Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "3",
+    "object_repr": "\"Курулуш Дүйнөсү\"",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2025-07-15T10:49:45.373Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "4",
+    "object_repr": "Тигүүчүлөр керек",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2025-07-15T10:51:15.110Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "5",
+    "object_repr": "Жер тилкеси сатылат",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2025-07-15T10:53:18.659Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "6",
+    "object_repr": "Уста керек",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2025-07-15T10:54:36.644Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "7",
+    "object_repr": "Таза, жаңы эт сатылат",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2025-07-15T10:57:26.374Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "8",
+    "object_repr": "Орус тили боюнча репетитор",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2025-07-15T10:58:52.234Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "9",
+    "object_repr": "Велосипед сатылат",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2025-07-15T11:10:38.728Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "Өмүрбеков Данияр Тилекович",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2025-07-15T11:12:52.784Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "2",
+    "object_repr": "Асанов Сагынбек Кадырбекович",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2025-07-15T11:16:32.976Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "3",
+    "object_repr": "Жумалиев Адилет Нариманович",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2025-07-15T11:19:02.506Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "4",
+    "object_repr": "Мамытова Гүлнара Асанбековна",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2025-07-15T11:21:39.299Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "5",
+    "object_repr": "Садыков Таалайбек Өмүрович",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2025-07-15T11:23:31.041Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "6",
+    "object_repr": "Усманова Самара Эргешовна",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2025-07-15T11:26:29.145Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "7",
+    "object_repr": "Кадыров Руслан Аскарбекович",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2025-07-15T11:28:15.863Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "8",
+    "object_repr": "Исмаилова Алтынай Канатбековна",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2025-07-15T11:30:19.395Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "9",
+    "object_repr": "Нургазиев Азамат Рысбекович",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2025-07-15T12:37:30.990Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "10",
+    "object_repr": "Тажибаев Улан Маратович",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2025-07-15T12:39:25.681Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "11",
+    "object_repr": "Касымов Эмил Сейитбекович",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2025-07-15T12:41:20.422Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "12",
+    "object_repr": "Маликов Бакыт Асанович",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2025-07-15T12:44:34.697Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "13",
+    "object_repr": "Сагынбаева Нуриза Аманбековна",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2025-07-15T12:46:30.772Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "14",
+    "object_repr": "Ибраимов Азат Нурбекович",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2025-07-15T12:48:02.327Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "15",
+    "object_repr": "Калыков Асланбек Канатбекович",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2025-07-15T12:50:14.814Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "16",
+    "object_repr": "Жапарова Айдай Сабырбековна",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2025-07-15T12:53:10.140Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "17",
+    "object_repr": "Сулайманов Эрмек Нургазиевич",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2025-07-15T12:54:21.639Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "17",
+    "object_repr": "Сулайманов Эрмек Нургазиевич",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2025-07-15T16:23:27.816Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "18",
+    "object_repr": "Осмонов Аскар Жаныбекович",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2025-07-15T16:24:16.609Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "10",
+    "object_repr": "Тажибаев Улан Маратович",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a \\u043e\\u0442\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u044f\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2025-07-15T16:24:20.897Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "10",
+    "object_repr": "Тажибаев Улан Маратович",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2025-07-15T16:24:26.989Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "16",
+    "object_repr": "Жапарова Айдай Сабырбековна",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a \\u043e\\u0442\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u044f\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2025-07-15T16:24:33.683Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "14",
+    "object_repr": "Ибраимов Азат Нурбекович",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a \\u043e\\u0442\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u044f\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2025-07-15T16:24:44.378Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "8",
+    "object_repr": "Исмаилова Алтынай Канатбековна",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a \\u043e\\u0442\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u044f\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2025-07-15T16:24:51.749Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "15",
+    "object_repr": "Калыков Асланбек Канатбекович",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a \\u043e\\u0442\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u044f\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2025-07-15T16:25:00.457Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "11",
+    "object_repr": "Касымов Эмил Сейитбекович",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a \\u043e\\u0442\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u044f\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2025-07-15T16:25:08.517Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "12",
+    "object_repr": "Маликов Бакыт Асанович",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a \\u043e\\u0442\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u044f\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2025-07-15T16:25:17.710Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "13",
+    "object_repr": "Сагынбаева Нуриза Аманбековна",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a \\u043e\\u0442\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u044f\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2025-07-15T16:25:23.776Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "9",
+    "object_repr": "Нургазиев Азамат Рысбекович",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u044f\\u0434\\u043e\\u043a \\u043e\\u0442\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u044f\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2025-07-15T16:27:08.170Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "5",
+    "object_repr": "Садыков Таалайбек Өмүрович",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2025-07-15T16:32:12.289Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "1",
+    "object_repr": "Постановление №463 от 2025-06-11",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2025-07-15T16:36:00.155Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "2",
+    "object_repr": "Постановление №№ 21-П от 2025-07-10",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2025-07-15T16:36:50.563Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "3",
+    "object_repr": "Постановление №№ 22-П от 2025-05-26",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2025-07-15T16:37:35.690Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "4",
+    "object_repr": "Постановление №№ 23-П от 2025-06-11",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2025-07-15T16:38:19.596Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "5",
+    "object_repr": "Распоряжение №№ 15-Т от 2025-07-15",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2025-07-15T16:39:11.602Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "6",
+    "object_repr": "Распоряжение №№ 16-Т от 2025-03-05",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2025-07-15T16:40:05.498Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "7",
+    "object_repr": "Постановление №№ 24-П от 2025-06-01",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2025-07-15T16:41:04.076Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "8",
+    "object_repr": "Постановление №№ 25-П от 2025-06-06",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2025-07-15T16:41:46.354Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "9",
+    "object_repr": "Прочее №№ 26-П от 2025-07-14",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2025-07-15T16:42:44.151Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "10",
+    "object_repr": "Прочее №№ 17-Т от 2025-07-16",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2025-07-15T16:43:28.801Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "11",
+    "object_repr": "Распоряжение №№ 18-Т от 2025-07-07",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2025-07-15T17:18:05.800Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Бюджет за 2024: Бюджет 2024",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2025-07-15T17:18:38.949Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Бюджет за 2025: Бюджет 2025",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2025-07-15T17:20:03.921Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Бюджет за 2023: Муниципалдык ишкананын бюджети",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2025-07-15T17:31:03.719Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "Айыл өкмөтүнүн башчысы: Өмүрбеков Данияр Тилекович",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2025-07-15T17:33:06.636Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "Айыл өкмөтүнүн башчысынын орун басары: Асанов Сагынбек Кадырбекович",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2025-07-15T17:34:34.517Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "3",
+    "object_repr": "Жоопту катчы: Абдуллаев Асылбек",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2025-07-15T17:36:11.709Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "4",
+    "object_repr": "Экономикалык өнүгүү жана каржы бөлүмүнүн башчысы: Осмоналиева Назира",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2025-07-15T17:38:36.092Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "5",
+    "object_repr": "Жер жана айыл чарба бөлүмүнүн башчысы: Турдубаев Аскар",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2025-07-15T17:40:19.334Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "6",
+    "object_repr": "Социалдык маселелер бөлүмүнүн башчысы: Жумабекова Асел",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2025-07-15T17:43:25.025Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "7",
+    "object_repr": "Турак-жай-коммуналдык чарба (ЖКЧ) бөлүмүнүн башчысы: Раимбеков Эркин",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2025-07-15T17:44:17.448Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "8",
+    "object_repr": "Маалыматтык технологиялар жана коомчулук менен байланыш бөлүмүнүн башчысы: Усманова Самара",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2025-07-15T17:45:25.174Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "9",
+    "object_repr": "Муниципалдык ишкананын жетекчиси: Садыков Таалайбек Өмүрович",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2025-07-15T17:47:33.793Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "1",
+    "object_repr": "Жетекчилик",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2025-07-15T17:48:34.271Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "2",
+    "object_repr": "Экономикалык өнүгүү жана каржы бөлүмү",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2025-07-15T17:50:16.565Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "3",
+    "object_repr": "Жер жана айыл чарба бөлүмү",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2025-07-15T17:51:18.046Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "4",
+    "object_repr": "Социалдык маселелер бөлүмү",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2025-07-15T17:52:02.612Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "5",
+    "object_repr": "Турак-жай-коммуналдык чарба (ЖКЧ) бөлүмү",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2025-07-15T17:52:48.461Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "6",
+    "object_repr": "Маалыматтык технологиялар жана коомчулук менен байланыш бөлүмү",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2025-07-15T17:53:36.327Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "7",
+    "object_repr": "Муниципалдык ишкана",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2025-07-15T17:56:27.070Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "Отчет за 2024: Айыл өкмөтүнүн 2024-жылга карата отчету",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2025-07-15T17:57:08.022Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "2",
+    "object_repr": "Отчет за 2023: Айыл өкмөтүнүн 2023-жылга карата отчету",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2025-07-15T17:57:32.775Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "3",
+    "object_repr": "Отчет за None: Жайыт комитетинин 2024-жылга карата отчету",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2025-07-15T17:57:55.751Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "4",
+    "object_repr": "Отчет за None: Муниципалдык ишкананын 2024-жылга карата отчету",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2025-07-15T17:59:34.604Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Айыл Өкмөтүнүн долбоорлору жана демилгелери",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2025-07-15T17:59:57.347Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Айыл жашоочуларынын укуктары жана милдеттери",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2025-07-15T18:00:19.750Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Айыл өкмөтү менен кантип байланышса болот?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2025-07-15T18:02:02.642Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Жарыя: Суу тарифтери өзгөрдү",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2025-07-15T18:02:22.410Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "Жарыя: Айыл өкмөтүнө электрик керек",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2025-07-15T18:02:47.521Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "6",
+    "object_repr": "Айыл өкмөтүнөн жер тилкесин кантип алууга болот?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2025-07-15T18:03:08.485Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "7",
+    "object_repr": "Ысык тамак уюштуруу",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2025-07-15T18:05:36.480Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Кыргыз Республикасынын Конституциясы",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 105,
+  "fields": {
+    "action_time": "2025-07-15T18:05:55.819Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Жер кодекси",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 106,
+  "fields": {
+    "action_time": "2025-07-15T18:06:18.827Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "\"Жергиликтүү өз алдынча башкаруу жөнүндө\" мыйзамы",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 107,
+  "fields": {
+    "action_time": "2025-07-15T18:06:46.333Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "\"Жайыттар жөнүндө\" мыйзамы",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 108,
+  "fields": {
+    "action_time": "2025-07-15T18:09:19.086Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Нооруз майрамы айылда чоң салтанат менен белгиленди",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 109,
+  "fields": {
+    "action_time": "2025-07-15T18:10:22.548Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Айылда \"Тазалык\" акциясы ийгиликтүү өттү",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 110,
+  "fields": {
+    "action_time": "2025-07-15T18:11:51.560Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Жаңы спорттук аянтча жаштарга кубаныч тартуулады",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 111,
+  "fields": {
+    "action_time": "2025-07-15T18:13:11.416Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Жолдор оңдолуп, айылдын инфраструктурасы жакшырууда",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 112,
+  "fields": {
+    "action_time": "2025-07-15T18:14:12.418Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Айылда медициналык кароо өттү",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 113,
+  "fields": {
+    "action_time": "2025-07-15T18:15:09.603Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Айылда жаш ишкерлерге колдоо көрсөтүү башталды",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 114,
+  "fields": {
+    "action_time": "2025-07-15T18:17:36.675Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Айылда жаңы маданият борбору ачылды",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 115,
+  "fields": {
+    "action_time": "2025-07-15T18:18:51.072Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Жаңы суу түтүктөрү",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 116,
+  "fields": {
+    "action_time": "2025-07-15T18:19:56.990Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Айылда жаштар форуму өттү",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 117,
+  "fields": {
+    "action_time": "2025-07-15T18:20:51.960Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "Айыл тургундарына жаңы социалдык жардам көрсөтүлөт",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 118,
+  "fields": {
+    "action_time": "2025-07-15T18:22:24.579Z",
+    "user": 1,
+    "content_type": 24,
+    "object_id": "1",
+    "object_repr": "Скорая помощь",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 119,
+  "fields": {
+    "action_time": "2025-07-15T18:22:24.582Z",
+    "user": 1,
+    "content_type": 24,
+    "object_id": "2",
+    "object_repr": "Милиция",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 120,
+  "fields": {
+    "action_time": "2025-07-15T18:24:28.937Z",
+    "user": 1,
+    "content_type": 24,
+    "object_id": "3",
+    "object_repr": "Айыл өкмөтү",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 121,
+  "fields": {
+    "action_time": "2025-07-15T18:24:53.661Z",
+    "user": 1,
+    "content_type": 24,
+    "object_id": "4",
+    "object_repr": "Милиция бөлүмү",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 122,
+  "fields": {
+    "action_time": "2025-07-15T18:25:20.700Z",
+    "user": 1,
+    "content_type": 24,
+    "object_id": "5",
+    "object_repr": "Өрт өчүрүү кызматы",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 123,
+  "fields": {
+    "action_time": "2025-07-15T18:25:45.944Z",
+    "user": 1,
+    "content_type": 24,
+    "object_id": "6",
+    "object_repr": "Тез жардам кызматы (ФАП)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 124,
+  "fields": {
+    "action_time": "2025-07-15T18:26:11.746Z",
+    "user": 1,
+    "content_type": 24,
+    "object_id": "7",
+    "object_repr": "Электр тармагы",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 125,
+  "fields": {
+    "action_time": "2025-07-15T18:26:31.406Z",
+    "user": 1,
+    "content_type": 24,
+    "object_id": "8",
+    "object_repr": "Суу чарба кызматы",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 126,
+  "fields": {
+    "action_time": "2025-07-15T18:26:53.286Z",
+    "user": 1,
+    "content_type": 24,
+    "object_id": "9",
+    "object_repr": "Жайыт комитети",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 127,
+  "fields": {
+    "action_time": "2025-07-15T18:27:21.040Z",
+    "user": 1,
+    "content_type": 24,
+    "object_id": "10",
+    "object_repr": "Орто мектеп",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 128,
+  "fields": {
+    "action_time": "2025-07-15T18:27:45.516Z",
+    "user": 1,
+    "content_type": 24,
+    "object_id": "11",
+    "object_repr": "Маданият үйү",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 129,
+  "fields": {
+    "action_time": "2025-07-15T18:28:08.022Z",
+    "user": 1,
+    "content_type": 24,
+    "object_id": "12",
+    "object_repr": "Муниципалдык ишкана",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 130,
+  "fields": {
+    "action_time": "2025-07-15T18:31:25.781Z",
+    "user": 1,
+    "content_type": 25,
+    "object_id": "2",
+    "object_repr": "Айылдын тарых музейи",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 131,
+  "fields": {
+    "action_time": "2025-07-15T18:32:38.438Z",
+    "user": 1,
+    "content_type": 25,
+    "object_id": "3",
+    "object_repr": "\"Ак-Булак\" булагы",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 132,
+  "fields": {
+    "action_time": "2025-07-15T18:33:40.868Z",
+    "user": 1,
+    "content_type": 25,
+    "object_id": "4",
+    "object_repr": "\"Достук\" спорттук комплекси",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 133,
+  "fields": {
+    "action_time": "2025-07-15T18:35:05.065Z",
+    "user": 1,
+    "content_type": 25,
+    "object_id": "5",
+    "object_repr": "\"Эски тегирмен\"",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 134,
+  "fields": {
+    "action_time": "2025-07-16T04:03:24.236Z",
+    "user": 1,
+    "content_type": 21,
+    "object_id": "2",
+    "object_repr": "Айыл жанылыктары",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 135,
+  "fields": {
+    "action_time": "2025-07-16T04:03:53.899Z",
+    "user": 1,
+    "content_type": 21,
+    "object_id": "3",
+    "object_repr": "Айыл Окмот жумуштары",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 136,
+  "fields": {
+    "action_time": "2025-07-16T04:04:16.491Z",
+    "user": 1,
+    "content_type": 23,
+    "object_id": "1",
+    "object_repr": "Фото из праздника",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 137,
+  "fields": {
+    "action_time": "2025-07-16T04:06:12.974Z",
+    "user": 1,
+    "content_type": 23,
+    "object_id": "2",
+    "object_repr": "Жөө-Күлүк марафону",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"Photo object (5)\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"Photo object (6)\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"Photo object (7)\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"Photo object (8)\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"Photo object (9)\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"Photo object (10)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 138,
+  "fields": {
+    "action_time": "2025-07-16T04:07:25.373Z",
+    "user": 1,
+    "content_type": 23,
+    "object_id": "3",
+    "object_repr": "Бала бакча ачылышы",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"Photo object (11)\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"Photo object (12)\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"Photo object (13)\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"Photo object (14)\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"Photo object (15)\"}}]"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$e9eScH3lBI7qJqBHgfvh0z$vKg1xlBp+neElxjZ2dHmbyzP9JLCVuCvEJXiyOtJAW8=",
+    "last_login": "2025-07-15T19:10:07.362Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-07-14T13:43:27.957Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "eke0yy219t5khosndnksy077mmqkauk9",
+  "fields": {
+    "session_data": ".eJxVjM0OwiAQhN-FsyHlR9h69O4zkIVdpGogKe3J-O62SQ96m8z3zbxFwHUpYe08h4nERShx-u0ipifXHdAD673J1OoyT1Huijxol7dG_Loe7t9BwV62NZBFVE6NznEewVBM4KOnwWcCn6PxVrM6W8-4JaeNjUYbNqxBDQwsPl_h2jeE:1ubiTe:mcogo5dnOdRfvsoT1YzmPQIoVxiPRI7R5xFWa34TYAU",
+    "expire_date": "2025-07-29T16:25:58.072Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ncyh8rck23107l1fh4nswq5iqft83neo",
+  "fields": {
+    "session_data": ".eJxVjM0OwiAQhN-FsyHlR9h69O4zkIVdpGogKe3J-O62SQ96m8z3zbxFwHUpYe08h4nERShx-u0ipifXHdAD673J1OoyT1Huijxol7dG_Loe7t9BwV62NZBFVE6NznEewVBM4KOnwWcCn6PxVrM6W8-4JaeNjUYbNqxBDQwsPl_h2jeE:1ubKAj:rwfZNl2_HUPqP4a4olihrSQlSj6lzTGD9fsGHZyHmbo",
+    "expire_date": "2025-07-28T14:28:49.517Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "o1m5z6qgcd8lxt2j2offutgs8ui844fg",
+  "fields": {
+    "session_data": ".eJxVjM0OwiAQhN-FsyHlR9h69O4zkIVdpGogKe3J-O62SQ96m8z3zbxFwHUpYe08h4nERShx-u0ipifXHdAD673J1OoyT1Huijxol7dG_Loe7t9BwV62NZBFVE6NznEewVBM4KOnwWcCn6PxVrM6W8-4JaeNjUYbNqxBDQwsPl_h2jeE:1ubJXR:YTbQ9t4AquaTzOZSCepFeaSjskHeqtoHoHtIUMsg8N8",
+    "expire_date": "2025-07-28T13:48:13.231Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "p6copffq43ubdfdemb0ltd8avf98saqb",
+  "fields": {
+    "session_data": ".eJxVjM0OwiAQhN-FsyHlR9h69O4zkIVdpGogKe3J-O62SQ96m8z3zbxFwHUpYe08h4nERShx-u0ipifXHdAD673J1OoyT1Huijxol7dG_Loe7t9BwV62NZBFVE6NznEewVBM4KOnwWcCn6PxVrM6W8-4JaeNjUYbNqxBDQwsPl_h2jeE:1ubl2V:UrsbJrvQtO-lbU6-84kKHANE5GsqmvBGIM138CFF3EI",
+    "expire_date": "2025-07-29T19:10:07.363Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "y9vgpprgc32ay3d544eukwna11drz5up",
+  "fields": {
+    "session_data": ".eJxVjM0OwiAQhN-FsyHlR9h69O4zkIVdpGogKe3J-O62SQ96m8z3zbxFwHUpYe08h4nERShx-u0ipifXHdAD673J1OoyT1Huijxol7dG_Loe7t9BwV62NZBFVE6NznEewVBM4KOnwWcCn6PxVrM6W8-4JaeNjUYbNqxBDQwsPl_h2jeE:1ubWVZ:oP_H7rZcJFRGRzHc-YIQPgqAxVgv46WOFMO9-FUXgmE",
+    "expire_date": "2025-07-29T03:39:09.959Z"
+  }
+},
+{
+  "model": "news.news",
+  "pk": 1,
+  "fields": {
+    "title": "Нооруз майрамы айылда чоң салтанат менен белгиленди",
+    "slug": "nooruz-majramy-ajylda-cho-saltanat-menen-belgilendi",
+    "content": "Быйылкы Нооруз майрамы айылыбызда өзгөчө кубаныч жана биримдик менен белгиленди. Майрамдык иш-чаралар эртең менен башталып, күн бою уланды. Айылдын тургундары, жаш-кары дебей, баары чогулуп, жаңы жылдын келишин бирге тосушту. Айыл өкмөтү тарабынан уюштурулган бул салтанат элдин көңүлүн көтөрүп, ынтымагын бекемдеди.\r\n\r\nСалтанаттын алкагында улуттук оюндар ойнолуп, ат чабыш, эр эңиш жана кыз куумай оюндарынын күйөрмандары үчүн чоң шоу болду. Айылдын күчтүү жигиттери күч сынашып, жеңүүчүлөргө баалуу байгелер тапшырылды. Кыз-келиндер болсо Ноорузга карата атайын тигилген улуттук кийимдерин кийип, майрамдын көркүн ачышты.\r\n\r\nМайрамдын эң маанилүү бөлүгү — бул сүмөлөк. Ар бир үй-бүлө өзүнүн сүмөлөгүн жасап, коңшулары жана коноктор менен бөлүшүштү. Айыл аянтында жайылган чоң дасторкондо боорсок, чак-чак жана башка улуттук тамак-аштар коюлуп, келгендердин баарына тартууланды. Бул салт биздин элдин жоомарттыгын жана меймандостугун дагы бир жолу көрсөттү.\r\n\r\nЖаш таланттар үчүн концерттик программа уюштурулуп, анда айылыбыздын өнөрлүү жаштары ырдап, бийлеп, комузда ойноп, чеберчиликтерин көрсөтүштү. Концерттик программа аяктагандан кийин жаштар арасында тазалык боюнча сынак жарыяланып, ага ылайык айылдын эң таза көчөсү аныкталды. Жеңүүчүлөр атайын сыйлыктар менен сыйланды.\r\n\r\nБыйылкы Нооруз майрамы бизге салт-санаабызды унутпастан, бири-бирибизге жакын болууну, ынтымакта жашоону жана келечекке болгон ишенимибизди бекемдөөнү эскертти. Айыл өкмөтү бардык айылдаштарга майрамдык маанай үчүн ыраазычылык билдирет.",
+    "image": "news/images/5c9354285362f032314465_1.jpg",
+    "published_date": "2025-07-15T18:09:19.084Z",
+    "updated_date": "2025-07-15T18:09:19.084Z",
+    "is_published": true
+  }
+},
+{
+  "model": "news.news",
+  "pk": 2,
+  "fields": {
+    "title": "Айылда \"Тазалык\" акциясы ийгиликтүү өттү",
+    "slug": "ajylda-tazalyk-akciyasy-ijgilikt-tt",
+    "content": "Айыл өкмөтүнүн демилгеси менен өткөрүлгөн \"Тазалык\" акциясы ийгиликтүү жыйынтыкталды. Бул акцияга айылдын жашоочулары, мекеме-ишканалардын кызматкерлери жана жаштар активдүү катышты. Иш-чаранын максаты — айылыбызды таза кармоо, таштандылардан арылтуу жана айлана-чөйрөнү коргоо.\r\n\r\nЭртең мененки саат 9:00дөн баштап, айылдын тургундары жалпы ишембиликке чыгышты. Көчөлөр, арыктар жана коомдук жайлар таштандылардан жана куураган чөптөрдөн тазаланды. Айрыкча, мектептин айланасын тазалоого окуучулар да жардам берип, тазалыкка болгон жоопкерчиликтерин көрсөтүштү.\r\n\r\nАкциянын жүрүшүндө айыл өкмөтү бардык катышуучуларды керектүү шаймандар менен камсыздады. Иш бүткөндөн кийин, тазаланган жерлерге жаңы таштанды челектери орнотулду. Бул чаралар келечекте тазалыкты сактоого өбөлгө түзөт.\r\n\r\nАйыл өкмөтүнүн башчысы Өмүрбеков Данияр Тилек уулу бардык катышуучуларга ыраазычылык билдирип, мындай иш-чаралар ай сайын өткөрүлүп тураарын белгиледи. Ал тазалыкты сактоо жалпыбыздын милдети экенин айтып, ар бир тургунду айылынын көркүнө көрк кошууга чакырды.",
+    "image": "news/images/434734955_828881432618936_4599521404875337267_n.jpg",
+    "published_date": "2025-07-15T18:10:22.546Z",
+    "updated_date": "2025-07-15T18:10:22.546Z",
+    "is_published": true
+  }
+},
+{
+  "model": "news.news",
+  "pk": 3,
+  "fields": {
+    "title": "Жаңы спорттук аянтча жаштарга кубаныч тартуулады",
+    "slug": "zhay-sporttuk-ayantcha-zhashtarga-kubanych-tartuulady",
+    "content": "Айылдын жаштарынын көптөн күткөн кыялы ишке ашты – заманбап спорттук аянтча курулуп, салтанаттуу түрдө ачылды. Айыл өкмөтүнүн жана жергиликтүү ишкерлердин колдоосу менен курулган бул аянтчада футбол, баскетбол жана волейбол ойноого бардык шарттар түзүлгөн. Ачылыш аземине айыл тургундары, мектеп окуучулары жана жергиликтүү жетекчилер катышты.\r\n\r\nАянтчанын ачылыш аземинде айыл өкмөтүнүн башчысы сөз сүйлөп, бул долбоордун маанилүүлүгүн белгиледи. Ал жаштарды спорт менен машыгууга жана сергек жашоо образын алып жүрүүгө чакырды. Ачылыштын урматына мектеп окуучулары арасында футбол боюнча достук турнир өткөрүлдү. Оюн кызуу жана кызыктуу өтүп, жеңүүчүлөр баалуу белектер менен сыйланды.\r\n\r\nСпорттук аянтчанын ачылышы менен айылдын жаштарынын бош убактысын туура пайдалануусуна чоң мүмкүнчүлүк түзүлдү. Алар эми спорт залдарды издеп шаарга барышпастан, өз айылында машыгып, күч-кубат топтоо мүмкүнчүлүгүнө ээ болушту.\r\n\r\nБул аянтча айылдын спорттук жашоосун жандандырууга жана жаштарды бириктирүүгө чоң салым кошот. Айыл өкмөтү мындай социалдык долбоорлорду мындан ары да колдоп, тургундарга ыңгайлуу шарттарды түзүүнү улантат.",
+    "image": "news/images/ajantcha.jpeg",
+    "published_date": "2025-07-15T18:11:51.558Z",
+    "updated_date": "2025-07-15T18:11:51.558Z",
+    "is_published": true
+  }
+},
+{
+  "model": "news.news",
+  "pk": 4,
+  "fields": {
+    "title": "Жолдор оңдолуп, айылдын инфраструктурасы жакшырууда",
+    "slug": "zholdor-odolup-ajyldyn-infrastrukturasy-zhakshyruuda",
+    "content": "Айыл өкмөтү тарабынан башталган жолдорду оңдоо иштери кызуу жүрүп жатат. Азыркы учурда айылдын борбордук жана бир нече ички көчөлөрүнүн жолдору оңдолууда. Бул иштер айыл тургундарынын коопсуздугун камсыз кылууга жана унаа кыймылын жеңилдетүүгө багытталган.\r\n\r\nОңдоо иштери жергиликтүү бюджеттин каражаты менен жүргүзүлүүдө. Жолдордун эң начар бөлүктөрү биринчи кезекте калыбына келтирилип, ага шагыл төгүлүп, тегизделет. Бул жараян айылдын инфраструктурасын бир топ жакшыртып, транспорттун жүрүшүн ыңгайлуу кылат.\r\n\r\nАйыл өкмөтүнүн башчысы бул долбоордун аткарылышын жеке көзөмөлүнө алды. Ал жолдордун сапатына жана иштин убагында бүткөрүлүшүнө өзгөчө көңүл буруп жатат. Тургундар да бул демилгени колдоп, жол куруучуларга ыраазычылыктарын билдирип жатышат.\r\n\r\nЖолдорду оңдоо менен бирге, арыктарды жана суу өткөрүүчү түтүктөрдү тазалоо иштери да жүргүзүлүүдө. Бул келечекте суу ташкындарын алдын алууга жана айылдын жалпы көрктөндүрүлүшүнө чоң салым кошот.",
+    "image": "news/images/367737204_604011495240934_201838746127586542_n.jpg",
+    "published_date": "2025-07-15T18:13:11.414Z",
+    "updated_date": "2025-07-15T18:13:11.414Z",
+    "is_published": true
+  }
+},
+{
+  "model": "news.news",
+  "pk": 5,
+  "fields": {
+    "title": "Айылда медициналык кароо өттү",
+    "slug": "ajylda-medicinalyk-karoo-tt",
+    "content": "Өткөн жумада айылдын ФАПында (Фельдшердик-акушердик пункт) жалпы медициналык кароо уюштурулду. Бул иш-чарага шаардан адистештирилген дарыгерлер чакырылып, алар айыл тургундарына акысыз медициналык кызмат көрсөтүштү. Кароого жаш-кары дебей, көптөгөн тургундар келип, ден соолуктарын текшертишти.\r\n\r\nМедициналык кароонун алкагында кан басымы, канттын деңгээли жана башка жалпы көрсөткүчтөр текшерилди. Дарыгерлер тургундарга ден соолукту сактоо боюнча кеңештерди берип, керектүү дары-дармектерди жазып беришти. Ошондой эле, өнөкөт оорулары бар жарандар ооруканада кошумча текшерүүдөн өтүү үчүн жолдомо алышты.\r\n\r\nБул иш-чара айыл өкмөтүнүн жана Саламаттыкты сактоо министрлигинин биргелешкен аракети менен ишке ашты. Негизги максат — айыл тургундарынын ден соолугуна кам көрүү жана оорулардын алдын алуу болуп саналат.\r\n\r\nЖарандардын медициналык кароого болгон кызыгуусу чоң болду, бул алардын ден соолугуна кайдыгер карабагандыгын көрсөтүп турат. Айыл өкмөтү мындай иш-чараларды мындан ары да уюштурууну пландаштырууда.",
+    "image": "news/images/whatsapp-image-2020-07-13-at-17-01-59.jpeg",
+    "published_date": "2025-07-15T18:14:12.415Z",
+    "updated_date": "2025-07-15T18:14:12.416Z",
+    "is_published": true
+  }
+},
+{
+  "model": "news.news",
+  "pk": 6,
+  "fields": {
+    "title": "Айылда жаш ишкерлерге колдоо көрсөтүү башталды",
+    "slug": "ajylda-zhash-ishkerlerge-koldoo-krst-bashtaldy",
+    "content": "Айыл өкмөтү жаш ишкерлерди колдоо максатында атайын программаны ишке ашыра баштады. Бул программанын алкагында, бизнес баштоону каалаган жаштарга каржылык жана консультациялык жардам көрсөтүлөт. Программанын негизги максаты — жаштардын айылдан кетүүсүн азайтып, жергиликтүү экономиканы өнүктүрүү.\r\n\r\nБиринчи этапта 10 жаш ишкер тандалып алынды. Алардын долбоорлору айыл чарба, кол өнөрчүлүк жана кызмат көрсөтүү тармактарына багытталган. Тандалган долбоорлорго чакан гранттар берилип, алар өздүк бизнестерин баштоого мүмкүнчүлүк алышты.\r\n\r\nАйыл өкмөтү жаш ишкерлерге бизнес-план түзүүгө жана керектүү документтерди даярдоого жардам берет. Мындан тышкары, алар үчүн атайын тренингдер жана семинарлар уюштурулуп, анда алар ишкердиктин негиздери боюнча билим алышат.\r\n\r\nБул демилге жаштардын потенциалын ачууга, жаңы жумуш орундарын түзүүгө жана айылдын туруктуу өнүгүүсүн камсыздоого чоң салым кошот. Айыл өкмөтү келечекте дагы көп жаш ишкерлерди колдоого даяр экенин билдирди.",
+    "image": "news/images/3345533.11b8fbe70a0ba198ad2ebec3da5dd27d.jpg",
+    "published_date": "2025-07-15T18:15:09.601Z",
+    "updated_date": "2025-07-15T18:15:09.601Z",
+    "is_published": true
+  }
+},
+{
+  "model": "news.news",
+  "pk": 7,
+  "fields": {
+    "title": "Айылда жаңы маданият борбору ачылды",
+    "slug": "ajylda-zhay-madaniyat-borboru-achyldy",
+    "content": "Айылдын борборунда көптөн күткөн жаңы маданият борборунун салтанаттуу ачылышы болуп өттү. Бул долбоор айыл өкмөтүнүн жана жергиликтүү демөөрчүлөрдүн колдоосу менен ишке ашырылды. Маданият борборунда китепкана, окуу залы, компьютердик класс жана ар кандай ийримдер үчүн бөлмөлөр каралган.\r\n\r\nАчылыш аземине айыл тургундары, мектеп окуучулары жана жергиликтүү жетекчилер катышты. Айыл өкмөтүнүн башчысы сөз сүйлөп, бул борбордун жаштардын билим алуусуна жана маданий өнүгүүсүнө чоң салым кошоорун белгиледи. Ал бардык тургундарды борбордун кызматтарын активдүү пайдаланууга чакырды.\r\n\r\nМаданият борборунун китепканасы жаңы китептер менен толукталып, окурмандарга кеңири мүмкүнчүлүктөрдү берет. Компьютердик класста жаштар заманбап технологияларды үйрөнүп, интернетке кирүү мүмкүнчүлүгүнө ээ болушат. Ошондой эле, борбордо комуз, бий жана сүрөт ийримдери уюштурулат.\r\n\r\nБул борбор айылдын маданий жашоосун жандандырууга жана жаштардын бош убактысын туура пайдалануусуна жардам берет. Айыл өкмөтү мындай социалдык долбоорлорду мындан ары да колдоону улантат.",
+    "image": "news/images/1029965836_0-176-1280-899_600x0_80_0_0_9861674bbaf4d2efa994ffb9039b2c26.jpg",
+    "published_date": "2025-07-15T18:17:36.673Z",
+    "updated_date": "2025-07-15T18:17:36.673Z",
+    "is_published": true
+  }
+},
+{
+  "model": "news.news",
+  "pk": 8,
+  "fields": {
+    "title": "Жаңы суу түтүктөрү",
+    "slug": "zhay-suu-ttktr",
+    "content": "Айыл өкмөтү тарабынан башталган жаңы суу түтүктөрүн орнотуу долбоору ийгиликтүү аяктады. Бул долбоордун алкагында айылдын көпчүлүк бөлүгү таза ичүүчү суу менен камсыз болду. Долбоорду ишке ашыруу үчүн мамлекеттик бюджеттен жана эл аралык уюмдардан каражат тартылды.\r\n\r\nЖаңы түтүктөр эскирген системаларды толугу менен алмаштырып, тургундарга таза жана сапаттуу суу жеткирүүнү камсыз кылат. Мурунку суу көйгөйлөрү – суунун жоктугу жана сапатынын начардыгы – эми чечилди. Бул жарандардын ден соолугун чыңдоого жана жашоо шартын жакшыртууга чоң салым кошот.\r\n\r\nАйыл өкмөтүнүн башчысы долбоордун ишке ашырылышына жардам берген бардык уюмдарга жана айыл тургундарына ыраазычылык билдирди. Ал сууну үнөмдүү пайдаланууга жана жаңы системаны таза кармоого чакырды.",
+    "image": "news/images/images.jpeg",
+    "published_date": "2025-07-15T18:18:51.070Z",
+    "updated_date": "2025-07-15T18:18:51.070Z",
+    "is_published": true
+  }
+},
+{
+  "model": "news.news",
+  "pk": 9,
+  "fields": {
+    "title": "Айылда жаштар форуму өттү",
+    "slug": "ajylda-zhashtar-forumu-tt",
+    "content": "Айылдын жаштарынын активдүү катышуусу менен \"Келечек – жаштарда\" аталышындагы форум болуп өттү. Форумдун максаты – айылдын өнүгүүсүндө жаштардын ролун жогорулатуу, алардын сунуштарын угуу жана жаңы долбоорлорду биргелешип ишке ашыруу. Форумга айылдын жаш активисттери, студенттер жана ишкерлер катышты.\r\n\r\nФорумдун алкагында талкуулар жана тренингдер өткөрүлдү. Жаштар айылдагы көйгөйлөрдү чечүү боюнча өз идеяларын ортого салышты. Негизги темалар: жаштарга жумуш орундарын түзүү, билим берүү системасын жакшыртуу жана айылда маданий иш-чараларды уюштуруу болду.\r\n\r\nАйыл өкмөтү жаштардын сунуштарын колдоого даяр экенин билдирди. Эң мыкты идеялар айылдын өнүгүү планына киргизилет. Мындай форумдарды жыл сайын өткөрүү чечими кабыл алынды.",
+    "image": "news/images/20020e44-104e-4e64-befc-aa5a4c9c25a6.jpeg",
+    "published_date": "2025-07-15T18:19:56.989Z",
+    "updated_date": "2025-07-15T18:19:56.989Z",
+    "is_published": true
+  }
+},
+{
+  "model": "news.news",
+  "pk": 10,
+  "fields": {
+    "title": "Айыл тургундарына жаңы социалдык жардам көрсөтүлөт",
+    "slug": "ajyl-turgundaryna-zhay-socialdyk-zhardam-krstlt",
+    "content": "Айыл өкмөтү социалдык жактан аялуу үй-бүлөлөргө жардам көрсөтүү максатында жаңы программаны ишке ашыра баштады. Бул программанын алкагында, аз камсыз болгон үй-бүлөлөргө кышка карата отун, көмүр жана азык-түлүк түрүндө жардам көрсөтүлөт.\r\n\r\nАйыл өкмөтүнүн социалдык бөлүмү тарабынан муктаж болгон үй-бүлөлөрдүн тизмеси такталып, аларга жардам берүү иштери башталды. Жардам көрсөтүү процесси ачык-айкын жүргүзүлүп, бардык маалыматтар айылдык кеңештин көзөмөлүндө болот.\r\n\r\nБул демилге айыл тургундарынын турмуш-шартын жакшыртууга жана кышкы оор мезгилде аларга колдоо көрсөтүүгө багытталган. Айыл өкмөтү бул программаны мындан ары да улантууну пландаштырууда.",
+    "image": "news/images/Скриншот-23-08-2022-094055.png",
+    "published_date": "2025-07-15T18:20:51.959Z",
+    "updated_date": "2025-07-15T18:20:51.959Z",
+    "is_published": true
+  }
+},
+{
+  "model": "documents.document",
+  "pk": 1,
+  "fields": {
+    "title": "Кыргыз Республикасынын Конституциясы",
+    "slug": "kyrgyz-respublikasynyn-konstituciyasy",
+    "description": "Кыргыз Республикасынын негизги мыйзамы. Анда мамлекеттин түзүлүшү, жарандардын укуктары жана милдеттери, бийликтин бутактарынын ишмердүүлүгү жана мамлекеттик түзүлүш принциптери аныкталган. Конституция бардык мыйзамдардын жана ченемдик укуктук актылардын негизи болуп саналат.",
+    "file": "documents/files/doc.pdf",
+    "published_date": "2025-07-15T18:05:36.479Z",
+    "updated_date": "2025-07-15T18:05:36.479Z",
+    "is_published": true
+  }
+},
+{
+  "model": "documents.document",
+  "pk": 2,
+  "fields": {
+    "title": "Жер кодекси",
+    "slug": "zher-kodeksi",
+    "description": "Жер мамилелерин жөнгө салуучу жана жерди пайдалануунун тартибин аныктоочу мыйзам. Кодексте жерди менчикке берүү, ижарага алуу, жерге укуктарды каттоо жана жер талаштарын чечүү тартиби көрсөтүлгөн. Бул документ жерди сарамжалдуу пайдаланууну жана коргоону камсыз кылууга багытталган.",
+    "file": "documents/files/doc_yxmUT1X.pdf",
+    "published_date": "2025-07-15T18:05:55.818Z",
+    "updated_date": "2025-07-15T18:05:55.818Z",
+    "is_published": true
+  }
+},
+{
+  "model": "documents.document",
+  "pk": 3,
+  "fields": {
+    "title": "\"Жергиликтүү өз алдынча башкаруу жөнүндө\" мыйзамы",
+    "slug": "zhergilikt-z-aldyncha-bashkaruu-zhnnd-myjzamy",
+    "description": "Бул мыйзам жергиликтүү өз алдынча башкаруунун укуктук негиздерин, принциптерин жана ыйгарым укуктарын аныктайт. Анда жергиликтүү кеңештердин жана айыл өкмөтүнүн түзүмү, милдеттери, шайлоо тартиби жана бюджетти башкаруу эрежелери каралган.",
+    "file": "documents/files/doc_eibKwAR.pdf",
+    "published_date": "2025-07-15T18:06:18.826Z",
+    "updated_date": "2025-07-15T18:06:18.826Z",
+    "is_published": true
+  }
+},
+{
+  "model": "documents.document",
+  "pk": 4,
+  "fields": {
+    "title": "\"Жайыттар жөнүндө\" мыйзамы",
+    "slug": "zhajyttar-zhnnd-myjzamy",
+    "description": "Жайыттарды башкаруу, пайдалануу жана коргоо боюнча мамилелерди жөнгө салуучу мыйзам. Анда жайыт комитеттеринин түзүмү, ыйгарым укуктары жана мал ээлеринин жайыттарды пайдалануу эрежелери көрсөтүлгөн.",
+    "file": "documents/files/doc_RVhprho.pdf",
+    "published_date": "2025-07-15T18:06:46.331Z",
+    "updated_date": "2025-07-15T18:06:46.332Z",
+    "is_published": true
+  }
+},
+{
+  "model": "about.page",
+  "pk": 1,
+  "fields": {
+    "title": "Айыл Өкмөтүнүн долбоорлору жана демилгелери",
+    "slug": "ajyl-kmtnn-dolboorloru-zhana-demilgeleri",
+    "content": "Айыл өкмөтү айылыбыздын келечеги үчүн бир катар маанилүү долбоорлорду жана демилгелерди ишке ашырууда. Бул долбоорлор айылыбызды өнүктүрүүгө жана тургундардын жашоо сапатын жогорулатууга багытталган.\r\n\r\n\"Таза айыл\" долбоору: Таштандыларды туура сорттоо жана чыгаруу системасын киргизүү, айылды жашылдандыруу жана санитардык абалын жакшыртуу.\r\n\r\n\"Жаңы мектеп\" демилгеси: Айылдагы мектепти оңдоп-түзөө жана жаңы жабдуулар менен камсыз кылуу аркылуу балдардын сапаттуу билим алуусун камсыздоо.\r\n\r\n\"Суу - жашоо булагы\" программасы: Суу түтүктөрүн жана сугат системаларын оңдоо аркылуу калкты таза суу менен камсыздоо.",
+    "is_published": true,
+    "updated_at": "2025-07-15T17:59:34.602Z"
+  }
+},
+{
+  "model": "about.page",
+  "pk": 2,
+  "fields": {
+    "title": "Айыл жашоочуларынын укуктары жана милдеттери",
+    "slug": "ajyl-zhashoochularynyn-ukuktary-zhana-mildetteri",
+    "content": "Ар бир айыл тургунунун укуктары жана милдеттери бар. Бул укуктар менен милдеттерди билүү айылыбыздын өнүгүшүнө жана бакубат жашообузга чоң салым кошот.\r\n\r\nУкуктар:\r\n\r\nАйыл өкмөтүнүн чечимдерине жана иш-аракеттерине маалымат алуу.\r\n\r\nАйылдын өнүгүүсүнө байланыштуу маселелерди талкуулоого жана сунуштарды киргизүүгө катышуу.\r\n\r\nСоциалдык жардам жана башка мамлекеттик кызматтарды алуу.\r\n\r\nМилдеттер:\r\n\r\nЖергиликтүү эрежелерди жана мыйзамдарды сактоо.\r\n\r\nАйылдын тазалыгына жана тартибине кам көрүү.\r\n\r\nЖергиликтүү салыктарды жана жыйымдарды өз убагында төлөө.",
+    "is_published": true,
+    "updated_at": "2025-07-15T17:59:57.345Z"
+  }
+},
+{
+  "model": "about.page",
+  "pk": 3,
+  "fields": {
+    "title": "Айыл өкмөтү менен кантип байланышса болот?",
+    "slug": "ajyl-kmt-menen-kantip-bajlanyshsa-bolot",
+    "content": "Айыл өкмөтү ар бир тургундун пикирин жана сунушун угууга даяр. Силер биз менен ар кандай жолдор менен байланышсаңар болот.\r\n\r\nЖеке жолугушуу: Айыл өкмөтүнүн имаратына келип, бөлүм башчылары же жетекчилер менен жолугушууга болот.\r\n\r\nТелефон: Керектүү бөлүмгө же кызматкерге телефон чалуу аркылуу маалымат алуу.\r\n\r\nЭлектрондук почта: Сунуштарыңарды же арыздарыңарды электрондук почта аркылуу жөнөтүү.\r\n\r\nСайт: Айыл өкмөтүнүн расмий сайтындагы \"Кайрылуу\" бөлүмүн колдонуу.\r\n\r\nБиз ар дайым силер үчүн ачыкпыз жана ар бир кайрылууну карап чыгууга даярбыз.",
+    "is_published": true,
+    "updated_at": "2025-07-15T18:00:19.748Z"
+  }
+},
+{
+  "model": "about.page",
+  "pk": 4,
+  "fields": {
+    "title": "Жарыя: Суу тарифтери өзгөрдү",
+    "slug": "zharyya-suu-tarifteri-zgrd",
+    "content": "Урматтуу айыл тургундары! Айылдык кеңештин токтомуна ылайык, 2024-жылдын 1-июлунан тартып ичүүчү жана сугат суу үчүн жаңы тарифтер киргизилди. Бул өзгөрүү суу менен камсыздоо системасын жакшыртуу жана тейлөө чыгымдарын жабуу максатында кабыл алынды. Жаңы тарифтер:\r\n\r\nИчүүчү суу: 1 куб метр үчүн 6 сом.\r\n\r\nСугат суу: 1 гектар үчүн 350 сом.\r\n\r\nСууну үнөмдүү пайдаланууга жана төлөмдөрдү өз убагында төлөөгө чакырабыз. Квитанцияларды айыл өкмөтүнүн каржы бөлүмүнөн алсаңыздар болот.",
+    "is_published": true,
+    "updated_at": "2025-07-15T18:02:02.640Z"
+  }
+},
+{
+  "model": "about.page",
+  "pk": 5,
+  "fields": {
+    "title": "Жарыя: Айыл өкмөтүнө электрик керек",
+    "slug": "zharyya-ajyl-kmtn-elektrik-kerek",
+    "content": "Айыл өкмөтүнө электр тармактарын тейлөө жана оңдоо иштерин жүргүзүү үчүн тажрыйбалуу электрик жумушка алынат. Талаптар: электр тармагында кеминде 3 жылдык иш тажрыйбасы, электр коопсуздугу боюнча билимдери жана жоопкерчилиги. Эмгек акысы айлык жана сааттык төлөмдөр менен аныкталат.\r\nБайланыш үчүн: Раимбеков Эркин\r\nТелефон: 0 559 111 222",
+    "is_published": true,
+    "updated_at": "2025-07-15T18:02:22.408Z"
+  }
+},
+{
+  "model": "about.page",
+  "pk": 6,
+  "fields": {
+    "title": "Айыл өкмөтүнөн жер тилкесин кантип алууга болот?",
+    "slug": "ajyl-kmtnn-zher-tilkesin-kantip-aluuga-bolot",
+    "content": "Урматтуу айыл тургундары, айыл өкмөтүнөн жер тилкесин алуу үчүн төмөнкү кадамдарды аткаруу зарыл:\r\n\r\nАйыл өкмөтүнүн жер жана айыл чарба бөлүмүнө арыз менен кайрылуу. Арызга жер тилкесин алуунун максаты (турак жай куруу, айыл чарбасы ж.б.) көрсөтүлөт.\r\n\r\nКеректүү документтерди (паспорттун көчүрмөсү, үй-бүлөнүн курамы тууралуу маалымкат ж.б.) тиркөө.\r\n\r\nКомиссиянын кароосунан кийин, жер тилкесинин бөлүнүшү боюнча токтом кабыл алынат.\r\n\r\nБардык маселелерди тактоо үчүн жер бөлүмүнүн башчысы Турдубаев Аскарга кайрылсаңыздар болот.\r\nТелефон: 0 705 345 678",
+    "is_published": true,
+    "updated_at": "2025-07-15T18:02:47.518Z"
+  }
+},
+{
+  "model": "about.page",
+  "pk": 7,
+  "fields": {
+    "title": "Ысык тамак уюштуруу",
+    "slug": "ysyk-tamak-uyushturuu",
+    "content": "Айыл өкмөтү аз камсыз болгон үй-бүлөлөр жана жалгыз бой кары-картаңдар үчүн ысык тамак уюштуруу боюнча кайрымдуулук акциясын баштады. Бул иш-чарага жардам берүүнү каалаган айыл тургундарын жана ишкерлерди чакырабыз.\r\nКеректүү нерселер:\r\n\r\nАзык-түлүк (картошка, пияз, эт ж.б.)\r\n\r\nКызмат көрсөтүү (тамак даярдоого жардам)\r\nБайланыш үчүн: Жумабекова Асел\r\nТелефон: 0 551 567 890",
+    "is_published": true,
+    "updated_at": "2025-07-15T18:03:08.483Z"
+  }
+},
+{
+  "model": "about.person",
+  "pk": 1,
+  "fields": {
+    "full_name": "Өмүрбеков Данияр Тилекович",
+    "position": "Айыл өкмөтүнүн башчысы",
+    "photo": "about/person_photos/1.jpg",
+    "biography": "1980-жылы Нарын облусунун Ак-Талаа районунун Кош-Көл айылында мугалимдин үй-бүлөсүндө туулган. 1997-жылы айылдык орто мектепти аяктап, 2002-жылы Кыргыз Улуттук Университетинин “Юриспруденция” факультетин бүтүргөн. Эмгек жолун айылда мугалим болуп баштаган. Кийинчерээк жеке ишкердик менен алектенип, айыл чарба тармагында чоң ийгиликтерге жетишкен. Үй-бүлөлүү, 3 баланын атасы.",
+    "phone": "0 550 987 654",
+    "email": "daniyar.omurbekov@ayilokmotu.kg",
+    "reception_schedule": "",
+    "order": 1,
+    "is_leader": true
+  }
+},
+{
+  "model": "about.person",
+  "pk": 2,
+  "fields": {
+    "full_name": "Асанов Сагынбек Кадырбекович",
+    "position": "Айыл өкмөтүнүн башчысынын орун басары",
+    "photo": "about/person_photos/93628d1b7c8382ac297465fc0078dbb7_500_0_0.jpg",
+    "biography": "1975-жылы Чүй облусунун Ысык-Ата районунда төрөлгөн. 1992-жылы орто мектепти аяктап, 1997-жылы Кыргыз мамлекеттик айыл чарба академиясын “Агрономия” адистиги боюнча бүтүргөн. Айыл чарба тармагында көп жыл иштеп, фермердик ишмердиги менен белгилүү. Үй-бүлөлүү, 2 уул, 1 кыздын атасы.",
+    "phone": "0 707 123 456",
+    "email": "sagynbek.asanov@ayilokmotu.kg",
+    "reception_schedule": "",
+    "order": 2,
+    "is_leader": false
+  }
+},
+{
+  "model": "about.person",
+  "pk": 3,
+  "fields": {
+    "full_name": "Абдуллаев Асылбек",
+    "position": "Жоопту катчы",
+    "photo": "about/person_photos/Untitled-design-2.png",
+    "biography": "1984-жылы Ош облусунда туулган. Жогорку билимдүү, мамлекеттик жана муниципалдык башкаруу жаатында адис. Көп жылдар бою мамлекеттик кызматта иштеп, документ жүгүртүү жана башкаруу боюнча чоң тажрыйбага ээ. Айыл өкмөтүнүн бардык иш кагаздарын жүргүзүүгө жооп берет.",
+    "phone": "0 550 123 456",
+    "email": "zhalpy.bolum@ayilokmotu.kg",
+    "reception_schedule": "",
+    "order": 3,
+    "is_leader": false
+  }
+},
+{
+  "model": "about.person",
+  "pk": 4,
+  "fields": {
+    "full_name": "Осмоналиева Назира",
+    "position": "Экономикалык өнүгүү жана каржы бөлүмүнүн башчысы",
+    "photo": "about/person_photos/images.jpeg",
+    "biography": "1981-жылы Ысык-Көл облусунда туулган. 2003-жылы экономикалык университетти аяктаган. Айыл өкмөтүнүн бюджетин түзүү жана каржылык маселелерди башкаруу боюнча адис. Айылдын экономикалык абалын жакшыртууга багытталган долбоорлорду ишке ашырат.",
+    "phone": "0 707 987 654",
+    "email": "ekonomika.bolum@ayilokmotu.kg",
+    "reception_schedule": "",
+    "order": 4,
+    "is_leader": false
+  }
+},
+{
+  "model": "about.person",
+  "pk": 5,
+  "fields": {
+    "full_name": "Турдубаев Аскар",
+    "position": "Жер жана айыл чарба бөлүмүнүн башчысы",
+    "photo": "about/person_photos/2023-scaled.jpg",
+    "biography": "1979-жылы Талас облусунда туулган. Айыл чарба тармагында көп жылдык тажрыйбасы бар. Жер ресурстарын натыйжалуу пайдалануу жана айыл чарбасын өнүктүрүү боюнча иштерди жетектейт. Дыйкандарга жана фермерлерге кеңештерди берет.",
+    "phone": "0 705 345 678",
+    "email": "zher.bolum@ayilokmotu.kg",
+    "reception_schedule": "",
+    "order": 4,
+    "is_leader": false
+  }
+},
+{
+  "model": "about.person",
+  "pk": 6,
+  "fields": {
+    "full_name": "Жумабекова Асел",
+    "position": "Социалдык маселелер бөлүмүнүн башчысы",
+    "photo": "about/person_photos/maxresdefault.jpg",
+    "biography": "1986-жылы Жалал-Абад облусунда туулган. Социалдык иштер боюнча адис. Айылдагы аз камсыз болгон үй-бүлөлөргө, кары-картаңдарга жана майыптарга жардам көрсөтүү иштерин уюштурат. Жарандардын социалдык укуктарын коргоо боюнча жооптуу.",
+    "phone": "0 551 567 890",
+    "email": "sotsialdyk.bolum@ayilokmotu.kg",
+    "reception_schedule": "",
+    "order": 4,
+    "is_leader": false
+  }
+},
+{
+  "model": "about.person",
+  "pk": 7,
+  "fields": {
+    "full_name": "Раимбеков Эркин",
+    "position": "Турак-жай-коммуналдык чарба (ЖКЧ) бөлүмүнүн башчысы",
+    "photo": "about/person_photos/1073335741_0-0-3000-2000_600x0_80_0_0_76cd9d9cdcc9d8c8c46cb1eac3109959.jpg",
+    "biography": "1985-жылы Нарын облусунда туулган. Курулуш жана инженердик иштер боюнча адис. Айылдын инфраструктурасын, анын ичинде жолдорду, суу системасын жана башка коммуналдык объектилерди куруу жана тейлөө иштерин жетектейт.",
+    "phone": "0 559 111 222",
+    "email": "jkh.bolum@ayilokmotu.kg",
+    "reception_schedule": "",
+    "order": 4,
+    "is_leader": false
+  }
+},
+{
+  "model": "about.person",
+  "pk": 8,
+  "fields": {
+    "full_name": "Усманова Самара",
+    "position": "Маалыматтык технологиялар жана коомчулук менен байланыш бөлүмүнүн башчысы",
+    "photo": "about/person_photos/images-2.jpeg",
+    "biography": "1990-жылы Баткен облусунда туулган. Юрист жана IT-адис. Айыл өкмөтүнүн ишмердүүлүгүн коомчулукка ачык-айкын жеткирүү үчүн жооптуу. Веб-сайтты жана социалдык тармактарды башкарат, жарандар менен байланышты түзөт.",
+    "phone": "0 709 333 444",
+    "email": "info.bolum@ayilokmotu.kg",
+    "reception_schedule": "",
+    "order": 4,
+    "is_leader": false
+  }
+},
+{
+  "model": "about.person",
+  "pk": 9,
+  "fields": {
+    "full_name": "Садыков Таалайбек Өмүрович",
+    "position": "Муниципалдык ишкананын жетекчиси",
+    "photo": "about/person_photos/images-3.jpeg",
+    "biography": "1986-жылы Ош облусунда туулган. 2008-жылы Ош технологиялык университетин “Инженерия” адистиги боюнча бүтүргөн. Курулуш жана коммуналдык чарба тармагында тажрыйбасы бар. Айылдын тазалыгы жана инфраструктурасын тейлөө иштерин уюштурат.",
+    "phone": "0 550 555 444",
+    "email": "munitsipaldyk.ishkana@ayilokmotu.kg",
+    "reception_schedule": "",
+    "order": 4,
+    "is_leader": false
+  }
+},
+{
+  "model": "about.department",
+  "pk": 1,
+  "fields": {
+    "name": "Жетекчилик",
+    "description": "Айыл өкмөтүнүн жана айылдык кеңештин ишмердүүлүгүн жалпы жетектөө, айылдын социалдык-экономикалык өнүгүүсүн стратегиялык пландаштыруу жана чечимдерди кабыл алуу. Жетекчилик мамлекеттик органдар, коомдук уюмдар жана жарандар менен өз ара аракеттенип, айылдын кызыкчылыктарын коргойт.",
+    "head": 1,
+    "phone": "0 550 987 654",
+    "email": "info@ayilokmotu.kg",
+    "order": 1
+  }
+},
+{
+  "model": "about.department",
+  "pk": 2,
+  "fields": {
+    "name": "Экономикалык өнүгүү жана каржы бөлүмү",
+    "description": "Айылдын бюджетин түзүү, анын аткарылышын көзөмөлдөө жана финансылык отчеттуулукту жүргүзүү. Бул бөлүм инвестицияларды тартуу, жаңы долбоорлорду ишке ашыруу жана жергиликтүү ишкердикти колдоо аркылуу айылдын экономикалык потенциалын жогорулатууга багытталган.",
+    "head": 4,
+    "phone": "0 707 987 654",
+    "email": "ekonomika.bolum@ayilokmotu.kg",
+    "order": 2
+  }
+},
+{
+  "model": "about.department",
+  "pk": 3,
+  "fields": {
+    "name": "Жер жана айыл чарба бөлүмү",
+    "description": "Жер ресурстарын натыйжалуу пайдаланууну жана коргоону камсыздоо. Бул бөлүм жер тилкелерин бөлүштүрүү, айыл чарба иштерин пландоо, дыйкан чарбаларына консультация берүү жана сугат арыктарын тейлөө боюнча иш-чараларды уюштурат.",
+    "head": 5,
+    "phone": "0 705 345 678",
+    "email": "zher.bolum@ayilokmotu.kg",
+    "order": 3
+  }
+},
+{
+  "model": "about.department",
+  "pk": 4,
+  "fields": {
+    "name": "Социалдык маселелер бөлүмү",
+    "description": "Айылдагы калктын социалдык жактан аялуу катмарына – пенсионерлерге, майыптарга, аз камсыз болгон үй-бүлөлөргө жардам көрсөтүү. Ошондой эле, бул бөлүм билим берүү, саламаттыкты сактоо жана маданият жаатындагы мамлекеттик программаларды жергиликтүү деңгээлде ишке ашырат.",
+    "head": 6,
+    "phone": "0 551 567 890",
+    "email": "sotsialdyk.bolum@ayilokmotu.kg",
+    "order": 4
+  }
+},
+{
+  "model": "about.department",
+  "pk": 5,
+  "fields": {
+    "name": "Турак-жай-коммуналдык чарба (ЖКЧ) бөлүмү",
+    "description": "Айылдын коммуналдык системасын, анын ичинде суу менен камсыздоо, жолдорду тейлөө жана тазалык иштерин башкаруу. Бөлүм айылдын инфраструктурасын жакшыртууга жана жашоочулардын жашоо шарттарын ыңгайлуу кылууга багытталган долбоорлорду ишке ашырат.",
+    "head": 7,
+    "phone": "0 559 111 222",
+    "email": "jkh.bolum@ayilokmotu.kg",
+    "order": 5
+  }
+},
+{
+  "model": "about.department",
+  "pk": 6,
+  "fields": {
+    "name": "Маалыматтык технологиялар жана коомчулук менен байланыш бөлүмү",
+    "description": "Айыл өкмөтүнүн ишмердүүлүгүн коомчулукка ачык-айкын жеткирүү. Бул бөлүм айыл өкмөтүнүн веб-сайтын башкарып, социалдык тармактардагы баракчаларын жүргүзөт. Жарандардын кайрылууларын кабыл алып, маалыматтык иш-чараларды уюштурат.",
+    "head": 8,
+    "phone": "0 709 333 444",
+    "email": "info.bolum@ayilokmotu.kg",
+    "order": 6
+  }
+},
+{
+  "model": "about.department",
+  "pk": 7,
+  "fields": {
+    "name": "Муниципалдык ишкана",
+    "description": "Айылдын коммуналдык кызматтарын түздөн-түз аткаруучу ишкана. Таштанды чыгаруу, жолдорду оңдоо жана суу менен камсыздоо иштерин жүргүзөт. Ишкана өзүн-өзү каржылоо принцибинде иштейт жана айыл өкмөтүнүн көзөмөлүндө болот.",
+    "head": 9,
+    "phone": "0 550 555 444",
+    "email": "munitsipaldyk.ishkana@ayilokmotu.kg",
+    "order": 7
+  }
+},
+{
+  "model": "about.report",
+  "pk": 1,
+  "fields": {
+    "title": "Айыл өкмөтүнүн 2024-жылга карата отчету",
+    "slug": "ajyl-kmtnn-2024-zhylga-karata-otchetu",
+    "description": "Бул отчетто айыл өкмөтүнүн 2024-жылдагы ишмердүүлүгү жана аткарылган иштер тууралуу толук маалымат берилет. Отчетто негизги социалдык жана экономикалык көрсөткүчтөр, бюджеттин аткарылышы, ошондой эле ишке ашырылган долбоорлор чагылдырылган. Айылдын инфраструктурасын жакшыртуу, билим берүү жана саламаттыкты сактоо тармактарындагы жетишкендиктер көрсөтүлгөн. Отчеттун максаты – айыл өкмөтүнүн ишин ачык-айкын көрсөтүү жана айыл тургундарына маалымат берүү.",
+    "file": "about/reports/files/otchet.pdf",
+    "report_year": 2024,
+    "published_date": "2025-07-15T17:56:27.068Z",
+    "is_published": true
+  }
+},
+{
+  "model": "about.report",
+  "pk": 2,
+  "fields": {
+    "title": "Айыл өкмөтүнүн 2023-жылга карата отчету",
+    "slug": "ajyl-kmtnn-2023-zhylga-karata-otchetu",
+    "description": "Бул отчет айыл өкмөтүнүн 2023-жылдагы ишмердүүлүгү жөнүндө коомчулукка маалымат берүү үчүн даярдалган. Отчетто өткөн жылдын негизги окуялары, социалдык-экономикалык өнүгүү динамикасы жана аткарылган милдеттер чагылдырылган. Айыл чарба, курулуш жана социалдык колдоо жаатындагы жетишкендиктерге өзгөчө көңүл бурулган. Отчетто келтирилген маалыматтар айыл тургундарынын суроо-талаптарына жооп берүүгө жана келечектеги пландарды түзүүгө негиз болот.",
+    "file": "about/reports/files/otchet_PxC2UEq.pdf",
+    "report_year": 2023,
+    "published_date": "2025-07-15T17:57:08.020Z",
+    "is_published": true
+  }
+},
+{
+  "model": "about.report",
+  "pk": 3,
+  "fields": {
+    "title": "Жайыт комитетинин 2024-жылга карата отчету",
+    "slug": "zhajyt-komitetinin-2024-zhylga-karata-otchetu",
+    "description": "Бул отчетто Жайыт комитетинин 2024-жылдагы ишмердүүлүгү жана жайыттарды башкаруудагы негизги жетишкендиктер тууралуу маалымат берилген. Отчетто жайыттарды рационалдуу пайдалануу, алардын абалын жакшыртуу жана мыйзамсыз пайдаланууну алдын алуу боюнча жүргүзүлгөн иштер чагылдырылган. Комитеттин киреше жана чыгашаларынын аткарылышы, мал ээлеринен чогултулган каражаттардын кандай жумшалганы тууралуу маалыматтар келтирилген.",
+    "file": "about/reports/files/otchet_EiycrdS.pdf",
+    "report_year": null,
+    "published_date": "2025-07-15T17:57:32.773Z",
+    "is_published": true
+  }
+},
+{
+  "model": "about.report",
+  "pk": 4,
+  "fields": {
+    "title": "Муниципалдык ишкананын 2024-жылга карата отчету",
+    "slug": "municipaldyk-ishkananyn-2024-zhylga-karata-otchetu",
+    "description": "Бул отчет муниципалдык ишкананын 2024-жылдагы аткарган иштери жана каржылык көрсөткүчтөрү жөнүндө толук маалымат берет. Отчетто айылды таштандыдан тазалоо, жолдорду жана суу түтүктөрүн оңдоо, ошондой эле коммуналдык кызматтарды көрсөтүү боюнча жүргүзүлгөн иштер чагылдырылган. Ишкананын киреше жана чыгашалары, техникалык базаны жаңыртууга жумшалган каражаттар тууралуу маалымат берилет.",
+    "file": "about/reports/files/otchet_UfB20Tk.pdf",
+    "report_year": null,
+    "published_date": "2025-07-15T17:57:55.749Z",
+    "is_published": true
+  }
+},
+{
+  "model": "about.budget",
+  "pk": 1,
+  "fields": {
+    "title": "Бюджет 2024",
+    "slug": "byudzhet-2024",
+    "description": "2024-жылдын бюджети айылыбыздын туруктуу өнүгүүсүнө багытталган. Бюджеттин негизги багыттары – социалдык тармакты колдоо, инфраструктураны жакшыртуу жана айыл чарбасын өнүктүрүү. Билим берүү, саламаттыкты сактоо жана маданият тармактарын каржылоого өзгөчө көңүл бурулган.\r\n\r\nБюджетке ылайык, айыл ичиндеги жолдорду оңдоо, таштанды чыгаруу системасын жакшыртуу жана спорттук аянтчаларды куруу үчүн каражат бөлүнөт. Ошондой эле, жаш дыйкандарга колдоо көрсөтүү жана айыл чарба продукцияларын экспорттоого жардам берүү максатында атайын программалар каржыланат.\r\n\r\nБюджетти түзүүдө айыл тургундарынын сунуштары эске алынып, бардык маалыматтар ачык-айкын берилген. Бул бюджеттин негизги максаты — ар бир тургундун жашоо шартын жакшыртуу жана айылдын келечегине ишенимдүү инвестиция салуу.",
+    "file": "about/budget_files/Бюджет.pdf",
+    "budget_year": 2024,
+    "published_date": "2025-07-15T17:18:05.798Z",
+    "is_published": true
+  }
+},
+{
+  "model": "about.budget",
+  "pk": 2,
+  "fields": {
+    "title": "Бюджет 2025",
+    "slug": "byudzhet-2025",
+    "description": "2025-жылдын бюджети айылдын экономикалык жана социалдык абалын андан ары жакшыртууга багытталган. Бюджеттин негизги приоритети – туруктуу өнүгүү жана жаңы технологияларды киргизүү. Суу ресурстарын башкаруу жана энергияны үнөмдөөчү долбоорлорду каржылоого өзгөчө көңүл бурулган.\r\n\r\nБюджеттин алкагында, айылга интернет тармагын кеңейтүү, санариптик кызматтарды киргизүү жана жарандардын мамлекеттик кызматтарга жеткиликтүүлүгүн жогорулатуу пландаштырылууда. Мындан тышкары, туризмди өнүктүрүү үчүн чакан гранттар бөлүштүрүлөт.\r\n\r\nБул бюджет айылдын экономикасын диверсификациялоого жана жаштар үчүн жаңы жумуш орундарын түзүүгө жардам берет. 2025-жыл бюджети – бул биздин айылдын келечегин куруудагы дагы бир маанилүү кадам.",
+    "file": "about/budget_files/Бюджет_vXibSQY.pdf",
+    "budget_year": 2025,
+    "published_date": "2025-07-15T17:18:38.947Z",
+    "is_published": true
+  }
+},
+{
+  "model": "about.budget",
+  "pk": 3,
+  "fields": {
+    "title": "Муниципалдык ишкананын бюджети",
+    "slug": "municipaldyk-ishkananyn-byudzheti",
+    "description": "Муниципалдык ишкананын бюджети айылдын коммуналдык кызматтарын көрсөтүүгө жана инфраструктураны тейлөөгө багытталган. Бул бюджеттин негизги максаты – айыл тургундарына сапаттуу жана үзгүлтүксүз кызматтарды көрсөтүүнү камсыздоо. Бюджет суу, электр энергиясы, жолдорду тейлөө жана таштанды чыгаруу кызматтарына жумшалат.\r\n\r\nБюджетке ылайык, эскирген жабдууларды жаңылоо, жумушчулардын эмгек шарттарын жакшыртуу жана техникалык базаны чыңдоо пландаштырылууда. Бул чаралар кызматтардын сапатын жогорулатууга жана коммуналдык көйгөйлөрдү өз убагында чечүүгө мүмкүндүк берет.\r\n\r\nБюджеттин аткарылышы тууралуу маалымат айыл тургундарына ачык жеткиликтүү болот. Бул биздин ишкананын ишин ачык-айкын жана жоопкерчиликтүү кылат.",
+    "file": "about/budget_files/Бюджет_zuQNawJ.pdf",
+    "budget_year": 2023,
+    "published_date": "2025-07-15T17:20:03.919Z",
+    "is_published": true
+  }
+},
+{
+  "model": "council.deputy",
+  "pk": 1,
+  "fields": {
+    "full_name": "Өмүрбеков Данияр Тилекович",
+    "photo": "council/deputy_photos/282635.jpg",
+    "bio": "1980-жылы Нарын облусунун Ак-Талаа районунун Кош-Көл айылында мугалимдин үй-бүлөсүндө туулган. 1997-жылы айылдык орто мектепти аяктап, 2002-жылы Кыргыз Улуттук Университетинин “Юриспруденция” факультетин бүтүргөн. Эмгек жолун айылда мугалим болуп баштаган. Кийинчерээк жеке ишкердик менен алектенип, айыл чарба тармагында чоң ийгиликтерге жеткен.\r\nҮй-бүлөлүү, 3 баланын атасы.",
+    "contact_phone": "0 550 987 654",
+    "contact_email": "daniyar.omurbekov@mail.kg",
+    "constituency": "№1, \"Келечек\" округу",
+    "position_in_council": "Төрага",
+    "is_active": true,
+    "order": 1
+  }
+},
+{
+  "model": "council.deputy",
+  "pk": 2,
+  "fields": {
+    "full_name": "Асанов Сагынбек Кадырбекович",
+    "photo": "council/deputy_photos/321.jpg",
+    "bio": "1975-жылы Чүй облусунун Ысык-Ата районунда төрөлгөн. 1992-жылы орто мектепти аяктап, 1997-жылы Кыргыз мамлекеттик айыл чарба академиясын “Агрономия” адистиги боюнча бүтүргөн. Айыл чарба тармагында көп жыл иштеп, фермердик ишмердиги менен белгилүү.\r\nҮй-бүлөлүү, 2 уул, 1 кыздын атасы.",
+    "contact_phone": "0 707 123 456",
+    "contact_email": "sagynbek.asanov@gmail.com",
+    "constituency": "№2, \"Достук\" округу",
+    "position_in_council": "Төраганын орун басары",
+    "is_active": true,
+    "order": 2
+  }
+},
+{
+  "model": "council.deputy",
+  "pk": 3,
+  "fields": {
+    "full_name": "Жумалиев Адилет Нариманович",
+    "photo": "council/deputy_photos/322.jpg",
+    "bio": "1982-жылы Ош облусунун Кара-Суу районунун Жоош айыл округуна караштуу Мамажан айылында педагогдун үй-бүлөсүндө туулган. 2001-жылы мектепти аяктап, 2006-жылы Ош Мамлекеттик Университетинин “Чет тили жана адабияты” факультетин, 2011-жылы “Экономика жана ишканаларды башкаруу” багытын, 2022-жылы Мамлекеттик башкаруу Академиясын “Мамлекеттик жана муниципалдык башкаруу” багыты боюнча аяктап, магистр квалификациясын алган.\r\nЭмгек жолун айыл чарба тармагында башкы инженер, агротехник, андан соң экономист катары “Самидин” дыйкан чарбасында уланткан. 2017-2021-жылдары “РОССИЯ Нефть” ЖЧКсында ар кандай жетекчи кызматтарда иштеген.\r\nҮй-бүлөлүү, 2 уул, 3 кыздын атасы.",
+    "contact_phone": "0 555 777 888",
+    "contact_email": "adilet.jumaliev@yahoo.com",
+    "constituency": "№3, \"Ынтымак\" округу",
+    "position_in_council": "Бюджет жана финансы комитетинин төрагасы",
+    "is_active": true,
+    "order": 4
+  }
+},
+{
+  "model": "council.deputy",
+  "pk": 4,
+  "fields": {
+    "full_name": "Мамытова Гүлнара Асанбековна",
+    "photo": "council/deputy_photos/323.jpg",
+    "bio": "1978-жылы Баткен облусунда туулган. 2000-жылы Бишкектеги Гуманитардык Университеттин “Педагогика жана психология” факультетин аяктаган. Көп жылдар бою айылдык мектепте мугалим болуп эмгектенген. Коомдук иштерге активдүү катышып, жергиликтүү аялдардын укуктарын коргоо боюнча демилгелерди көтөрүп келет.\r\nҮй-бүлөлүү, 2 баланын энеси.",
+    "contact_phone": "0 700 111 222",
+    "contact_email": "gulnara.mamytova@gmail.com",
+    "constituency": "№4, \"Биримдик\" округу",
+    "position_in_council": "Төраганын орун басары",
+    "is_active": true,
+    "order": 3
+  }
+},
+{
+  "model": "council.deputy",
+  "pk": 5,
+  "fields": {
+    "full_name": "Садыков Таалайбек Өмүрович",
+    "photo": "council/deputy_photos/005.jpg",
+    "bio": "1986-жылы Ош облусунда туулган. 2008-жылы Ош технологиялык университетин “Инженерия” адистиги боюнча бүтүргөн. Курулуш тармагында жеке ишкердик кылып, айылдын инфраструктурасын өнүктүрүүгө чоң салым кошкон.\r\nҮй-бүлөлүү, 3 баланын атасы.1986-жылы Ош облусунда туулган. 2008-жылы Ош технологиялык университетин “Инженерия” адистиги боюнча бүтүргөн. Курулуш тармагында жеке ишкердик кылып, айылдын инфраструктурасын өнүктүрүүгө чоң салым кошкон.\r\nҮй-бүлөлүү, 3 баланын атасы.\r\n1986-жылы Ош облусунда туулган. 2008-жылы Ош технологиялык университетин “Инженерия” адистиги боюнча бүтүргөн. Курулуш тармагында жеке ишкердик кылып, айылдын инфраструктурасын өнүктүрүүгө чоң салым кошкон.\r\nҮй-бүлөлүү, 3 баланын атасы.\r\n\r\n1986-жылы Ош облусунда туулган. 2008-жылы Ош технологиялык университетин “Инженерия” адистиги боюнча бүтүргөн. Курулуш тармагында жеке ишкердик кылып, айылдын инфраструктурасын өнүктүрүүгө чоң салым кошкон.\r\nҮй-бүлөлүү, 3 баланын атасы.",
+    "contact_phone": "0 550 555 444",
+    "contact_email": "taalaibek.sadykov@mail.kg",
+    "constituency": "№1, \"Келечек\" округу",
+    "position_in_council": "Инфраструктура жана курулуш комитетинин төрагасы",
+    "is_active": true,
+    "order": 5
+  }
+},
+{
+  "model": "council.deputy",
+  "pk": 6,
+  "fields": {
+    "full_name": "Усманова Самара Эргешовна",
+    "photo": "council/deputy_photos/324.jpg",
+    "bio": "1990-жылы Жалал-Абад облусунда туулган. 2013-жылы Кыргыз мамлекеттик юридикалык университетин “Юриспруденция” адистиги боюнча аяктаган. Учурда айыл өкмөтүндө юрист болуп иштейт.\r\nБойдок.",
+    "contact_phone": "0 709 333 444",
+    "contact_email": "samara.usmanova@gmail.com",
+    "constituency": "№2, \"Достук\" округу",
+    "position_in_council": "Укук тартиби жана мыйзамдуулук комитетинин төрайымы",
+    "is_active": true,
+    "order": 6
+  }
+},
+{
+  "model": "council.deputy",
+  "pk": 7,
+  "fields": {
+    "full_name": "Кадыров Руслан Аскарбекович",
+    "photo": "council/deputy_photos/432.jpg",
+    "bio": "1973-жылы Ысык-Көл облусунда туулган. 1995-жылы Кыргыз мамлекеттик педагогикалык университетин “Тарых” адистиги боюнча бүтүргөн. Айылда мугалим жана мектеп директору болуп иштеген.\r\nҮй-бүлөлүү, 2 баланын атасы.",
+    "contact_phone": "0 552 777 999",
+    "contact_email": "ruslan.kadyrov@yahoo.com",
+    "constituency": "№3, \"Ынтымак\" округу",
+    "position_in_council": "Билим берүү жана маданият комитетинин төрагасы",
+    "is_active": true,
+    "order": 7
+  }
+},
+{
+  "model": "council.deputy",
+  "pk": 8,
+  "fields": {
+    "full_name": "Исмаилова Алтынай Канатбековна",
+    "photo": "council/deputy_photos/433.jpg",
+    "bio": "1988-жылы Талас облусунда туулган. 2010-жылы Кыргыз Экономикалык Университетин “Экономика” адистиги боюнча аяктаган. Айылда бухгалтерия жана каржы иштери боюнча кеңеш берет.\r\nҮй-бүлөлүү, 2 баланын энеси.",
+    "contact_phone": "0 706 888 777",
+    "contact_email": "altynai.ismailova@gmail.com",
+    "constituency": "№4, \"Биримдик\" округу",
+    "position_in_council": "Депутат",
+    "is_active": true,
+    "order": 10
+  }
+},
+{
+  "model": "council.deputy",
+  "pk": 9,
+  "fields": {
+    "full_name": "Нургазиев Азамат Рысбекович",
+    "photo": "council/deputy_photos/434.jpg",
+    "bio": "1983-жылы Баткен облусунда төрөлгөн. 2005-жылы Бишкектеги Политехникалык институтту аяктаган. Айыл чарба техникалары боюнча адис.\r\nҮй-бүлөлүү, 3 баланын атасы.",
+    "contact_phone": "0 551 222 333",
+    "contact_email": "azamat.nurgaziev@mail.kg",
+    "constituency": "№1, \"Келечек\" округу",
+    "position_in_council": "Депутат",
+    "is_active": true,
+    "order": 10
+  }
+},
+{
+  "model": "council.deputy",
+  "pk": 10,
+  "fields": {
+    "full_name": "Тажибаев Улан Маратович",
+    "photo": "council/deputy_photos/444.jpg",
+    "bio": "1987-жылы Ош облусунда туулган. 2009-жылы Ош мамлекеттик университетин аяктаган. Айылда жаштардын спорттук иш-чараларын уюштуруу менен алектенет.\r\nБойдок.",
+    "contact_phone": "0 708 666 555",
+    "contact_email": "ulan.tajibaev@gmail.com",
+    "constituency": "№2, \"Достук\" округу",
+    "position_in_council": "Депутат",
+    "is_active": true,
+    "order": 10
+  }
+},
+{
+  "model": "council.deputy",
+  "pk": 11,
+  "fields": {
+    "full_name": "Касымов Эмил Сейитбекович",
+    "photo": "council/deputy_photos/3211.JPG",
+    "bio": "1970-жылы Жалал-Абад облусунда туулган. Айыл чарба тармагында көп жылдык тажрыйбасы бар. Мал чарбачылыгы менен алектенет.\r\nҮй-бүлөлүү, 4 баланын атасы.",
+    "contact_phone": "0 556 444 333",
+    "contact_email": null,
+    "constituency": "№3, \"Ынтымак\" округу",
+    "position_in_council": "Депутат",
+    "is_active": true,
+    "order": 10
+  }
+},
+{
+  "model": "council.deputy",
+  "pk": 12,
+  "fields": {
+    "full_name": "Маликов Бакыт Асанович",
+    "photo": "council/deputy_photos/0012.jpeg",
+    "bio": "1985-жылы Нарын облусунда туулган. 2007-жылы Нарын мамлекеттик университетин аяктаган. Эмгек жолун айылда мугалим болуп баштаган.\r\nҮй-бүлөлүү, 1 уул, 1 кыздын атасы.",
+    "contact_phone": "0 701 999 000",
+    "contact_email": "bakyt.malikov@mail.kg",
+    "constituency": "№4, \"Биримдик\" округу",
+    "position_in_council": "Депутат",
+    "is_active": true,
+    "order": 10
+  }
+},
+{
+  "model": "council.deputy",
+  "pk": 13,
+  "fields": {
+    "full_name": "Сагынбаева Нуриза Аманбековна",
+    "photo": "council/deputy_photos/0011.jpg",
+    "bio": "1991-жылы Талас облусунда туулган. 2014-жылы Кыргыз мамлекеттик университетин “Социология” адистиги боюнча бүтүргөн. Айылдагы социалдык көйгөйлөрдү чечүүгө аракет кылат.\r\nҮй-бүлөлүү, 1 баланын энеси.",
+    "contact_phone": "0 553 666 777",
+    "contact_email": "nuriza.sagynbaeva@gmail.com",
+    "constituency": "№1, \"Келечек\" округу",
+    "position_in_council": "Депутат",
+    "is_active": true,
+    "order": 10
+  }
+},
+{
+  "model": "council.deputy",
+  "pk": 14,
+  "fields": {
+    "full_name": "Ибраимов Азат Нурбекович",
+    "photo": "council/deputy_photos/0010.jpg",
+    "bio": "1981-жылы Ысык-Көл облусунда туулган. 2003-жылы Кыргыз Техникалык Университетин аяктаган. Электр энергиясы тармагында адис.\r\nҮй-бүлөлүү, 2 уулдун атасы.",
+    "contact_phone": "0 702 444 555",
+    "contact_email": null,
+    "constituency": "№2, \"Достук\" округу",
+    "position_in_council": "Депутат",
+    "is_active": true,
+    "order": 10
+  }
+},
+{
+  "model": "council.deputy",
+  "pk": 15,
+  "fields": {
+    "full_name": "Калыков Асланбек Канатбекович",
+    "photo": "council/deputy_photos/0009.jpg",
+    "bio": "1979-жылы Чүй облусунда туулган. 2001-жылы Кыргыз улуттук университетин аяктаган. Жеке ишкер, айылдын өнүгүүсүнө салым кошот.\r\nҮй-бүлөлүү, 3 баланын атасы.",
+    "contact_phone": "0 554 111 222",
+    "contact_email": "aslanbek.kalykov@mail.kg",
+    "constituency": "№3, \"Ынтымак\" округу",
+    "position_in_council": "Депутат",
+    "is_active": true,
+    "order": 10
+  }
+},
+{
+  "model": "council.deputy",
+  "pk": 16,
+  "fields": {
+    "full_name": "Жапарова Айдай Сабырбековна",
+    "photo": "council/deputy_photos/0008.jpg",
+    "bio": "Кыскача биографиясы:\r\n1992-жылы Жалал-Абад облусунда туулган. 2015-жылы Ош мамлекеттик университетин аяктаган. Учурда айылдык китепканада иштейт.\r\nБойдок.",
+    "contact_phone": "0 704 666 777",
+    "contact_email": "aiday.japarova@gmail.com",
+    "constituency": "№4, \"Биримдик\" округу",
+    "position_in_council": "Депутат",
+    "is_active": true,
+    "order": 10
+  }
+},
+{
+  "model": "council.deputy",
+  "pk": 17,
+  "fields": {
+    "full_name": "Сулайманов Эрмек Нургазиевич",
+    "photo": "council/deputy_photos/0007.jpg",
+    "bio": "1984-жылы Баткен облусунда туулган. 2006-жылы Баткен мамлекеттик университетин аяктаган. Айыл чарба тармагында адис, дыйкан.\r\nҮй-бүлөлүү, 2 баланын атасы.",
+    "contact_phone": "0 557 999 888",
+    "contact_email": null,
+    "constituency": "№1, \"Келечек\" округу",
+    "position_in_council": "Депутат",
+    "is_active": true,
+    "order": 10
+  }
+},
+{
+  "model": "council.deputy",
+  "pk": 18,
+  "fields": {
+    "full_name": "Осмонов Аскар Жаныбекович",
+    "photo": "council/deputy_photos/0006.jpg",
+    "bio": "1976-жылы Ош облусунда туулган. 1998-жылы Ош мамлекеттик университетин аяктаган. Айылда дарыгер болуп иштейт.\r\nҮй-бүлөлүү, 3 баланын атасы.",
+    "contact_phone": "0 558 333 444",
+    "contact_email": "askar.osmonov@gmail.com",
+    "constituency": "№3, \"Ынтымак\" округу",
+    "position_in_council": "Депутат",
+    "is_active": true,
+    "order": 10
+  }
+},
+{
+  "model": "council.councildecision",
+  "pk": 1,
+  "fields": {
+    "title": "ПОСТАНОВЛЕНИЕ ПРАВИТЕЛЬСТВА КЫРГЫЗСКОЙ РЕСПУБЛИКИ Об утверждении Положения о порядке рассмотрения электронных обращений, поступивших посредством Интернет-портала электронных обращений",
+    "slug": "postanovlenie1",
+    "decision_number": "463",
+    "decision_date": "2025-06-11",
+    "decision_type": "resolution",
+    "description": "ПОСТАНОВЛЕНИЕ ПРАВИТЕЛЬСТВА КЫРГЫЗСКОЙ РЕСПУБЛИКИ Об утверждении Положения о порядке рассмотрения электронных обращений, поступивших посредством Интернет-портала электронных обращений\r\nПОСТАНОВЛЕНИЕ ПРАВИТЕЛЬСТВА КЫРГЫЗСКОЙ РЕСПУБЛИКИ\r\n\r\nг.Бишкек, от 11 августа 2014 года № 463\r\n\r\nОб утверждении Положения о порядке рассмотрения электронных обращений, поступивших посредством Интернет-портала электронных обращений\r\n\r\nВ целях реализации положений Закона Кыргызской Республики \"О порядке рассмотрения обращений граждан\", руководствуясь статьями 10 и 17 конституционного Закона Кыргызской Республики \"О Правительстве Кыргызской Республики\", Правительство Кыргызской Республики постановляет:\r\n\r\n1. Утвердить прилагаемое Положение о порядке рассмотрения электронных обращений, поступивших посредством Интернет-портала электронных обращений.\r\n\r\n2. Аппарату Правительства Кыргызской Республики совместно с Государственным учреждением \"Инфо-Система\" при Министерстве финансов Кыргызской Республики внедрить в месячный срок Интернет-портал электронных обращений (далее - Портал обращений).\r\n\r\n3. Министерствам, государственному комитету, административным ведомствам, аппаратам полномочных представителей Правительства Кыргызской Республики в областях, местным государственным администрациям и органам местного самоуправления (по согласованию) осуществлять:\r\n\r\n- прием, обработку и рассмотрение электронных обращений посредством Портала обращений;\r\n\r\n- учет поступающих электронных обращений и контроль за их своевременным и объективным рассмотрением.\r\n\r\n4. Установить персональную ответственность руководителей министерств, государственного комитета, административных ведомств, полномочных представителей Правительства Кыргызской Республики в областях, глав местных государственных администраций и органов местного самоуправления за надлежащую организацию работы с электронными обращениями граждан.\r\n\r\n5. Государственному агентству связи при Правительстве Кыргызской Республики совместно с открытым акционерным обществом \"Кыргызтелеком\" рассмотреть вопрос об утверждении специального тарифного плана подключения к сети Интернет аппаратов полномочных представителей Правительства Кыргызской Республики в областях, местных государственных администраций и органов местного самоуправления.\r\n\r\n6. Аппарату Правительства Кыргызской Республики осуществлять мониторинг и ежемесячно анализировать рассмотрение электронных обращений граждан, поступающих посредством Портала обращений.\r\n\r\n7. Настоящее постановление подлежит опубликованию в официальных средствах массовой информации, на информационных ресурсах Правительства Кыргызской Республики, аппаратов полномочных представителей Правительства в областях, местных государственных администраций и органов местного самоуправления.\r\n\r\n8. Настоящее постановление вступает в силу по истечении 15 дней со дня официального опубликования.\r\n\r\nОпубликовано в приложении к газете \"Эркин Тоо\" \"Нормативные акты Правительства Кыргызской  Республики\" от 29 августа 2014 года N 15-16 (468-469)\r\n\r\n9. Контроль за исполнением настоящего постановления возложить на Руководителя Аппарата Правительства - министра Кыргызской Республики.\r\n\r\n\r\n\r\nПремьер-министр Кыргызской Республики\r\n\r\n\r\n\r\nДж.Оторбаев",
+    "file": "council/decisions/files/postanov.pdf",
+    "is_published": true,
+    "updated_at": "2025-07-15T16:32:12.287Z"
+  }
+},
+{
+  "model": "council.councildecision",
+  "pk": 2,
+  "fields": {
+    "title": "Айыл аймагынын арыктарын тазалоо жана көрктөндүрүү боюнча токтом",
+    "slug": "ajyl-ajmagynyn-aryktaryn-tazaloo-zhana-krktndr-boyuncha-toktom",
+    "decision_number": "№ 21-П",
+    "decision_date": "2025-07-10",
+    "decision_type": "resolution",
+    "description": "Айыл аймагындагы суу чарба системасын жана ирригациялык арыктарды жакшыртуу максатында, айыл өкмөтү атайын комиссия түзүү чечимин кабыл алды. Комиссиянын негизги милдети – арыктардын абалын текшерүү, тазалоо жана оңдоо иштерин уюштуруу. Бул иш-чаралар айыл тургундарын сугат суу менен үзгүлтүксүз камсыз кылууга багытталган.\r\n\r\nТоктомго ылайык, бардык айыл тургундары жана дыйкан чарбалары арыктарды тазалоо иш-чараларына активдүү катышууга милдеттендирилет. Тазалоо иштери ушул жылдын 1-апрелинен баштап 15-апрелине чейин жүргүзүлөт. Айыл өкмөтү бул иш-чараларды көзөмөлдөп, зарыл болгон учурда техникалык жардам көрсөтөт.\r\n\r\nМындан тышкары, тазалыкты жана тартипти сактоо максатында, арыктарга таштанды таштаган жарандарга айыппул салуу чаралары каралган. Бул чаралар айыл аймагынын экологиялык абалын жакшыртууга жана жаратылыш ресурстарын сарамжалдуу пайдаланууга өбөлгө түзөт.",
+    "file": "council/decisions/files/postanov_wOy8e1a.pdf",
+    "is_published": true,
+    "updated_at": "2025-07-15T16:36:00.154Z"
+  }
+},
+{
+  "model": "council.councildecision",
+  "pk": 3,
+  "fields": {
+    "title": "Жаңы бала бакча куруу жана пайдаланууга берүү жөнүндө токтом",
+    "slug": "zhay-bala-bakcha-kuruu-zhana-pajdalanuuga-ber-zhnnd-toktom",
+    "decision_number": "№ 22-П",
+    "decision_date": "2025-05-26",
+    "decision_type": "resolution",
+    "description": "Айылдагы балдардын мектепке чейинки билим алуусун жакшыртуу жана ата-энелерге ыңгайлуу шарттарды түзүү максатында, айыл өкмөтү жаңы бала бакча куруу чечимин кабыл алды. Бала бакча заманбап стандарттарга ылайык курулуп, балдар үчүн бардык керектүү шарттар түзүлөт.\r\n\r\nКурулуш иштери ушул жылдын май айында башталып, кийинки жылдын сентябрь айында аяктайт. Бала бакчанын курулушуна мамлекеттик бюджеттен жана жергиликтүү донорлордон каржылык каражат тартылат. Айыл тургундары да өз ыктыяры менен курулушка жардам бере алышат.\r\n\r\nБул токтомдун негизги максаты – айылдын келечеги үчүн инвестиция салуу, балдардын сапаттуу билим алуусун камсыз кылуу жана жаш үй-бүлөлөргө колдоо көрсөтүү. Бала бакчанын ачылышы менен айылдагы балдардын санына жараша кошумча жумуш орундары да түзүлөт.",
+    "file": "council/decisions/files/postanov_h4AFlOi.pdf",
+    "is_published": true,
+    "updated_at": "2025-07-15T16:36:50.561Z"
+  }
+},
+{
+  "model": "council.councildecision",
+  "pk": 4,
+  "fields": {
+    "title": "Айыл ичиндеги жолдорду оңдоо боюнча токтом",
+    "slug": "ajyl-ichindegi-zholdordu-odoo-boyuncha-toktom",
+    "decision_number": "№ 23-П",
+    "decision_date": "2025-06-11",
+    "decision_type": "resolution",
+    "description": "Айыл ичиндеги жолдордун начар абалына байланыштуу, жол кырсыктарынын алдын алуу жана тургундардын коопсуздугун камсыздоо максатында, айыл өкмөтү жолдорду оңдоо иштерин баштоо чечимин кабыл алды. Жолдорду оңдоо үчүн атайын план иштелип чыгып, ага ылайык эң начар абалдагы жолдор биринчи кезекте оңдолот.\r\n\r\nЖол оңдоо иштери жергиликтүү бюджеттен каржыланып, тендер аркылуу тандалган курулуш компаниясы тарабынан жүргүзүлөт. Бул иш-чаралар айылдын инфраструктурасын жакшыртууга жана тургундардын жашоо шартын оңдоого багытталган.\r\n\r\nТоктом жолдорду оңдоо менен эле чектелбестен, келечекте жолдорду тейлөө жана тазалоо боюнча системалуу иштерди жүргүзүүнү да караштырат. Айыл тургундары жолдорго зыян келтирбөөгө жана тазалыкты сактоого чакырылат.",
+    "file": "council/decisions/files/postanov_765VQ2Q.pdf",
+    "is_published": true,
+    "updated_at": "2025-07-15T16:37:35.687Z"
+  }
+},
+{
+  "model": "council.councildecision",
+  "pk": 5,
+  "fields": {
+    "title": "Айыл чарба жерлерин пайдаланууну көзөмөлдөө жөнүндө тескеме",
+    "slug": "ajyl-charba-zherlerin-pajdalanuunu-kzmld-zhnnd-teskeme",
+    "decision_number": "№ 15-Т",
+    "decision_date": "2025-07-15",
+    "decision_type": "order",
+    "description": "Айыл аймагындагы айыл чарба жерлерин максатсыз пайдаланууну алдын алуу жана жер ресурстарын сактоо максатында, айыл өкмөтү жерлерди пайдаланууну көзөмөлдөө боюнча атайын тескеме чыгарды. Бул тескеме жерлердин мыйзамсыз пайдаланылышына, эгин эгилбеген жерлерге жана башка мыйзам бузууларга жол бербөөгө багытталган.\r\n\r\nКомиссия жер ээлери менен жолугушуп, ар бир жер тилкесинин абалын текшерет. Эгерде жер максатсыз пайдаланылып жатса, жер ээсине эскертүү берилет. Кайталап бузуулар болгон учурда, мыйзам чегинде чаралар көрүлөт.\r\n\r\nТескеменин максаты – жер ресурстарын сактоо, айыл чарба өндүрүшүн жогорулатуу жана айылдын экономикалык өнүгүүсүн камсыздоо. Бул чаралар жердин түшүмдүүлүгүн сактап калууга жана келечек муундарга таза жерди өткөрүп берүүгө жардам берет.",
+    "file": "council/decisions/files/postanov_EU3xVkL.pdf",
+    "is_published": true,
+    "updated_at": "2025-07-15T16:38:19.594Z"
+  }
+},
+{
+  "model": "council.councildecision",
+  "pk": 6,
+  "fields": {
+    "title": "Жергиликтүү жаштарды колдоо жөнүндө тескеме",
+    "slug": "zhergilikt-zhashtardy-koldoo-zhnnd-teskeme",
+    "decision_number": "№ 16-Т",
+    "decision_date": "2025-03-05",
+    "decision_type": "order",
+    "description": "Айылдагы жаштардын потенциалын ачуу жана аларды коомдук иштерге тартуу максатында, айыл өкмөтү жаштарга арналган программаларды ишке ашыруу жөнүндө тескеме чыгарды. Бул программанын алкагында жаштар үчүн спорттук жана маданий иш-чаралар, кесиптик курстар жана ишкердик долбоорлор үчүн гранттык программалар уюштурулат.\r\n\r\nТескемеде жаштар комитети менен биргеликте иш алып баруу каралган. Жаштар комитети иш-чараларды уюштуруп, сунуштарды киргизет. Мындан тышкары, ийгиликтүү ишкерлик долбоорлорун баштаган жаштарга жергиликтүү бюджеттен каржылык колдоо көрсөтүлөт.\r\n\r\nБул тескеме жаштардын айылдан кетүүсүн азайтууга, алардын кесиптик чеберчилигин жогорулатууга жана айылдын өнүгүүсүнө салым кошууга багытталган.",
+    "file": "council/decisions/files/postanov_JxCqEWo.pdf",
+    "is_published": true,
+    "updated_at": "2025-07-15T16:39:11.600Z"
+  }
+},
+{
+  "model": "council.councildecision",
+  "pk": 7,
+  "fields": {
+    "title": "Айылда мал союучу жайларды уюштуруу жөнүндө токтом",
+    "slug": "ajylda-mal-soyuuchu-zhajlardy-uyushturuu-zhnnd-toktom",
+    "decision_number": "№ 24-П",
+    "decision_date": "2025-06-01",
+    "decision_type": "resolution",
+    "description": "Айыл тургундарын сапаттуу жана коопсуз эт менен камсыздоо, ошондой эле санитардык нормаларды сактоо максатында, айыл өкмөтү мал союучу жайларды уюштуруу чечимин кабыл алды. Мал союучу жайлар ветеринардык жана санитардык талаптарга толук жооп бериши керек.\r\n\r\nТоктомго ылайык, мал союучу жайлардын ишин көзөмөлдөө үчүн атайын комиссия түзүлөт. Комиссия жарандардын ден соолугун коргоо максатында малдын ден соолугун жана эттин сапатын текшерип турат. Мындан тышкары, жарандар малды үйдө союунун ордуна, уюштурулган жайларды колдонууга чакырылат.\r\n\r\nБул токтом айылдагы эт азыктарынын сапатын жогорулатууга, антисанитардык шарттардын алдын алууга жана мал чарбачылыгын өнүктүрүүгө багытталган.",
+    "file": "council/decisions/files/postanov_jZg3AhJ.pdf",
+    "is_published": true,
+    "updated_at": "2025-07-15T16:40:05.496Z"
+  }
+},
+{
+  "model": "council.councildecision",
+  "pk": 8,
+  "fields": {
+    "title": "Жаңы спорттук аянтча куруу жөнүндө токтом",
+    "slug": "zhay-sporttuk-ayantcha-kuruu-zhnnd-toktom",
+    "decision_number": "№ 25-П",
+    "decision_date": "2025-06-06",
+    "decision_type": "resolution",
+    "description": "Айылдагы жаштардын жана балдардын ден соолугун чыңдоо жана спортко болгон кызыгуусун арттыруу максатында, айыл өкмөтү жаңы спорттук аянтча куруу чечимин кабыл алды. Аянтча футбол, баскетбол жана волейбол ойноо үчүн ылайыкташып, заманбап жабдуулар менен жабдылат.\r\n\r\nСпорт аянтчасы айылдын борбордук бөлүгүндө, мектепке жакын жерде курулат. Курулуш иштери жергиликтүү бюджеттен каржыланып, коомдук иш-чаралар аркылуу да каражат тартуу пландаштырылууда.\r\n\r\nБул токтом жаштардын бош убактысын туура пайдалануусуна, ден соолугун чыңдоосуна жана айылдагы спорттук жашоону жандандырууга өбөлгө түзөт.",
+    "file": "council/decisions/files/postanov_FhPTogQ.pdf",
+    "is_published": true,
+    "updated_at": "2025-07-15T16:41:04.074Z"
+  }
+},
+{
+  "model": "council.councildecision",
+  "pk": 9,
+  "fields": {
+    "title": "Айыл аймагын жашылдандыруу жана санитардык тазалоо боюнча",
+    "slug": "ajyl-ajmagyn-zhashyldandyruu-zhana-sanitardyk-tazaloo-boyuncha",
+    "decision_number": "№ 26-П",
+    "decision_date": "2025-07-14",
+    "decision_type": "other",
+    "description": "Айылдын экологиялык абалын жакшыртуу, көрктөндүрүү жана тазалыкты сактоо максатында, айыл өкмөтү жашылдандыруу жана санитардык тазалоо боюнча кеңири планды ишке ашырууну чечти. Бул токтомго ылайык, ар бир айыл тургуну өз короосунун жана үйүнүн алдындагы аймакты тазалоого милдеттендирилет.\r\n\r\nПландын алкагында дарак отургузуу, гүл бакчаларды уюштуруу жана коомдук жайларды тазалоо боюнча жалпы ишембиликтер өткөрүлөт. Бул иш-чараларга мекеме-ишканалар, жаштар жана аксакалдар активдүү катышууга чакырылат.\r\n\r\nТоктом тазалыкты жана жашылдандырууну сактабаган жарандарга айыппул салууну да караштырат. Бул чаралар айыл тургундарынын жоопкерчилигин жогорулатууга жана айылды жагымдуу жашоо чөйрөсүнө айландырууга багытталган.",
+    "file": "council/decisions/files/postanov_sXsTs1h.pdf",
+    "is_published": true,
+    "updated_at": "2025-07-15T16:41:46.353Z"
+  }
+},
+{
+  "model": "council.councildecision",
+  "pk": 10,
+  "fields": {
+    "title": "Айылда медициналык тейлөөнү жакшыртуу жөнүндө",
+    "slug": "ajylda-medicinalyk-tejln-zhakshyrtuu-zhnnd",
+    "decision_number": "№ 17-Т",
+    "decision_date": "2025-07-16",
+    "decision_type": "other",
+    "description": "Айыл тургундарын сапаттуу медициналык тейлөө менен камсыздоо максатында, айыл өкмөтү тез жардам көрсөтүү жана ооруларды алдын алуу боюнча тескеме чыгарды. Тескемеге ылайык, айылдык ФАПка (Фельдшердик-акушердик пункт) кошумча медициналык жабдуулар жана дары-дармектер сатылып алынат.\r\n\r\nАйыл өкмөтү ошондой эле жергиликтүү дарыгерлердин квалификациясын жогорулатуу үчүн атайын курстарды уюштурууну караштырууда. Бул чаралар айыл тургундарынын саламаттыгын сактоого жана олуттуу оорулардын алдын алууга багытталган.\r\n\r\nТескеме медициналык кызматкерлердин иш графигин жана иш сапатын көзөмөлдөөнү да караштырат. Бул ар бир тургундун медициналык жардамды өз убагында алуусуна кепилдик берет.",
+    "file": "council/decisions/files/postanov_4SKd2Gi.pdf",
+    "is_published": true,
+    "updated_at": "2025-07-15T16:42:44.150Z"
+  }
+},
+{
+  "model": "council.councildecision",
+  "pk": 11,
+  "fields": {
+    "title": "Мал багуу эрежелерин сактоо жөнүндө тескеме",
+    "slug": "mal-baguu-erezhelerin-saktoo-zhnnd-teskeme",
+    "decision_number": "№ 18-Т",
+    "decision_date": "2025-07-07",
+    "decision_type": "order",
+    "description": "Айылдын аймагында малды багууда санитардык-ветеринардык эрежелерди сактоону камсыздоо максатында, айыл өкмөтү атайын тескеме чыгарды. Тескемеге ылайык, мал ээлери малын белгиленген жайыттарда багууга, санитардык нормаларды сактоого жана малдын ден соолугуна көзөмөл жүргүзүүгө милдеттендирилет.\r\n\r\nМындан тышкары, мал ээлери жайлоого алып чыгардан мурун малдарын ветеринардык текшерүүдөн өткөрүшү керек. Тескемени бузган жарандарга айыппул салуу чаралары көрүлөт.\r\n\r\nБул тескеме малдардын жугуштуу ооруларынын алдын алууга, айылдын экологиялык абалын сактоого жана мал чарбачылыгын туура жолго салууга багытталган.",
+    "file": "council/decisions/files/postanov_I5JpLU7.pdf",
+    "is_published": true,
+    "updated_at": "2025-07-15T16:43:28.799Z"
+  }
+},
+{
+  "model": "investors.investmentproject",
+  "pk": 1,
+  "fields": {
+    "title": "Постройка школы",
+    "slug": "postrojka-shkoly",
+    "short_description": "Нужно построить школу для детей",
+    "full_description": "мы готовы выделить землю для постройки школы, а вы уважаемые господа стройте",
+    "budget_needed": "1000.00",
+    "expected_return": "0",
+    "contact_person": "Адилет Алчикеев",
+    "contact_email": null,
+    "contact_phone": "=99234234",
+    "status": "idea",
+    "start_date": "2025-07-14",
+    "end_date": "2025-07-30",
+    "image": "investors/project_images/277582.jpg",
+    "published_at": "2025-07-14T14:36:34.482Z",
+    "updated_at": "2025-07-14T14:36:34.482Z",
+    "is_published": true
+  }
+},
+{
+  "model": "community.advertisement",
+  "pk": 2,
+  "fields": {
+    "title": "Үй сатылат",
+    "slug": "j-satylat",
+    "content": "Айылдын борборунда, мектепке жана бала бакчага жакын жайгашкан 4 бөлмөлүү жылуу үй сатылат. Үйдө суу, электр энергиясы жана жылытуу системасы бар. Короодо жемиш бактары жана огород үчүн жери бар. Документтери таза.",
+    "contact_name": "Айбек",
+    "contact_phone": "0 555 123 456",
+    "contact_email": "aibek.tilek@mail.kg",
+    "image": "community/ads_images/11.jpeg",
+    "submitted_at": "2025-07-15T10:44:57.053Z",
+    "published_at": "2025-07-15T10:45:18.609Z",
+    "status": "published",
+    "moderator_comment": null
+  }
+},
+{
+  "model": "community.advertisement",
+  "pk": 3,
+  "fields": {
+    "title": "\"Курулуш Дүйнөсү\"",
+    "slug": "kurulush-djns",
+    "content": "Урматтуу айылдаштар, \"Курулуш Дүйнөсү\" аттуу жаңы дүкөнүбүз ачылды! Бизде үй курууга жана оңдоп-түзөөгө керектүү бардык материалдар бар: цемент, кирпич, жыгач, боёктор, сантехника жана башкалар. Баалар арзан, сапаты мыкты.",
+    "contact_name": "Жаныбек",
+    "contact_phone": "0 707 987 654",
+    "contact_email": "janibek.shop@gmail.com",
+    "image": "community/ads_images/12.jpg",
+    "submitted_at": "2025-07-15T10:47:44.412Z",
+    "published_at": "2025-07-15T10:58:59.736Z",
+    "status": "published",
+    "moderator_comment": null
+  }
+},
+{
+  "model": "community.advertisement",
+  "pk": 4,
+  "fields": {
+    "title": "Тигүүчүлөр керек",
+    "slug": "tigchlr-kerek",
+    "content": "Тигүүчүлөр керек. Заманбап кийимдерди тигүүчү цехке тажрыйбалуу жана жоопкерчиликтүү тигүүчүлөр керек. Эмгек акысы жогору, эмгек шарттары жакшы. Кошумча маалымат алуу үчүн чалыңыз же келип жолугуңуздар.",
+    "contact_name": "Гүлмира",
+    "contact_phone": "0 550 567 890",
+    "contact_email": "gulmira.ceh@yahoo.com",
+    "image": "community/ads_images/13.jpeg",
+    "submitted_at": "2025-07-15T10:49:45.371Z",
+    "published_at": "2025-07-15T10:58:59.735Z",
+    "status": "published",
+    "moderator_comment": null
+  }
+},
+{
+  "model": "community.advertisement",
+  "pk": 5,
+  "fields": {
+    "title": "Жер тилкеси сатылат",
+    "slug": "zher-tilkesi-satylat",
+    "content": "Айылдын четинде, айыл чарба үчүн ыңгайлуу 1 гектар жер тилкеси сатылат. Суу жана жол жакын. Документтери мыйзамдаштырылган. Баасы келишимдүү.",
+    "contact_name": "Нурлан",
+    "contact_phone": "0 705 345 678",
+    "contact_email": "nurlan.yer@mail.kg",
+    "image": "community/ads_images/14.jpeg",
+    "submitted_at": "2025-07-15T10:51:15.109Z",
+    "published_at": "2025-07-15T10:58:59.734Z",
+    "status": "published",
+    "moderator_comment": null
+  }
+},
+{
+  "model": "community.advertisement",
+  "pk": 6,
+  "fields": {
+    "title": "Уста керек",
+    "slug": "usta-kerek",
+    "content": "Үйгө жана кеңсеге эмеректерди чогултуп, оңдоп-түзөөгө тажрыйбалуу уста керек. Материалдарды өзүбүз камсыз кылабыз. Эмгек акысы саатка же жасалган жумуштун көлөмүнө жараша төлөнөт.",
+    "contact_name": "Самат",
+    "contact_phone": "0 551 234 567",
+    "contact_email": null,
+    "image": "community/ads_images/15.jpg",
+    "submitted_at": "2025-07-15T10:53:18.657Z",
+    "published_at": "2025-07-15T10:58:59.732Z",
+    "status": "published",
+    "moderator_comment": null
+  }
+},
+{
+  "model": "community.advertisement",
+  "pk": 7,
+  "fields": {
+    "title": "Таза, жаңы эт сатылат",
+    "slug": "taza-zhay-et-satylat",
+    "content": "Үйдө багылган малдын эти сатылат. Малыбыз таза чөп жеп чоңойгон, сапатына кепилдик беребиз. Каалоочулар үчүн бузуп беребиз.",
+    "contact_name": "Бакыт",
+    "contact_phone": "0 700 876 543",
+    "contact_email": null,
+    "image": "community/ads_images/16.png",
+    "submitted_at": "2025-07-15T10:54:36.643Z",
+    "published_at": "2025-07-15T10:58:59.731Z",
+    "status": "published",
+    "moderator_comment": null
+  }
+},
+{
+  "model": "community.advertisement",
+  "pk": 8,
+  "fields": {
+    "title": "Орус тили боюнча репетитор",
+    "slug": "orus-tili-boyuncha-repetitor",
+    "content": "Орус тилин үйрөнгүсү келген мектеп окуучуларына жана чоңдорго жеке сабак берем. Окутуу программасы ар бир окуучунун деңгээлине жараша түзүлөт. Сабактар онлайн же жеке өткөрүлөт",
+    "contact_name": "Жылдыз",
+    "contact_phone": "0 559 112 345",
+    "contact_email": "jildiz.rep@yahoo.com",
+    "image": "community/ads_images/17.png",
+    "submitted_at": "2025-07-15T10:57:26.372Z",
+    "published_at": "2025-07-15T10:58:59.729Z",
+    "status": "published",
+    "moderator_comment": null
+  }
+},
+{
+  "model": "community.advertisement",
+  "pk": 9,
+  "fields": {
+    "title": "Велосипед сатылат",
+    "slug": "velosiped-satylat",
+    "content": "Жакшы абалда, 7 жаштан 10 жашка чейинки балдар үчүн велосипед сатылат. Жакшы каралган, бир гана жай колдонулган.",
+    "contact_name": "Алмаз",
+    "contact_phone": "0 709 334 455",
+    "contact_email": null,
+    "image": "community/ads_images/18.jpeg",
+    "submitted_at": "2025-07-15T10:58:52.232Z",
+    "published_at": "2025-07-15T10:58:59.727Z",
+    "status": "published",
+    "moderator_comment": null
+  }
+},
+{
+  "model": "community.blogpost",
+  "pk": 2,
+  "fields": {
+    "title": "Биздин сайт",
+    "slug": "bizdin-sajt",
+    "content": "Салам, коңшулар!\r\n\r\nМен биздин айылдын жөнөкөй тургунумун. Биздин жаңы веб-сайт жөнүндө ойлорум менен бөлүшкүм келет. Башында, анын пайдасына анча ишене берген эмесмин. Болгону сайт да, андан эмне пайда? Бирок, аны изилдеп баштаганда, бул жөн эле интернеттеги баракча эмес, биздин коомчулук үчүн чыныгы жаңылык экенин түшүндүм.\r\n\r\nМурда жаңылыктарды, чогулуштарды билүү же коңшуларды майрамы менен куттуктоо үчүн үйдөн үйгө басып же телефон чалыш керек болчу. Азыр бардык маалымат колубузда, бул абдан ыңгайлуу! Мен сайтка кирип, кийинки чогулуш качан болорун, кандай оңдоо иштери пландаштырылганын дароо көрөм, жада калса айыл өкмөтүнө арыз да бере алам. Бул убактыбызды үнөмдөйт жана жашообузду жеңилдетет.\r\n\r\nБирок мени эң шыктандырган нерсе — бул биздин айылды бүткүл дүйнөгө көрсөтүү мүмкүнчүлүгү. Сайтта сүрөттөр бөлүмү бар, ал жерге биздин кооз жаратылышты, таланттуу усталарды жана ынтымактуу жашообузду чагылдырган сүрөттөрдү жүктөсө болот. Мен ал жакка түшүм майрамын кандай белгилегенибизди чагылдырган сүрөттөрдү жүктөдүм, Бишкекте жана атүгүл чет өлкөдө жашаган туугандарымдан комментарий алдым. Алыс аралыкта дагы баарыбыз чогуу экенибизди сезүү абдан жагымдуу.\r\n\r\nСайтта ар бирибиз өз блогубузду жаза турган бөлүм да бар. Мен өз ойлорум менен бөлүшүүнү чечтим, анткени мындай платформалар — бул биздин келечегибиз деп ишенем. Бул тургундар менен бийликтин ортосунда диалог түзүү, идеялар менен бөлүшүү жана айылыбызды чогуу жакшыртуу үчүн эң сонун курал. Мисалы, мен жалпы ишембилик өткөрүү сунушун киргизүүнү пландап жатам.\r\n\r\nБул сайт — жөн гана жаңылыктар үчүн курал эмес, бул биздин жашообуздун күзгүсү. Келиңиздер, баарыбыз чогуу аны толтуруп, ийгиликтерибиз жөнүндө айтып жана пландарыбыз менен бөлүшөлү. Биздин сайтка кирген ар бир адам, биздин айыл жөн гана картадагы чекит эмес, ачык-айрым жана эмгекчил адамдар жашаган жер экенин көрсүн.\r\n\r\nУрматтоо менен,\r\nСиздин айылыңыздын тургуну.",
+    "author_name": "Сапарбеков Тимур",
+    "author_contact_email": null,
+    "image": "community/blog_images/blog_1.jpeg",
+    "submitted_at": "2025-07-15T10:17:21.389Z",
+    "published_at": null,
+    "status": "published",
+    "moderator_comment": ""
+  }
+},
+{
+  "model": "community.blogpost",
+  "pk": 3,
+  "fields": {
+    "title": "Биздин айылыбыз — биздин тазалыгыбыз",
+    "slug": "bizdin-ajylybyz-bizdin-tazalygybyz",
+    "content": "Салам, айылдаштар!\r\n\r\nМен бүгүн тазалык жөнүндө ойлорум менен бөлүшкүм келди. Көчөдө баратсам, кээде башаламандык, таштандылар чачылып жатканын көрүп калам. Бул көрүнүш жанга жагымсыз. Биздин айыл — жөн эле жашаган жерибиз эмес, бул биздин үйүбүз, келечегибиз. Эгерде үйдү таза кармабасак, анда кантип ал жерде жакшы жашоо болот?\r\n\r\nТазалыкка кам көрүү — бул ар бирибиздин милдетибиз. Таң атпай туруп, корообузду шыпырып, таштандыны таштанды челегине таштасак, айылыбыздын көчөлөрү дайыма таза болот. Арыктарды жана көчөлөрдү таштандылардан тазалоо биздин айылыбызды сулуу гана кылбастан, суу ташкынынан да коргойт.\r\n\r\nЖашылдандыруу да абдан маанилүү. Ар бирибиз өз корообузга бирден көчөт отургузсак, айылыбыз жапжашыл сейил бакка айланат. Дарактар абаны тазалап, көлөкө берип, биздин жашообузду жакшыртат. Балдарыбыз да тазалыкка көнүп, келечекте айылыбыздын көркүнө көрк кошот.\r\n\r\nБул маселелерди айыл өкмөтү жалгыз чече албайт. Биз баарыбыз чогулуп, биригип иштесек, гана жыйынтык болот. Мисалы, жалпы ишембилик өткөрүп, айылыбызды тазалап, биргеликте көрктөндүрсөк болот.\r\n\r\nБул сайт бизге мындай маселелерди талкуулап, идеялар менен бөлүшүүгө чоң мүмкүнчүлүк берет. Келиңиздер, ойлорубузду жазып, айылыбызды таза жана кооз кылуу үчүн сунуштарыбызды киргизели. Таза айыл — бактылуу жашоо!\r\n\r\nСиздин айылдашыңыз",
+    "author_name": "Бактыгуль Ишеновв",
+    "author_contact_email": null,
+    "image": "community/blog_images/blog_2.jpeg",
+    "submitted_at": "2025-07-15T10:21:57.631Z",
+    "published_at": null,
+    "status": "published",
+    "moderator_comment": ""
+  }
+},
+{
+  "model": "community.blogpost",
+  "pk": 4,
+  "fields": {
+    "title": "Арыктарды тазалоо — биздин түшүмүбүздүн кепилдиги",
+    "slug": "aryktardy-tazaloo-bizdin-tshmbzdn-kepildigi",
+    "content": "Салам, айылдаштар!\r\n\r\nБүгүн мен баарыбызга тиешелүү болгон бир маселе жөнүндө айткым келет. Жакында эле талаага барып, сугат арыктарыбыздын абалын көрдүм. Алар таштандыга, кургак чөпкө толуп калыптыр. Бул көрүнүш мени кабатыр кылды, анткени арыктар — биздин түшүмүбүздүн негизги булагы.\r\n\r\nЭгерде арыктар таза болбосо, суу талааларга жетпейт, ал эми суу болбосо, түшүм болбойт. Бул жөнөкөй чындык. Биздин ата-бабаларыбыз дайыма арыктарды таза кармап, ошонун аркасында берекелүү түшүм алышкан. Бул биздин салт, биз аны улантышыбыз керек.\r\n\r\nКээде \"бул менин милдетим эмес\" деп ойлоп калабыз. Бирок, арыктарды тазалоо — бул жалпы ишибиз. Бир адам эч нерсе кыла албайт, бирок баарыбыз чогулуп, бир күндү бөлүп, биргелешип иштесек, чоң натыйжага жетебиз.\r\n\r\nБул сайт бизге ушундай маселелерди талкуулоого, чогулуш уюштурууга жана бири-бирибизди шыктандырууга жардам берет. Келиңиздер, ушул жерде арыктарды тазалоо үчүн ыңгайлуу күндү талкуулап, баарыбыз чогуу чыгып, айылыбыздын келечеги үчүн эмгек кылалы.\r\n\r\nТаза арыктар — мол түшүм, мол түшүм — бакубат жашоо.\r\n\r\nУрматтоо менен, \r\nБектурсун мурап",
+    "author_name": "Бектурсун мурап",
+    "author_contact_email": "murap003@avp.kg",
+    "image": "community/blog_images/blog_3.jpg",
+    "submitted_at": "2025-07-15T10:25:33.285Z",
+    "published_at": null,
+    "status": "published",
+    "moderator_comment": "Туура, кошулабыз"
+  }
+},
+{
+  "model": "community.blogpost",
+  "pk": 5,
+  "fields": {
+    "title": "Күтүлбөгөн окуя",
+    "slug": "ktlbgn-okuya",
+    "content": "Мен жакында эле болуп өткөн бир кызыктуу окуя тууралуу айтып бергим келди. Өткөн жумада, күн суук болуп, баарыбыз үйүбүздө отурганда, айылыбыздын кичинекей баласы, Эсен, эски короодон бир нерсе таап алды. Ал адегенде жөнөкөй эле таш деп ойлоп, ага анча маани берген жок. Бирок анын чоң атасы, байыркы буюмдарга кызыккан киши, карап көрүп, бул таш эмес, эски мезгилдеги буюм экенин аныктады.\r\n\r\nЧоң атасы, бул буюмду айылдагы музейге берүүнү чечти. Бул кабар тез эле бүт айылга тарады. Баарыбыз чогулуп, ал буюмду көрүп, чоң атасынан ал тууралуу окуяларды угуу үчүн келдик. Анын айтымында, бул буюм бир кездерде айылыбызда жашаган чебер устага таандык болушу мүмкүн экен. Бул окуя айылыбыздын тарыхына дагы бир жаңы барак кошту.\r\n\r\nБул окуядан мен үчүн абдан маанилүү бир нерсени түшүндүм: биздин айыл жөн эле жашаган жер эмес, ал бай тарыхы жана маданияты бар жер. Ар бир эски буюм, ар бир эски үй биздин ата-бабаларыбыздын жашоосунан кабар берет.\r\n\r\nБиздин жаңы сайт мындай окуяларды бөлүшүү үчүн эң сонун жер. Келиңиздер, ар бирибиз өзүбүздүн кызыктуу окуяларыбыз менен бөлүшөлү, айылыбыздын тарыхын жана маданиятын чогуу сактап калалы. Балким, силер да үйүңөрдүн чатырынан же корооңуздан бир нерсе таап калгандырсыңар?\r\n\r\nУрматтоо менен,\r\nСиздин айылдашыңыз.",
+    "author_name": "Эрке бала",
+    "author_contact_email": null,
+    "image": "community/blog_images/blog_4.jpg",
+    "submitted_at": "2025-07-15T10:31:07.392Z",
+    "published_at": null,
+    "status": "published",
+    "moderator_comment": ""
+  }
+},
+{
+  "model": "community.blogpost",
+  "pk": 6,
+  "fields": {
+    "title": "Нооруз: Айылдыктардын биримдиги жана кубанычы",
+    "slug": "nooruz-ajyldyktardyn-birimdigi-zhana-kubanychy",
+    "content": "Салам, айылдаштар!\r\n\r\nБыйылкы Нооруз майрамы мен үчүн өзгөчө болду. Баарыбыз чогулуп, чоң майрам уюштурдук. Күн мурунтан эле айыл өкмөтү, жаштар жана аксакалдар чогулуп, даярданып баштаганбыз. Ар бир үй-бүлө сүмөлөк бышырып, майрамдык дасторкон жайганга салым кошту. Бул процессте бири-бирибизге жардам берип, баарлашып, айылыбыздын чыныгы ынтымагын сездик.\r\n\r\nМайрам күнү таң эртеңден эле айыл аянтчасы элге толду. Аялдар улуттук кийимдерин кийип, эркектер ат чабыш уюштуруп, балдар болсо ойноп-күлүп жүрүштү. Ар кайсы бурчтан сүмөлөктүн жыты буркурап, улуттук ыр-күүлөр жаңырып жатты. Биз жөн гана конокторду тосуп албастан, ар бир үй-бүлө өзүнүн дасторконуна башкаларды чакырып, бири-бирибиз менен баарлашып, куттукташып жаттык.\r\n\r\nНооруз майрамында биз жөн гана тамак жеп, көңүл ачкан жокпуз. Ар кандай улуттук оюндар ойнолду, кыз-жигиттер айтышып, күлүп-жайнап жүрүштү. Бул майрам бизге бири-бирибизге жакын болууга, салт-санаабызды сактоого жана кийинки муунга өткөрүп берүүгө мүмкүндүк берди.\r\n\r\nБул сайтта биз мындай сонун учурларды бөлүшүп, майрамдарды бирге пландаштырсак болот. Келиңиздер, баарыбыз биргелешип, салттарыбызды жана маданиятыбызды сактап, айылыбызды дагы да ынтымактуу кылалы.\r\n\r\nУрматтоо менен,\r\nСиздин айылдашыңыз.",
+    "author_name": "Асантурова Зуура",
+    "author_contact_email": null,
+    "image": "community/blog_images/blog_5.jpg",
+    "submitted_at": "2025-07-15T10:35:04.958Z",
+    "published_at": null,
+    "status": "published",
+    "moderator_comment": "Майрамынар менен"
+  }
+},
+{
+  "model": "gallery.gallerycategory",
+  "pk": 1,
+  "fields": {
+    "name": "Фотоархив",
+    "slug": "fotoarhiv",
+    "description": "Редкие кадры муниципалитета"
+  }
+},
+{
+  "model": "gallery.gallerycategory",
+  "pk": 2,
+  "fields": {
+    "name": "Айыл жанылыктары",
+    "slug": "ajyl-zhanylyktary",
+    "description": "Айылдагы ар кайсы жанылыктардагы фотоархив"
+  }
+},
+{
+  "model": "gallery.gallerycategory",
+  "pk": 3,
+  "fields": {
+    "name": "Айыл Окмот жумуштары",
+    "slug": "ajyl-okmot-zhumushtary",
+    "description": "Биздин айыл Окмот аткарган жумуштардын архиви"
+  }
+},
+{
+  "model": "gallery.photoalbum",
+  "pk": 2,
+  "fields": {
+    "title": "Жөө-Күлүк марафону",
+    "slug": "zh-klk-marafonu",
+    "description": "1-июнь балдар күнүнө карата уюштурулган Жөө-Күлүк спорттук марафону",
+    "category": 2,
+    "published_date": "2025-07-16T04:06:12.969Z",
+    "is_published": true
+  }
+},
+{
+  "model": "gallery.photoalbum",
+  "pk": 3,
+  "fields": {
+    "title": "Бала бакча ачылышы",
+    "slug": "bala-bakcha-achylyshy",
+    "description": "Кетмен айылында 100 орунду бала бакча ачылышы",
+    "category": 3,
+    "published_date": "2025-07-16T04:07:25.363Z",
+    "is_published": true
+  }
+},
+{
+  "model": "gallery.photo",
+  "pk": 5,
+  "fields": {
+    "album": 2,
+    "image": "gallery/photos/333.jpg",
+    "caption": null
+  }
+},
+{
+  "model": "gallery.photo",
+  "pk": 6,
+  "fields": {
+    "album": 2,
+    "image": "gallery/photos/334.jpg",
+    "caption": null
+  }
+},
+{
+  "model": "gallery.photo",
+  "pk": 7,
+  "fields": {
+    "album": 2,
+    "image": "gallery/photos/335.jpg",
+    "caption": null
+  }
+},
+{
+  "model": "gallery.photo",
+  "pk": 8,
+  "fields": {
+    "album": 2,
+    "image": "gallery/photos/336.jpg",
+    "caption": "Мыкты спортсмендер"
+  }
+},
+{
+  "model": "gallery.photo",
+  "pk": 9,
+  "fields": {
+    "album": 2,
+    "image": "gallery/photos/337.jpg",
+    "caption": null
+  }
+},
+{
+  "model": "gallery.photo",
+  "pk": 10,
+  "fields": {
+    "album": 2,
+    "image": "gallery/photos/338.jpg",
+    "caption": null
+  }
+},
+{
+  "model": "gallery.photo",
+  "pk": 11,
+  "fields": {
+    "album": 3,
+    "image": "gallery/photos/444.jpg",
+    "caption": null
+  }
+},
+{
+  "model": "gallery.photo",
+  "pk": 12,
+  "fields": {
+    "album": 3,
+    "image": "gallery/photos/445.jpg",
+    "caption": null
+  }
+},
+{
+  "model": "gallery.photo",
+  "pk": 13,
+  "fields": {
+    "album": 3,
+    "image": "gallery/photos/446.jpg",
+    "caption": null
+  }
+},
+{
+  "model": "gallery.photo",
+  "pk": 14,
+  "fields": {
+    "album": 3,
+    "image": "gallery/photos/447.jpg",
+    "caption": null
+  }
+},
+{
+  "model": "gallery.photo",
+  "pk": 15,
+  "fields": {
+    "album": 3,
+    "image": "gallery/photos/448.jpg",
+    "caption": null
+  }
+},
+{
+  "model": "info.importantphone",
+  "pk": 3,
+  "fields": {
+    "organization": "Айыл өкмөтү",
+    "phone_number": "0 3137 123 456",
+    "description": "Айылдын башкаруусу, социалдык жана экономикалык маселелер боюнча кайрылуулар үчүн.",
+    "order": 0
+  }
+},
+{
+  "model": "info.importantphone",
+  "pk": 4,
+  "fields": {
+    "organization": "Милиция бөлүмү",
+    "phone_number": "0 3137 102",
+    "description": "Коомдук тартипти сактоо, кылмыштарды жана укук бузууларды алдын алуу боюнча кайрылуулар үчүн.",
+    "order": 0
+  }
+},
+{
+  "model": "info.importantphone",
+  "pk": 5,
+  "fields": {
+    "organization": "Өрт өчүрүү кызматы",
+    "phone_number": "0 3137 101",
+    "description": "Өрт кырсыктарын өчүрүү жана башка өзгөчө кырдаалдарда жардам көрсөтүү үчүн.",
+    "order": 0
+  }
+},
+{
+  "model": "info.importantphone",
+  "pk": 6,
+  "fields": {
+    "organization": "Тез жардам кызматы (ФАП)",
+    "phone_number": "0 3137 103",
+    "description": "Медициналык жардам көрсөтүү, оорулууларды жана жабыркагандарды ташуу үчүн.",
+    "order": 0
+  }
+},
+{
+  "model": "info.importantphone",
+  "pk": 7,
+  "fields": {
+    "organization": "Электр тармагы",
+    "phone_number": "0 3137 222 333",
+    "description": "Электр жарыгынын өчүрүлүшү, зымдардын үзүлүшү жана башка электр маселелери боюнча кайрылуулар үчүн.",
+    "order": 0
+  }
+},
+{
+  "model": "info.importantphone",
+  "pk": 8,
+  "fields": {
+    "organization": "Суу чарба кызматы",
+    "phone_number": "0 3137 444 555",
+    "description": "Ичүүчү жана сугат суу менен камсыздоо, суу түтүктөрүн оңдоо боюнча кайрылуулар үчүн.",
+    "order": 0
+  }
+},
+{
+  "model": "info.importantphone",
+  "pk": 9,
+  "fields": {
+    "organization": "Жайыт комитети",
+    "phone_number": "0 3137 666 777",
+    "description": "Жайыттарды пайдалануу, мал жаюу жана алардын абалы боюнча маселелер үчүн.",
+    "order": 0
+  }
+},
+{
+  "model": "info.importantphone",
+  "pk": 10,
+  "fields": {
+    "organization": "Орто мектеп",
+    "phone_number": "0 3137 888 999",
+    "description": "Мектептин ишмердүүлүгү, окуучулар жана мугалимдер боюнча маалымат алуу үчүн.",
+    "order": 0
+  }
+},
+{
+  "model": "info.importantphone",
+  "pk": 11,
+  "fields": {
+    "organization": "Маданият үйү",
+    "phone_number": "0 3137 000 111",
+    "description": "Маданий иш-чараларды уюштуруу, ийримдер жана майрамдар боюнча маалымат алуу үчүн.",
+    "order": 0
+  }
+},
+{
+  "model": "info.importantphone",
+  "pk": 12,
+  "fields": {
+    "organization": "Муниципалдык ишкана",
+    "phone_number": "0 3137 555 444",
+    "description": "Таштанды чыгаруу, жолдорду тейлөө жана башка коммуналдык кызматтар боюнча кайрылуулар үчүн.",
+    "order": 0
+  }
+},
+{
+  "model": "info.landmark",
+  "pk": 1,
+  "fields": {
+    "name": "Сказка",
+    "slug": "skazka",
+    "description": "Сказка это место дальше села Кажы сай",
+    "image": "info/landmarks/AXOT5486.JPG",
+    "location": "Сказка",
+    "is_published": true
+  }
+},
+{
+  "model": "info.landmark",
+  "pk": 2,
+  "fields": {
+    "name": "Айылдын тарых музейи",
+    "slug": "ajyldyn-taryh-muzeji",
+    "description": "Биздин айылдын тарых музейи – бул өткөн менен азыркыны байланыштырган уникалдуу жай. Музей 1980-жылы курулган эски мектептин имаратында жайгашкан. Анын негизги максаты – айылыбыздын бай тарыхын, салт-санаасын жана маданий мурастарын сактоо жана келечек муунга жеткирүү. Музейдин экспозициясы бир нече бөлүктөн турат: археологиялык табылгалар, этнографиялык буюмдар, жана айылдын белгилүү инсандарына арналган бурч.\r\n\r\nМузейдин этнографиялык бөлүмүндө кыргыз элинин турмушун чагылдырган буюмдар – боз үй, улуттук кийимдер, кол өнөрчүлүк буюмдары жана үй-тиричиликке керектүү шаймандар коюлган. Бул жерден ата-бабаларыбыздын жашоо образы, алардын эмгеги жана өнөрү тууралуу көп маалымат алса болот. Ошондой эле, айылдын тарыхындагы маанилүү окуяларды чагылдырган сүрөттөр жана документтер да бар.\r\n\r\nМузейдин эң кызыктуу бөлүгү – бул айылдан чыккан белгилүү инсандарга арналган бурч. Бул жерде айылдын өнүгүшүнө чоң салым кошкон мугалимдер, дарыгерлер, баатырлар жана маданият ишмерлери тууралуу маалыматтар, алардын жеке буюмдары жана сүрөттөрү коюлган. Бул экспозиция жаштарга үлгү болуп, алардын мекенчилдик сезимин ойготот.\r\n\r\nМузейге кирүү акысыз. Ал жумасына алты күн, саат 9:00дөн 17:00гө чейин иштейт. Бул жерге келип, айылыбыздын бай тарыхы менен жакындан таанышууга чакырабыз.",
+    "image": "info/landmarks/images-2.jpeg",
+    "location": "Айылдын борборунда, эски мектептин имаратында.",
+    "is_published": true
+  }
+},
+{
+  "model": "info.landmark",
+  "pk": 3,
+  "fields": {
+    "name": "\"Ак-Булак\" булагы",
+    "slug": "ak-bulak-bulagy",
+    "description": "\"Ак-Булак\" булагы – бул айылыбыздын эң кооз жана тарыхый жайларынын бири. Ал айылдын түндүк тарабындагы тоонун этегинде жайгашкан. Булактын суусу муздак жана таза болгондуктан, ал жергиликтүү калк үчүн гана эмес, коноктор үчүн да сүйүктүү эс алуучу жайга айланган. Булактын айланасы жашыл бак-дарактар жана гүлдөр менен курчалган, бул жерге келгендерге жагымдуу маанай тартуулайт.\r\n\r\n\"Ак-Булак\" булагы жөнүндө көптөгөн уламыштар айтылып келет. Элдин айтымында, бул булактын суусу дарылык касиетке ээ. Анын суусун ичкендердин ден соолугу чың болуп, оорудан айыгышат деп ишенишет. Бул уламыштар булакка болгон кызыгууну арттырып, аны ыйык жайлардын катарына кошкон.\r\n\r\nБулактын айланасы айыл өкмөтү тарабынан көрктөндүрүлгөн. Бул жерде отургучтар, столдор жана эс алуу үчүн атайын жайлар орнотулган. Бул жерге келгендер таза абадан дем алып, жаратылыштын кооздугуна суктанып, күндүн ысыгынан корголо алышат.\r\n\r\n\"Ак-Булак\" булагы – бул жаратылыштын белеги. Ал айылыбыздын символуна айланып, анын кооздугун жана тазалыгын чагылдырат. Бул жерге келип, таза суудан ичип, жаратылыштын кереметин сезип кетүүгө чакырабыз.",
+    "image": "info/landmarks/30168.970.jpg",
+    "location": "Айылдын түндүк тарабында, тоонун этегинде.",
+    "is_published": true
+  }
+},
+{
+  "model": "info.landmark",
+  "pk": 4,
+  "fields": {
+    "name": "\"Достук\" спорттук комплекси",
+    "slug": "dostuk-sporttuk-kompleksi",
+    "description": "\"Достук\" спорттук комплекси – бул айылдын жаштары үчүн курулган заманбап спорттук аянтча. Ал айылдын борборунда, мектептин жанында жайгашкан. Комплекс футбол, баскетбол жана волейбол аянтчаларын, ошондой эле чуркоо жолун жана спорт шаймандарын камтыйт. Бул комплекс жаштардын спорт менен машыгуусуна жана сергек жашоо образын алып жүрүүсүнө чоң мүмкүнчүлүк берет.\r\n\r\nКомплекстин курулушу айыл өкмөтүнүн жана жергиликтүү ишкерлердин колдоосу менен ишке ашты. Негизги максат – жаштардын бош убактысын туура пайдалануусун камсыз кылуу жана аларды спортко тартуу. Комплекс кечки жарыктандыруу менен жабдылган, бул кечинде да машыгууга мүмкүнчүлүк берет.\r\n\r\n\"Достук\" комплексинде айылдык турнирлер жана спорттук иш-чаралар үзгүлтүксүз өткөрүлүп турат. Бул жерде жаштар бири-бири менен таанышып, достук мамилелерди түзүшөт. Комплекс айылдын спорттук жашоосун жандандырууга жана жаштарды бириктирүүгө чоң салым кошот.\r\n\r\nБул спорттук комплекс – бул биздин айылдын келечегине болгон инвестиция. Ал жаш муундун ден соолугун чыңдоого жана алардын потенциалын ачууга жардам берет.",
+    "image": "",
+    "location": "Айылдын борборунда, мектептин жанында.",
+    "is_published": true
+  }
+},
+{
+  "model": "info.landmark",
+  "pk": 5,
+  "fields": {
+    "name": "\"Эски тегирмен\"",
+    "slug": "eski-tegirmen",
+    "description": "\"Эски тегирмен\" – бул айылыбыздын тарыхый мурасы. Ал айылдын четинде, суунун жээгинде жайгашкан. Тегирмен 19-кылымдын аягында курулган жана көп жылдар бою айыл тургундарына кызмат кылган. Ал айылдын экономикалык жашоосунда маанилүү ролду ойноп, данды унга айландыруучу негизги жай болгон.\r\n\r\nТегирмендин имараты таштан жана жыгачтан курулган, ал өзүнүн архитектурасы менен көз жоосун алат. Ичинде эски тегирмендин таштары жана башка жабдуулары сакталып калган. Бул жерге келгендер өткөн замандын атмосферасын сезип, ата-бабаларыбыздын кандай эмгек кылганын көрө алышат.\r\n\r\nАзыркы учурда тегирмен иштебейт, бирок ал туристтик жайга айланып, айылдын тарыхын билгиси келгендер үчүн кызыктуу жер болуп калды. Айыл өкмөтү тегирменди калыбына келтирип, аны музей катары ачууну пландаштырууда. Бул долбоор айылдын туристтик потенциалын жогорулатууга жардам берет.\r\n\r\n\"Эски тегирмен\" – бул жөн гана имарат эмес, бул биздин тарыхыбыздын бир бөлүгү. Ал бизге өткөн заманды эске салып, аны баалоого үйрөтөт.",
+    "image": "info/landmarks/images.jpeg",
+    "location": "Айылдын четинде, суунун жээгинде.",
+    "is_published": true
+  }
+},
+{
+  "model": "info.staticinfopage",
+  "pk": 1,
+  "fields": {
+    "title": "Сколько платить за воду",
+    "slug": "skolko-platit-za-vodu",
+    "content": "Тариф за воду составляет 600 сомов за год",
+    "is_published": true
+  }
+}
+]
