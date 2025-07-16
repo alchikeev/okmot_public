@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'apps.gallery',
     'apps.info',
     'apps.search',
+    'apps.tools',
 ]
 
 

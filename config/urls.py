@@ -22,6 +22,7 @@ urlpatterns += i18n_patterns(
     path('gallery/', include('apps.gallery.urls')),
     path('info/', include('apps.info.urls')),
     path('search/', include('apps.search.urls')),
+    path('admin/tools/', include('apps.tools.urls')),
     # ... и все остальные ваши URL-адреса, которые должны быть переведены
     prefix_default_language=True, # Это опционально, но рекомендуется.
                                  # Если True, то для LANGUAGE_CODE (в вашем случае 'ru')
